@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('hemiao', function () {
+	return view('hemiao');
+});
+
+Route::get('map', function () {
+	return view('map');
+});
