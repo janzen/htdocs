@@ -38,10 +38,10 @@
       <a href="#" class="navbar-brand">禾描</a></div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home" onclick="javascript:document.getElementById('home').scrollIntoView()"  class="smoothScroll">首页</a></li>
-        <li><a href="#intro" onclick="javascript:document.getElementById('intro').scrollIntoView()"  class="smoothScroll">介绍</a></li>
-        <li><a href="#work" onclick="javascript:document.getElementById('work').scrollIntoView()"  class="smoothScroll">服务</a></li>
-        <li><a href="#team" onclick="javascript:document.getElementById('team').scrollIntoView()" class="smoothScroll">风格</a></li>
+        <li><a href="#home" onclick="javascript:document.getElementById('home').smoothscroll()"  class="smoothScroll">首页</a></li>
+        <li><a href="#intro" onclick="javascript:document.getElementById('intro').smoothscroll()"  class="smoothScroll">介绍</a></li>
+        <li><a href="#work" onclick="javascript:document.getElementById('work').smoothscroll()"  class="smoothScroll">服务</a></li>
+        <li><a href="#team" onclick="javascript:document.getElementById('team').smoothscroll()" class="smoothScroll">风格</a></li>
         <li><a href="#portfolio" class="smoothScroll">作品</a></li>
         <li><a href="#price" class="smoothScroll">套餐</a></li>
         <li><a href="#contact" class="smoothScroll">联系我们</a></li>
