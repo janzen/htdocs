@@ -38,10 +38,10 @@
       <a href="#" class="navbar-brand">禾描</a></div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home" class="smoothScroll">首页</a></li>
-        <li><a href="#intro" class="smoothScroll">介绍</a></li>
-        <li><a href="#work" class="smoothScroll">服务</a></li>
-        <li><a href="#team" class="smoothScroll">风格</a></li>
+        <li><a href="#home" name="home" class="smoothScroll">首页</a></li>
+        <li><a href="#intro" name="intro" class="smoothScroll">介绍</a></li>
+        <li><a href="#work" name="work" class="smoothScroll">服务</a></li>
+        <li><a href="#team" name="team" class="smoothScroll">风格</a></li>
         <li><a href="#portfolio" class="smoothScroll">作品</a></li>
         <li><a href="#price" class="smoothScroll">套餐</a></li>
         <li><a href="#contact" class="smoothScroll">联系我们</a></li>
