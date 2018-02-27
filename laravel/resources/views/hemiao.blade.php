@@ -20,13 +20,13 @@
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 <!-- 幻灯片 -->
-<section id="home" name="home">
+<section id="home">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
         <h1 class="wow bounceInDown rotate">禾描</h1>
         <p class="wow bounce">实木家具定制</p>
-        <a href="#contact" class="btn btn-default smoothScroll">联系我们</a></div>
+        <a href="#contact" class="btn btn-default page-scroll">联系我们</a></div>
     </div>
   </div>
 </section>
@@ -38,10 +38,10 @@
       <a href="#" class="navbar-brand">禾描</a></div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home" onclick="javascript:document.getElementById('home').smoothscroll()"  class="smoothScroll">首页</a></li>
-        <li><a href="#intro" onclick="javascript:document.getElementById('intro').smoothscroll()"  class="smoothScroll">介绍</a></li>
-        <li><a href="#work" onclick="javascript:document.getElementById('work').smoothscroll()"  class="smoothScroll">服务</a></li>
-        <li><a href="#team" onclick="javascript:document.getElementById('team').smoothscroll()" class="smoothScroll">风格</a></li>
+        <li><a href="#home" class="smoothScroll">首页</a></li>
+        <li><a href="#intro" class="smoothScroll">介绍</a></li>
+        <li><a href="#work" class="smoothScroll">服务</a></li>
+        <li><a href="#team" class="smoothScroll">风格</a></li>
         <li><a href="#portfolio" class="smoothScroll">作品</a></li>
         <li><a href="#price" class="smoothScroll">套餐</a></li>
         <li><a href="#contact" class="smoothScroll">联系我们</a></li>
@@ -50,7 +50,7 @@
   </div>
 </div>
 <!-- 介绍 -->
-<section id="intro" name="intro">
+<section id="intro">
   <div class="container">
     <div class="row">
       <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 title">
@@ -64,7 +64,7 @@
 </section>
 
 <!-- 服务 -->
-<section id="work" name="work">
+<section id="work">
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-4 title">
@@ -90,7 +90,7 @@
   </div>
 </section>
 <!-- 摄影风格 -->
-<section id="team" name="team">
+<section id="team">
   <div class="container">
     <div class="row">
       <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 title">
@@ -146,7 +146,7 @@
   </div>
 </section>
 <!-- 作品 -->
-<div id="portfolio" name="portfolio">
+<div id="portfolio">
   <div class="container">
     <div class="row">
       <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 title">
@@ -290,7 +290,7 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/nivo-lightbox.min.js"></script>
-<script src="js/smoothscroll.js"></script>
+<!-- <script src="js/smoothscroll.js"></script> -->
 <script src="js/jquery.sticky.js"></script>
 <script src="js/jquery.parallax.js"></script>
 <script src="js/wow.min.js"></script>
@@ -305,9 +305,25 @@ $(document).ready(function() {
     lazyLoad : true,
     autoPlay:true,
     navigation : true
-  }); 
+  });
 
+  //锚点跳转滑动效果    
+    $('a[href*=#],area[href*=#]').click(function() {    
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {    
+            var $target = $(this.hash);    
+            $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');    
+            if ($target.length) {    
+                var targetOffset = $target.offset().top;    
+                $('html,body').animate({    
+                            scrollTop: targetOffset    
+                        },    
+                        1000);    
+                return false;    
+            }    
+        }    
+    });    
 });
+
 </script>
 </body>
 </html>
