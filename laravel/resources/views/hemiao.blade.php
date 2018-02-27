@@ -20,7 +20,7 @@
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 <!-- 幻灯片 -->
-<section id="home">
+<!-- <section id="home">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
@@ -29,7 +29,7 @@
         <a href="#contact" class="btn btn-default smoothScroll">联系我们</a></div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- 导航 -->
 <div class="navbar navbar-default navbar-static-top" role="navigation">
   <div class="container">
