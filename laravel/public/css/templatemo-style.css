@@ -193,7 +193,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /* 介绍 */
 #intro {
-	padding-top: 160px;
+	padding-top: 180px;
 	padding-bottom: 140px;
 }
 #intro h4 {
