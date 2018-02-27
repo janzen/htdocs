@@ -38,7 +38,7 @@
       <a href="#" class="navbar-brand">禾描</a></div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home" class="smoothScroll">首页</a></li>
+        <!-- <li><a href="#home" class="smoothScroll">首页</a></li> -->
         <li><a href="#intro" class="smoothScroll">介绍</a></li>
         <li><a href="#work" class="smoothScroll">服务</a></li>
         <li><a href="#team" class="smoothScroll">风格</a></li>
