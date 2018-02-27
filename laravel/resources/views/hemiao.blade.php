@@ -308,6 +308,12 @@ $(document).ready(function() {
   }); 
 
 });
+
+$(document).ready(function(){
+var hash = window.loaction.hash; //获取链接过来的锚点值，#test
+hash = hash.replace("#",""); //去掉#
+document.getElementByIdx_x(hash).scrollIntoView(true);//这里直接滚动到锚点
+});
 </script>
 </body>
 </html>
