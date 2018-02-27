@@ -20,7 +20,7 @@
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 <!-- 幻灯片 -->
-<section id="home">
+<section id="home" name="home">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
@@ -50,7 +50,7 @@
   </div>
 </div>
 <!-- 介绍 -->
-<section id="intro">
+<section id="intro" name="intro">
   <div class="container">
     <div class="row">
       <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 title">
@@ -64,7 +64,7 @@
 </section>
 
 <!-- 服务 -->
-<section id="work">
+<section id="work" name="work">
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-4 title">
@@ -90,7 +90,7 @@
   </div>
 </section>
 <!-- 摄影风格 -->
-<section id="team">
+<section id="team" name="team">
   <div class="container">
     <div class="row">
       <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 title">
@@ -146,7 +146,7 @@
   </div>
 </section>
 <!-- 作品 -->
-<div id="portfolio">
+<div id="portfolio" name="portfolio">
   <div class="container">
     <div class="row">
       <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 title">
@@ -307,12 +307,6 @@ $(document).ready(function() {
     navigation : true
   }); 
 
-});
-
-$(document).ready(function(){
-var hash = window.loaction.hash; //获取链接过来的锚点值，#test
-hash = hash.replace("#",""); //去掉#
-document.getElementByIdx_x(hash).scrollIntoView(true);//这里直接滚动到锚点
 });
 </script>
 </body>
