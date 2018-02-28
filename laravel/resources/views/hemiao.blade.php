@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>禾描-实木家具定制</title>
+<title>禾描-互联网实木家具定制品牌</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="keywords" content="禾描|实木家具定制|实木衣柜定制|环保|白橡|黑胡桃|木蜡油|互联网实木家具定制品牌">
+<meta name="description" content="禾描|实木家具定制|实木衣柜定制|环保|白橡|黑胡桃|木蜡油|互联网实木家具定制品牌">
 <!-- STYLESHEET CSS FILES -->
 <link rel="stylesheet" href="css/owl.carousel_1.css">
 <link rel="stylesheet" href="css/owl.theme_1.css">

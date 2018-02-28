@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>禾描-互联网实木家具定制品牌</title>
-
+        <meta name=”keywords” content=“禾描|实木家具定制|实木衣柜定制|环保|白橡|黑胡桃|木蜡油”>
+        <meta name=”description” content=“禾描|实木家具定制|实木衣柜定制|环保|白橡|黑胡桃|木蜡油”>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
