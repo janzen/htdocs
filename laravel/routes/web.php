@@ -22,3 +22,7 @@ Route::get('hemiao', function () {
 Route::get('map', function () {
 	return view('map');
 });
+
+Route::get('test', function () {
+	return view('test');
+});
