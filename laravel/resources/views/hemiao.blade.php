@@ -430,6 +430,23 @@
       </div>
     </div>
   </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <header class="section-header">
+          <h4 class="section-title font-lg">定制流程</h4>
+        </header>
+      </div>
+    </div>
+    <div class="row">
+      <img style="img{
+ width:auto;
+ height:auto;
+ max-width:100%;
+ max-height:100%;
+}" src="img/sliders/notgenericherobg.jpg" alt="mockup" />
+    </div>
+  </div>
 </section>
 <!-- About -->
 <section id="about" class="about">
