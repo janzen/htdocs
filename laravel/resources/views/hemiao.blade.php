@@ -31,12 +31,12 @@
 <body id="home" data-spy="scroll" data-offset="50" data-target=".navbar-default">
 
 <!-- Preloader -->
-<div class="preloader">
+<!-- <div class="preloader">
   <div class="preloader10">
     <span></span>
     <span></span>
   </div>
-</div>
+</div> -->
 
 
 <!-- Navbar -->
@@ -183,7 +183,7 @@
           data-paddingbottom="[10,10,10,10]"
           data-paddingleft="[30,30,30,30]"
 
-          style="z-index: 9; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:auto;">关于我们</div>
+          style="z-index: 9; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:auto;">不知道说点什么</div>
       </li>
     </ul>
     <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> </div>
