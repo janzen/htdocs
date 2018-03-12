@@ -26,7 +26,24 @@
 <link rel="stylesheet" href="css/style.css">  
 
 <script src="js/vendor/modernizr.js"></script>
+<style type="text/css">
+.zz-sever .list-item .item{height:275px;width:285px;padding-bottom:0;overflow: hidden;}
+.zz-sever .list-item .item .box{background:#fff;border:1px solid #D7D7D7;}
+.zz-sever .list-item .item .box img{width:100%;height:150px;margin:0;}
+.zz-sever .list-item .item .box h2{padding:10px 20px;margin:0;}
+.zz-sever .list-item .item .box p{padding:0 20px 10px 20px;}
+.zz-sever .list-item{position: relative;overflow: hidden;}
+.zz-sever .list-item span[class*="-btn"]{position:absolute;z-index:99999;display:block;height:80px;width:30px;line-height:80px;text-align:center;color:#fff;background:#000;opacity:.85;}
+.zz-sever .list-item span.next-btn{position:absolute;right:0;top:100px;user-select:none;cursor:pointer;}
+.zz-sever .list-item span.prev-btn{position:absolute;left:0;top:100px;user-select:none;cursor:pointer;}
+#zzScroll .wrapbox{width:3000px;position: relative;}
+@media screen and (max-width:768px){
+    .zz-sever .list-item .item{float:left;}
+    .list-item .item{border:none;}
+    .zz-sever .list-item .wrapbox{width:3000px;position: relative;}
 
+}
+</style>
 </head>
 <body id="home" data-spy="scroll" data-offset="50" data-target=".navbar-default">
 
@@ -190,6 +207,62 @@
     </div><!-- END REVOLUTION SLIDER -->
 </header>
 
+<div class="gs-sever zz-sever">
+            <div class="container">
+                <div class="title">
+                    <h2>增值服务</h2>
+                    <p>涵盖各类增值服务内容，品质优越服务高效！</p>
+                </div>
+            </div>
+            <div class="container list-item" id="zzScroll">
+                <span class="prev-btn">〈</span>
+                <span class="next-btn">〉</span>
+                <div class="wrapbox">
+                    <div class="col-md-3 item">
+                        <div class="box">
+                            <img src="http://img.redocn.com/sheying/20170527/jinpingmeichatuzhiliuyuchangshousanzhangyue_8265281.jpg" alt="" title=""/>
+                            <h2>一般企业注册5</h2>
+                            <p>专业机构为您办理，全国省区皆可选择，我们拥有最专业的团队和服务</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 item">
+                        <div class="box">
+                            <img src="http://img.redocn.com/sheying/20170527/jinpingmeichatuzhiliuyuchangshousanzhangyue_8265281.jpg" alt="" title=""/>
+                            <h2>一般企业注册2</h2>
+                            <p>专业机构为您办理，全国省区皆可选择，我们拥有最专业的团队和服务</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 item">
+                        <div class="box">
+                            <img src="http://img.redocn.com/sheying/20170527/jinpingmeichatuzhiliuyuchangshousanzhangyue_8265281.jpg" alt="" title=""/>
+                            <h2>一般企业注册3</h2>
+                            <p>专业机构为您办理，全国省区皆可选择，我们拥有最专业的团队和服务</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 item">
+                        <div class="box">
+                            <img src="http://img.redocn.com/sheying/20170527/jinpingmeichatuzhiliuyuchangshousanzhangyue_8265281.jpg" alt="" title=""/>
+                            <h2>一般企业注册4</h2>
+                            <p>专业机构为您办理，全国省区皆可选择，我们拥有最专业的团队和服务</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 item">
+                        <div class="box">
+                            <img src="http://img.redocn.com/sheying/20170527/jinpingmeichatuzhiliuyuchangshousanzhangyue_8265281.jpg" alt="" title=""/>
+                            <h2>一般企业注册5</h2>
+                            <p>专业机构为您办理，全国省区皆可选择，我们拥有最专业的团队和服务</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 item">
+                        <div class="box">
+                            <img src="http://img.redocn.com/sheying/20170527/jinpingmeichatuzhiliuyuchangshousanzhangyue_8265281.jpg" alt="" title=""/>
+                            <h2>一般企业注册6</h2>
+                            <p>专业机构为您办理，全国省区皆可选择，我们拥有最专业的团队和服务</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 <!-- Portfolio -->
 <section id="portfolio" class="portfolio">
   <div class="container">
@@ -557,6 +630,72 @@
 
 <script src="js/main.js"></script>                                  <!-- Custom jQuery -->
 <script src="js/functions.js"></script>                             <!-- Revolution Functions -->
+
+<script type="text/javascript">
+  /**
+ * Created by Administrator on 2017/9/15.
+ */
+
+(function(){
+    var firstDom = $("#zzScroll .item:last");
+    var scrollWidth = $("#zzScroll .item").innerWidth()+1;
+    var scrollObj = $("#zzScroll .wrapbox");
+    var box = $("#zzScroll");
+    //手机端兼容增值服务滚动
+    var moblie = window.navigator.userAgent.indexOf("iPhone") !== -1 || window.navigator.userAgent.indexOf("Android") !== -1;
+    if(moblie){
+        box.find(".item").width(box.width());
+        scrollWidth = box.width()+30;
+        scrollObj.css({"left":"-" + ($("#zzScroll .item").width()+41) + "px"});
+    }else{
+        scrollObj.css({"left":"-" + scrollWidth + "px"});
+    }
+    scrollObj.prepend(firstDom);
+
+    //定时轮播函数
+    function autoPlay(dir){
+        //-是向左滚动，+好是向右滚动
+        if(dir == "-"){
+            scrollObj.animate({"left": dir + (scrollWidth*2) + "px" },500,function(){
+                $(this).append($(this).children().first());
+                scrollObj.css({"left": dir + scrollWidth + "px"});
+            });
+        }else{
+            scrollObj.animate({"left": "0px" },500,function(){
+                $(this).prepend($(this).children().last());
+                scrollObj.css({"left": "-" + scrollWidth + "px"});
+            });
+        }
+
+    }
+    //开始定时轮播
+    var timer = setInterval(function(){
+        autoPlay("-");
+    },3000);
+
+    //鼠标移入移出上下切换按钮
+    $("#zzScroll span[class*='-btn']").hover(function(){
+        clearInterval(timer);
+    },function(){
+        timer = setInterval(function(){
+            autoPlay("-");
+        },3000);
+    });
+    //点击下一张按钮
+    $("#zzScroll span[class='next-btn']").click(function(){
+        if(!scrollObj.is(":animated")){
+            autoPlay("-");
+        }
+    });
+    //点击上一张按钮
+    $("#zzScroll span[class='prev-btn']").click(function(){
+        if(!scrollObj.is(":animated")){
+            autoPlay("+");
+        }
+    });
+
+})();
+</script>
 
 </body>
 </html>
