@@ -15,14 +15,26 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('hemiao', function () {
+Route::get('/hemiao', function () {
 	return view('hemiao');
 });
 
-Route::get('map', function () {
-	return view('map');
+Route::get('/test',[
+	'middleware'=>'login',
+	'path'=> function(){
+				return view('form');
+			}
+]);
+
+Route::post('/insert',function(){
+
 });
 
-Route::get('test', function () {
-	return view('test');
+Route::get('/user','UserController@show');
+Route::get('/user/edit/{id}','UserController@edit');
+Route::get('/user/delete','UserController@delete');
+
+
+Route::get('/login',function(){
+	echo "登陆";
 });
