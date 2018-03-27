@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>禾描-互联网实木家具定制品牌</title>
-        <meta name=”keywords” content=“禾描|实木家具定制|实木衣柜定制|环保|白橡|黑胡桃|木蜡油”>
-        <meta name=”description” content=“禾描|实木家具定制|实木衣柜定制|环保|白橡|黑胡桃|木蜡油”>
+        <title>禾描-实木定制</title>
+        <meta name=”keywords” content=“禾描|实木定制|实木家具定制|实木衣柜定制|实木直拼|实木平拼|实木榻榻米定制|环保|白橡|黑胡桃|木蜡油”>
+        <meta name=”description” content=“禾描|实木定制|实木家具定制|实木衣柜定制|实木直拼|实木平拼|实木榻榻米定制|环保|白橡|黑胡桃|木蜡油”>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
@@ -83,16 +83,12 @@
                     禾描
                 </div>
 
-                <div>
+                <div style="margin: 0 auto;">
                     <p>————————————</p>
-                    <p>把空气做成不同的盒子</p>
-                    <p>让灵感自由徜徉</p>
-                    <p>是梦想变为真实</p>
-                    <p>由建筑师／设计师／诗人／互联网工程师</p>
-                    <p>共同创立的实木家具定制品牌</p>
-                    <p>更理解空间</p>
-                    <p>更热爱家</p>
-                    <p>更关怀你</p>
+                    <p style="font-size: 10px">禾描®，诞生于2015年7月，北京。</p>
+                    <p style="font-size:14px;width: 50%;margin: 0 auto;text-align: left;">懂空间的建筑师，爱生活的家具设计师，以及关注用户体验的互联网人，因为有着共同的居住理想“诗意地栖居于大地之上”，他们一起创立了“禾描”实木定制家具品牌。</p>
+                    <br/>
+                    <p style="font-size:14px;width: 50%;margin: 0 auto;text-align: left;">禾描，充分考虑你的实际需求，分析空间特点，运用简约的设计语言进行设计；优选北美FAS级实木，只涂装植物性木蜡油，极力追求环保健康；采用传统榫卯与现代木作相结合的工艺，配搭全球顶级五金，为你量身定制真正好用的实木家具。禾描，探索空间，感受生活。</p>
                     <p>————————————</p>
                 </div>
                 <div>
