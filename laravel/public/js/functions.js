@@ -285,7 +285,7 @@ jsFileLocation:"//server.local/revslider/wp-content/plugins/revslider/public/ass
                         responsiveLevels:[1240,1024,778,480],
                         visibilityLevels:[1240,1024,778,480],
                         gridwidth:[1240,1024,778,480],
-                        gridheight:[500,400,300,200],
+                        gridheight:[600,500,400,300],
                         lazyType:"none",
                         parallax: {
                             type:"mouse",

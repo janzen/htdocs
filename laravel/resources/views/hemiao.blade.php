@@ -5,10 +5,10 @@
 <!--[if gt IE 8]><!--> <html> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>禾描-互联网实木家具定制品牌</title>
+<title>禾描-实木定制</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-<meta name="keywords" content="禾描|实木家具定制|实木衣柜定制|环保|白橡|黑胡桃|木蜡油|互联网实木家具定制品牌">
-<meta name="description" content="禾描|实木家具定制|实木衣柜定制|环保|白橡|黑胡桃|木蜡油|互联网实木家具定制品牌">
+<meta name=”keywords” content=“禾描|实木定制|实木家具定制|实木衣柜定制|实木直拼|实木平拼|实木榻榻米定制|环保|白橡|黑胡桃|木蜡油”>
+<meta name=”description” content=“禾描|实木定制|实木家具定制|实木衣柜定制|实木直拼|实木平拼|实木榻榻米定制|环保|白橡|黑胡桃|木蜡油”>
 <link rel="stylesheet" href="css/bootstrap.min.css">
     
 <!-- Main CSS -->
@@ -59,19 +59,19 @@
 <!-- Navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    <div class="navbar-header" style="min-height: 80px">
+      <button style="margin-top: 15px;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="#">
         <img src="img/logo.png" alt="FOLIO LOGO" />
       </a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right" style="margin-top: 15px;">
         <li><a href="#home" class="smoothScroll">首页</a></li>
             <li><a href="#portfolio" class="smoothScroll">产品</a></li>
             <li><a href="#blog" class="smoothScroll">服务</a></li>
@@ -156,7 +156,7 @@
           data-paddingbottom="[10,10,10,10]"
           data-paddingleft="[0,0,0,0]"
 
-          style="z-index: 7; white-space: nowrap;text-transform:left;">禾描实木定制</div>
+          style="z-index: 7; white-space: nowrap;text-transform:left;">探索空间 感受生活</div>
 
         <!-- LAYER NR. 4 -->
         <div class="tp-caption NotGeneric-SubTitle   tp-resizeme" 
@@ -177,7 +177,7 @@
           data-paddingbottom="[0,0,0,0]"
           data-paddingleft="[0,0,0,0]"
 
-          style="z-index: 8; white-space: nowrap;text-transform:left;">禾描实木定制禾描实木定制禾描实木定制禾描实木定制<br/>禾描实木定制禾描实木定制禾描实木定制禾描实木定制禾描实木定制禾描</div>
+          style="z-index: 8; white-space: nowrap;text-transform:left;">禾描实木定制</div>
 
         <!-- LAYER NR. 5 -->
         <!-- data-actions='[{"event":"click","action":"scrollbelow","offset":"0px","delay":""}]' -->
@@ -200,7 +200,7 @@
           data-paddingbottom="[10,10,10,10]"
           data-paddingleft="[30,30,30,30]"
 
-          style="z-index: 9; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:auto;">不知道说点什么</div>
+          style="z-index: 9; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:auto;">联系我们</div>
       </li>
     </ul>
     <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> </div>

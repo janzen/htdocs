@@ -48,7 +48,9 @@
                                             </h4>
 
                                             <div class="space-6"></div>
-
+                                            <?if(session() && session('msg')){?>
+                                            <div style="color:#d16e6c;display: block;">{{session('msg')}}</div>
+                                            <?}?>
                                             <form action="/login" method="post">
                                                 <fieldset>
                                                     <label class="block clearfix">
