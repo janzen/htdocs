@@ -595,9 +595,9 @@ figure {
   margin-top: -4em;
   /*only demo*/
 }
-.about .section-header p{
+/*.about .section-header p{
   font-size: 18px;
-}
+}*/
 /* ==================================
    Features                   
    ================================== */
@@ -2503,4 +2503,9 @@ fieldset[disabled] .btn-link:focus {
  .current a {
   color: #555;
   background: #ffd300;
+}
+
+.aboutus p{
+  font-size: 14px;
+  text-align: left;
 }

@@ -73,7 +73,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right" style="margin-top: 15px;">
         <li><a href="#home" class="smoothScroll">首页</a></li>
-            <li><a href="#portfolio" class="smoothScroll">产品</a></li>
+            <li><a href="#chanpin" class="smoothScroll">产品</a></li>
             <li><a href="#blog" class="smoothScroll">服务</a></li>
             <li><a href="#about" class="smoothScroll">关于我们</a></li>
       </ul>
@@ -181,7 +181,29 @@
 
         <!-- LAYER NR. 5 -->
         <!-- data-actions='[{"event":"click","action":"scrollbelow","offset":"0px","delay":""}]' -->
-        <div class="tp-caption NotGeneric-CallToAction rev-btn " 
+        <div  class="tp-caption NotGeneric-CallToAction rev-btn " 
+           id="slide-1699-layer-7" 
+           data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+           data-y="['middle','middle','middle','middle']" data-voffset="['124','124','80','65']" 
+                data-width="none"
+          data-height="none"
+          data-whitespace="nowrap"
+     
+          data-type="button" 
+          data-responsive_offset="on" 
+          data-responsive="off"
+          data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":1250,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
+          data-textAlign="['left','left','left','left']"
+          data-paddingtop="[10,10,10,10]"
+          data-paddingright="[30,30,30,30]"
+          data-paddingbottom="[10,10,10,10]"
+          data-paddingleft="[30,30,30,30]"
+
+          style="z-index: 9; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">禾描®，诞生于2015年7月，北京。
+</div>
+      </li>
+    </ul>
+    <!--class="tp-caption NotGeneric-CallToAction rev-btn " 
            id="slide-1699-layer-7" 
            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
            data-y="['middle','middle','middle','middle']" data-voffset="['124','124','80','65']" 
@@ -200,16 +222,14 @@
           data-paddingbottom="[10,10,10,10]"
           data-paddingleft="[30,30,30,30]"
 
-          style="z-index: 9; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:auto;">联系我们</div>
-      </li>
-    </ul>
+          style="z-index: 9; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:auto;"-->
     <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> </div>
     </div><!-- END REVOLUTION SLIDER -->
 </header>
 
-<div class="gs-sever zz-sever">
+<div id="chanpin" class="gs-sever zz-sever">
             <div class="container">
-                <div class="title">
+                <div class="title" style="text-align: center;margin-top: 100px">
                     <h2>增值服务</h2>
                     <p>涵盖各类增值服务内容，品质优越服务高效！</p>
                 </div>
@@ -459,7 +479,7 @@
       <div class="col-sm-4 col-md-4">
         <article class="post preview gridview">
           <div class="post-media">
-            <a href="#"><img src="img/blog/1.jpg" alt="..."></a>
+            <img src="img/blog/1.jpg" alt="...">
           </div>
           <div class="caption">
             <!-- <ul class="meta-list">
@@ -474,7 +494,7 @@
       <div class="col-sm-4 col-md-4">
         <article class="post preview gridview">
           <div class="post-media">
-            <a href="#"><img src="img/blog/2.jpg" alt="..."></a>
+            <img src="img/blog/2.jpg" alt="...">
           </div>
           <div class="caption">
             <!-- <ul class="meta-list">
@@ -489,7 +509,7 @@
       <div class="col-sm-4 col-md-4">
         <article class="post preview gridview">
           <div class="post-media">
-            <a href="#"><img src="img/blog/3.jpg" alt="..."></a>
+            <img src="img/blog/3.jpg" alt="...">
           </div>
           <div class="caption">
             <!-- <ul class="meta-list">
@@ -504,7 +524,7 @@
     </div>
   </div>
   <div class="container">
-    <div class="row">
+    <div class="row" style="display: none;">
       <div class="col-md-12">
         <header class="section-header">
           <h4 class="section-title font-lg">定制流程</h4>
@@ -517,7 +537,7 @@
  height:auto;
  max-width:100%;
  max-height:100%;
-}" src="img/sliders/notgenericherobg.jpg" alt="mockup" />
+}" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522350005644&di=0666f270f1c737a4c0b4797dd73628c9&imgtype=0&src=http%3A%2F%2Fimg010.hc360.cn%2Fk3%2FM08%2FF2%2F87%2FwKhQx1g9XfuEa11hAAAAAAz7zGY990.jpg" alt="mockup" />
     </div>
   </div>
 </section>
@@ -527,8 +547,14 @@
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
         <header class="section-header">
-          <h3 class="section-title font-lg" data-text="关于我们">与你一起与众不同</h3>
-          <p>与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同与你一起与众不同 </p>
+          <h3 class="section-title font-lg" data-text="关于我们">关于禾描</h3>
+          <p style="font-size: 12px;text-align: left;">禾描®，诞生于2015年7月，北京。</p>
+          <div class="aboutus">
+            <p>懂空间的建筑师，爱生活的家具设计师，以及关注用户体验的互联网人，因为有着共同的居住理想“诗意地栖居于大地之上”，他们一起创立了“禾描”实木定制家具品牌。</p> 
+
+<p>禾描，充分考虑你的实际需求，分析空间特点，运用简约的设计语言进行设计；优选北美FAS级实木，只涂装植物性木蜡油，极力追求环保健康；采用传统榫卯与现代木作相结合的工艺，配搭全球顶级五金，为你量身定制真正好用的实木家具。禾描，探索空间，感受生活。</p>
+          </div>
+
         </header>
       </div>
       <!-- <div class="col-md-12">
