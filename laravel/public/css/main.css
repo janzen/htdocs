@@ -2505,6 +2505,9 @@ fieldset[disabled] .btn-link:focus {
   background: #ffd300;
 }
 
+.aboutus{
+  margin-top: 70px;
+}
 .aboutus p{
   font-size: 14px;
   text-align: left;
