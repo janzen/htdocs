@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware\hemiaoadmin;
+namespace App\Http\Middleware\HeMiaoAdmin;
 
 use Closure;
 

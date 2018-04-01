@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\hemiaoadmin;
+namespace App\Http\Controllers\HeMiaoAdmin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;

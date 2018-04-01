@@ -18,26 +18,26 @@ Route::get('/hemiao', function () {
 });
 
 //注册页面
-Route::get('/register','hemiaoadmin\RegisterController@index');
+Route::get('/register','HeMiaoAdmin\RegisterController@index');
 //注册
-Route::post('/register','hemiaoadmin\RegisterController@register');
+Route::post('/register','HeMiaoAdmin\RegisterController@register');
 //登陆页面
-Route::get('/login','hemiaoadmin\LoginController@index');
+Route::get('/login','HeMiaoAdmin\LoginController@index');
 //登陆
-Route::post('/login','hemiaoadmin\LoginController@login');
+Route::post('/login','HeMiaoAdmin\LoginController@login');
 //退出
-Route::get('/logout','hemiaoadmin\LoginController@logout');
+Route::get('/logout','HeMiaoAdmin\LoginController@logout');
 //个人信息页面
-Route::get('/user','hemiaoadmin\UserController@index');
+Route::get('/user','HeMiaoAdmin\UserController@index');
 //个人信息页面编辑
-Route::get('/user/setting','hemiaoadmin\UserController@setting');
+Route::get('/user/setting','HeMiaoAdmin\UserController@setting');
 
 //首页
-Route::get('/home','hemiaoadmin\HomeController@index');
+Route::get('/home','HeMiaoAdmin\HomeController@index');
 
 
 //订单
-Route::get('/order/contractorder','hemiaoadmin\OrderController@index');
-Route::post('/order/contractorder/ins','hemiaoadmin\OrderController@ins');
-Route::post('/order/contractorder/upd','hemiaoadmin\OrderController@upd');
-Route::get('/order/contractorder/del','hemiaoadmin\OrderController@del');
+Route::get('/order/contractorder','HeMiaoAdmin\OrderController@index');
+Route::post('/order/contractorder/ins','HeMiaoAdmin\OrderController@ins');
+Route::post('/order/contractorder/upd','HeMiaoAdmin\OrderController@upd');
+Route::get('/order/contractorder/del','HeMiaoAdmin\OrderController@del');
