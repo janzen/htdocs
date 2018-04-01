@@ -8,7 +8,10 @@ use App\Model\User;
 
 class LoginController extends Controller
 {
-    public function index(){
+    public function index(Request $request){
+        if(session('userinfo')){
+            return redirect("/home");
+        }
     	return view('hemiaoadmin.login');
     }
 
@@ -20,14 +23,15 @@ class LoginController extends Controller
     	$userModel = new User();
     	$res = $userModel->checkUser($username,$password);
     	if($res){
-    		session(['username',$username]);
-    		session(['password',$password]);
+            $userinfo = array('username'=>$username,'password'=>$password);
+    		session(['userinfo'=>$userinfo]);
     		return redirect("/home");
     	}
     	return \Redirect::back()->withInput()->with('msg',"用户名密码错误");
     }
 
-    public function logout(){
-
+    public function logout(Request $request){
+        $request->session()->forget('userinfo');
+        return redirect("/login");
     }
 }

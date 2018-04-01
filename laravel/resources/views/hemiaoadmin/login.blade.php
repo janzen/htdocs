@@ -67,15 +67,8 @@
                                                         </span>
                                                     </label>
 
-                                                    <div class="space"></div>
-
-                                                    <div class="clearfix">
-                                                        <label class="inline">
-                                                            <input type="checkbox" class="ace" name="ace"/>
-                                                            <span class="lbl"> 记住我</span>
-                                                        </label>
-
-                                                        <button type="submit" class="width-35 pull-right btn btn-sm btn-primary" name="submit">
+                                                    <div class="clearfix" style="text-align: center;">
+                                                        <button type="submit" class="width-35 btn btn-sm btn-primary" name="submit">
                                                             <i class="ace-icon fa fa-key"></i>
                                                             <span class="bigger-110">登录</span>
                                                         </button>
@@ -105,44 +98,7 @@
                                     </div><!-- /.widget-body -->
                                 </div><!-- /.login-box -->
 
-                                <!-- <div id="forgot-box" class="forgot-box widget-box no-border">
-                                    <div class="widget-body">
-                                        <div class="widget-main">
-                                            <h4 class="header red lighter bigger">
-                                                <i class="ace-icon fa fa-key"></i>
-                                                重置密码
-                                            </h4>
-
-                                            <div class="space-6"></div>
-                                            <p>
-                                                输入您注册时候的email，用以接收密码重置信息
-                                            </p>
-
-                                            <form>
-                                                <fieldset>
-                                                    <label class="block clearfix">
-                                                        <span class="block input-icon input-icon-right">
-                                                            <input type="email" class="form-control" placeholder="Email" />
-                                                            <i class="ace-icon fa fa-envelope"></i>
-                                                        </span>
-                                                    </label>
-
-                                                    <div class="clearfix">
-                                                        <button type="button" class="width-35 pull-right btn btn-sm btn-danger">
-                                                            <i class="ace-icon fa fa-lightbulb-o"></i>
-                                                            <span class="bigger-110">发送!</span>
-                                                        </button>
-                                                    </div>
-                                                </fieldset>
-                                            </form>
-                                        </div><!-- /.widget-main -->
-
-                                        <!-- <div class="toolbar center">
-                                            <a href="#" data-target="#login-box" class="back-to-login-link">
-                                                返回登录
-                                                <i class="ace-icon fa fa-arrow-right"></i>
-                                            </a>
-                                        </div> -->
+                                
                                     </div><!-- /.widget-body -->
                                 </div> --><!-- /.forgot-box -->
 

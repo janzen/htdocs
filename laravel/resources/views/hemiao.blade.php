@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -14,10 +14,10 @@
 <!-- Main CSS -->
 <link rel="stylesheet" href="css/main.css">        
 <!-- Fonts -->
-<link rel="stylesheet" href="css/icon/font-awesome.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet"> 
+<!-- <link rel="stylesheet" href="css/icon/font-awesome.css"> -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">  -->
 <!-- Linea Basic -->
-<link rel="stylesheet" href="css/icon/lineabasic.css">        
+<!-- <link rel="stylesheet" href="css/icon/lineabasic.css">         -->
 <!-- Animate.css -->
 <link rel="stylesheet" href="css/animate.min.css">
 <!-- Magnific Popup -->
@@ -443,45 +443,6 @@
                 </div>
             </div>
         </div>
-
-    <!-- <div class="row">
-      <div class="col-md-12">
-        <div class="item">
-          <a href="img/thumbs/b-1.jpg" class="magnific">
-            <img src="img/thumbs/1.jpg" alt="" />
-          </a>
-          <p>电视柜的等待</p>
-        </div>
-        <div class="item">
-          <a href="" class="magnific-youtube">
-            <img src="img/thumbs/2.jpg" alt="">
-          </a>
-          <p>沙发的等待</p>
-        </div>
-        <div class="item">
-          <a href="" class="magnific-vimeo">
-            <img src="img/thumbs/3.jpg" alt="">
-          </a>
-          <p>书桌的等待</p>
-        </div> -->
-        <!-- <div class="item">
-          <a href="img/thumbs/b-4.jpg" class="magnific">
-            <img src="img/thumbs/4.jpg" alt="">
-          </a>
-          <p>茶几的时代</p>
-        </div>
-        <div class="item">
-          <a href="img/thumbs/b-5.jpg" class="magnific">
-            <img src="img/thumbs/5.jpg" alt="">
-          </a>
-          <p>床</p>
-        </div>
-        <div class="item">
-          <a href="img/thumbs/b-6.jpg" class="magnific">
-            <img src="img/thumbs/6.jpg" alt="">
-          </a>
-          <p>餐桌椅子</p>
-        </div> -->
       </div>
     </div>
     
@@ -504,10 +465,6 @@
             <img style="height: 256px;"  src="img/blog/1.png" alt="...">
           </div>
           <div class="caption">
-            <!-- <ul class="meta-list">
-              <li><span class="meta">Oct 11, 2016</span></li>
-              <li><span class="meta">Magento</span></li>
-            </ul> -->
             <h5 class="post-title">免费设计</h5>
             <p>专业的设计师</p>
           </div>
@@ -519,10 +476,6 @@
             <img style="height: 256px;" src="img/blog/2.png" alt="...">
           </div>
           <div class="caption">
-            <!-- <ul class="meta-list">
-              <li><span class="meta">Nov 12, 2016</span></li>
-              <li><span class="meta">Wordpress</span></li>
-            </ul> -->
             <h5 class="post-title">定制</h5>
             <p>可根据客户或设计师需求，进行免费个性化定制</p>
           </div>
@@ -579,11 +532,6 @@
 
         </header>
       </div>
-      <!-- <div class="col-md-12">
-        <div class="mockup" data-animation="fadeInUp" data-animation-delay="02">
-          <img src="img/stationery.jpg" alt="mockup" />
-        </div>
-      </div> -->
     </div>
   </div>
 </section>
@@ -651,30 +599,19 @@
 <script src="js/vendor/jquery.easing.1.3.js"></script>              <!-- jQuery Easing -->
 <script src="js/vendor/imagesloaded.pkgd.min.js"></script>          <!-- Imagesloaded -->
 <script src="js/vendor/isotope.pkgd.min.js"></script>               <!-- Isotope -->
-<script src="js/vendor/jquery.countTo.js"></script>                 <!-- Count To -->
-<script src="js/vendor/jquery.easypiechart.min.js"></script>        <!-- easyPieChart -->
 <script src="js/vendor/jquery.magnific-popup.min.js"></script>      <!-- Magnific Popup -->
 <script src="js/vendor/owl.carousel.min.js"></script>               <!-- Owl Carousel -->
 <script src="js/vendor/jquery.validate.min.js"></script>            <!-- jQuery Validate -->
 <script src="js/contact.js"></script>
 
-<!---<script src="http://maps.google.com/maps/api/js?key=AIzaSyAuOV2dQJSN2iQWp76ACxzd8Tv8RuJfgFs"></script>
-<script src="js/vendor/gmap3.min.js"></script>
-<script src="js/mymap.js"></script>--->
 
 <script type="text/javascript" src="js/sliders/jquery.themepunch.tools.min.js"></script>
 <script type="text/javascript" src="js/sliders/jquery.themepunch.revolution.min.js"></script>
 
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->    
-<script type="text/javascript" src="js/sliders/revolution.extension.actions.min.js"></script>
-<script type="text/javascript" src="js/sliders/revolution.extension.carousel.min.js"></script>
-<script type="text/javascript" src="js/sliders/revolution.extension.kenburn.min.js"></script>
 <script type="text/javascript" src="js/sliders/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="js/sliders/revolution.extension.migration.min.js"></script>
-<script type="text/javascript" src="js/sliders/revolution.extension.navigation.min.js"></script>
 <script type="text/javascript" src="js/sliders/revolution.extension.parallax.min.js"></script>
 <script type="text/javascript" src="js/sliders/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="js/sliders/revolution.extension.video.min.js"></script>
 
 <script src="js/main.js"></script>                                  <!-- Custom jQuery -->
 <script src="js/functions.js"></script>                             <!-- Revolution Functions -->

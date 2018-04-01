@@ -7,7 +7,7 @@
 			<ul class="breadcrumb">
 				<li>
 					<i class="ace-icon fa fa-home home-icon"></i>
-					<a href="index.html">公告</a>
+					<a href="/home">禾描</a>
 				</li>
 			</ul><!-- /.breadcrumb -->
 
@@ -15,7 +15,7 @@
 			<div class="nav-search" id="nav-search">
 				<form class="form-search">
 					<span class="input-icon">
-						<input type="text" placeholder="请输入关键字 ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+						<input type="text" placeholder="我是假的 ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
 						<i class="ace-icon fa fa-search nav-search-icon"></i>
 					</span>
 				</form>
@@ -39,19 +39,9 @@
 							<i class="ace-icon fa fa-check green"></i>
 
 							<strong class="green">最新公告：</strong>
-							南航开通华中首条直达美国航线，广州-武汉-旧金山首航，为中部崛起注入创新活力
+							计划放入公司最新动态
 						</div>
 
-						<div class="alert alert-block alert-info">
-							<button type="button" class="close" data-dismiss="alert">
-								<i class="ace-icon fa fa-times"></i>
-							</button>
-
-							<i class="ace-icon fa fa-check green"></i>
-
-							<strong class="green">最新公告：</strong>
-							南航开通华中首条直达美国航线，广州-武汉-旧金山首航，为中部崛起注入创新活力
-						</div>
 						<div class="row center">
 							<!-- <img src="assets/avatars/logo_2.png" /> -->
 						</div><!-- /.row -->

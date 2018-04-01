@@ -9,6 +9,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -33,3 +34,10 @@ Route::get('/user/setting','hemiaoadmin\UserController@setting');
 
 //首页
 Route::get('/home','hemiaoadmin\HomeController@index');
+
+
+//订单
+Route::get('/order/contractorder','hemiaoadmin\OrderController@index');
+Route::post('/order/contractorder/ins','hemiaoadmin\OrderController@ins');
+Route::post('/order/contractorder/upd','hemiaoadmin\OrderController@upd');
+Route::get('/order/contractorder/del','hemiaoadmin\OrderController@del');
