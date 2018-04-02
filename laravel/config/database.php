@@ -41,7 +41,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '59.110.141.15'),
+            'host' => env('DB_HOST', '172.16.252.247'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'hemiao_admin'),
             'username' => env('DB_USERNAME', 'hemiao'),
