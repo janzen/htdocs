@@ -66,7 +66,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#home">
+      <a href="#home">
         <img src="img/logo.png" alt="LOGO" />
       </a>
     </div>
