@@ -11,6 +11,8 @@
 		<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="/assets/css/ace.min.css" id="main-ace-style" />
+		<!-- 日历样式 -->
+		<link href="/assets/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
 		<script src="/assets/js/ace-extra.min.js"></script>
 
 		<!--[if lte IE 9]>

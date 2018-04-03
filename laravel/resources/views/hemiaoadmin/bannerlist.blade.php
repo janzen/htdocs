@@ -22,6 +22,14 @@
 
 				<ul class="submenu">
 
+					<li <? if(Request::path()=="order/contractorder/ins/show"){ ?>class="active" <? } ?>>
+						<a href="/order/contractorder/ins/show">
+							<i class="menu-icon fa fa-caret-right"></i>
+							添加合同
+						</a>
+
+						<b class="arrow"></b>
+					</li>
 					<li <? if(Request::path()=="order/contractorder"){ ?>class="active" <? } ?>>
 						<a href="/order/contractorder">
 							<i class="menu-icon fa fa-caret-right"></i>
@@ -50,3 +58,31 @@
 				</div>
 
 	</div>
+
+		<!-- /section:basics/sidebar -->
+	<div class="main-content">
+		<!-- #section:basics/content.breadcrumbs -->
+		<div class="breadcrumbs" id="breadcrumbs">
+			<ul class="breadcrumb">
+				<? if($banner){
+					foreach ($banner as $key => $value) {
+					?>
+				<li>
+					<i <?if($value=='禾描'){?>class="ace-icon fa fa-home home-icon"<?}?>></i>
+					<a href="{{$key}}">{{$value}}</a>
+				</li>
+				<?}}?>
+			</ul><!-- /.breadcrumb -->
+
+			<!-- #section:basics/content.searchbox -->
+			<div class="nav-search" id="nav-search">
+				<form class="form-search">
+					<span class="input-icon">
+						<input type="text" placeholder="我是假的 ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+						<i class="ace-icon fa fa-search nav-search-icon"></i>
+					</span>
+				</form>
+			</div><!-- /.nav-search -->
+
+			<!-- /section:basics/content.searchbox -->
+		</div>

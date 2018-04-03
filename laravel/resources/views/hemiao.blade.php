@@ -27,9 +27,9 @@
 
 <script src="js/vendor/modernizr.js"></script>
 <style type="text/css">
-.zz-sever .list-item .item{width:285px;padding-bottom:0;overflow: hidden;}
+.zz-sever .list-item .item{width:380px;padding-bottom:0;overflow: hidden;}
 .zz-sever .list-item .item .box{background:#fff;border:1px solid #D7D7D7;}
-.zz-sever .list-item .item .box img{width:100%;height:150px;margin:0;}
+.zz-sever .list-item .item .box img{width:100%;height:300px;margin:0;}
 .zz-sever .list-item .item .box h2{padding:10px 20px;margin:0;}
 .zz-sever .list-item .item .box p{padding:0 20px 10px 20px;}
 .zz-sever .list-item{position: relative;overflow: hidden;}
@@ -66,8 +66,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.png" alt="FOLIO LOGO" />
+      <a class="navbar-brand" href="#home">
+        <img src="img/logo.png" alt="LOGO" />
       </a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -115,34 +115,13 @@
 
           style="z-index: 5;text-transform:left;background-color:rgba(0, 0, 0, 0.40);border-color:rgba(0, 0, 0, 0.50);border-width:0px;"> </div>
 
-        <!-- LAYER NR. 2 -->
-        <div class="tp-caption NotGeneric-Icon   tp-resizeme" 
-           id="slide-1699-layer-8" 
-           data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-           data-y="['middle','middle','middle','middle']" data-voffset="['-66','-68','-78','-78']" 
-                data-width="none"
-          data-height="none"
-          data-whitespace="nowrap"
-     
-          data-type="text" 
-          data-responsive_offset="on" 
-
-          data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-          data-textAlign="['left','left','left','left']"
-          data-paddingtop="[0,0,0,0]"
-          data-paddingright="[0,0,0,0]"
-          data-paddingbottom="[0,0,0,0]"
-          data-paddingleft="[0,0,0,0]"
-
-          style="z-index: 6; white-space: nowrap;text-transform:left;cursor:default;"><i class="pe-7s-paper-plane"></i> </div>
-
         <!-- LAYER NR. 3 -->
         <div class="tp-caption NotGeneric-Title   tp-resizeme" 
            id="slide-1699-layer-1" 
            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-           data-y="['middle','middle','middle','middle']" data-voffset="['0','0','-22','-29']" 
-                data-fontsize="['70','70','70','50']"
-          data-lineheight="['70','70','70','50']"
+           data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+          data-fontsize="['50','50','50','30']"
+          data-lineheight="['50','50','50','30']"
           data-width="none"
           data-height="none"
           data-whitespace="nowrap"
@@ -159,48 +138,28 @@
 
           style="z-index: 7; white-space: nowrap;text-transform:left;">探索空间 感受生活</div>
 
-        <!-- LAYER NR. 4 -->
-        <div class="tp-caption NotGeneric-SubTitle   tp-resizeme" 
-           id="slide-1699-layer-4" 
-           data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-           data-y="['middle','middle','middle','middle']" data-voffset="['52','52','28','13']" 
-                data-width="none"
-          data-height="none"
-          data-whitespace="nowrap"
-     
-          data-type="text" 
-          data-responsive_offset="on" 
-
-          data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-          data-textAlign="['center','center','center','center']"
-          data-paddingtop="[20,20,20,20]"
-          data-paddingright="[0,0,0,0]"
-          data-paddingbottom="[0,0,0,0]"
-          data-paddingleft="[0,0,0,0]"
-
-          style="z-index: 8; white-space: nowrap;text-transform:left;">&&</div>
-
         <!-- LAYER NR. 5 -->
         <!-- data-actions='[{"event":"click","action":"scrollbelow","offset":"0px","delay":""}]' -->
         <div  class="tp-caption NotGeneric-CallToAction rev-btn " 
-           id="slide-1699-layer-7" 
+           id="" 
            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-           data-y="['middle','middle','middle','middle']" data-voffset="['124','124','80','65']" 
-                data-width="none"
+           data-y="['middle','middle','middle','middle']" data-voffset="['80','80','80','60']" 
+           data-fontsize="['16','16','16','5']"
+          data-lineheight="['16','16','16','5']"
+           data-width="none"
           data-height="none"
           data-whitespace="nowrap"
-     
           data-type="button" 
           data-responsive_offset="on" 
           data-responsive="off"
-          data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":1250,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
+          data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":1250,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
           data-textAlign="['left','left','left','left']"
           data-paddingtop="[10,10,10,10]"
           data-paddingright="[30,30,30,30]"
           data-paddingbottom="[10,10,10,10]"
           data-paddingleft="[30,30,30,30]"
 
-          style="z-index: 9; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">禾描实木定制
+          style="z-index: 9; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;border-width:0px">禾描实木定制
 </div>
       </li>
     </ul>

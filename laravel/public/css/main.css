@@ -2512,3 +2512,7 @@ fieldset[disabled] .btn-link:focus {
   font-size: 14px;
   text-align: left;
 }
+.logo_img_bg{
+  height: 100px;
+  width: 200px;
+}

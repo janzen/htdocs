@@ -38,6 +38,8 @@ Route::get('/home','HeMiaoAdmin\HomeController@index');
 
 //订单
 Route::get('/order/contractorder','HeMiaoAdmin\OrderController@index');
-Route::post('/order/contractorder/ins','HeMiaoAdmin\OrderController@ins');
 Route::post('/order/contractorder/upd','HeMiaoAdmin\OrderController@upd');
 Route::get('/order/contractorder/del','HeMiaoAdmin\OrderController@del');
+
+Route::post('/order/contractorder/ins','HeMiaoAdmin\OrderController@ins');
+Route::get('/order/contractorder/ins/show','HeMiaoAdmin\OrderController@showins');

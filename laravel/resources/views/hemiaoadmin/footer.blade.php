@@ -1,3 +1,4 @@
+</div><!-- /.main-content -->
 <div class="footer">
 		<div class="footer-inner">
 			<!-- #section:basics/footer -->
@@ -36,6 +37,9 @@
 		<script src="/assets/js/jquery.ui.touch-punch.min.js"></script>
 		<script src="/assets/js/ace-elements.min.js"></script>
 		<script src="/assets/js/ace.min.js"></script>
-
+		<!-- 日历插件 -->
+		<script type="text/javascript" src="/assets/js/bootstrap-datetimepicker.min.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="/assets/js/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
+		<script src="/assets/js/admin-hemiao.js"></script>
 	</body>
 </html>

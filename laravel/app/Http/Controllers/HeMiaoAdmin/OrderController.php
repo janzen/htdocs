@@ -19,9 +19,19 @@ class OrderController extends Controller
     /*签订了合同的订单*/
 	public function index(){
 		$res = $this->order->getAll();
-		return view('hemiaoadmin.ordershow',array('res'=>$res));
+
+		$banner = array('/home'=>'禾描','/order/contractorder'=>'签订合同');
+
+		return view('hemiaoadmin.ordershow',array('res'=>$res,'banner'=>$banner));
 	}
 
+
+	/*插入页面展示*/
+	public function showins(){
+		$banner = array('/home'=>'禾描','/order/contractorder/ins/show'=>'添加合同');
+
+		return view('hemiaoadmin.ordershowins',array('banner'=>$banner));
+	}
 	/*插入*/
 	public function ins(){
 
