@@ -152,12 +152,12 @@ figure {
   color:#7d7d7d;
 }
 #background-img-1{
-  background: #f6f6f6 url(/img/sliders/team-bg-1.jpg) 50% 0 repeat-y fixed;
+  background: #f6f6f6 url(/img/sliders/team-bg-1.jpg) 50% 0 no-repeat;
     color: #ffffff;
     padding-top: 600px;
 }
 #background-img-2{
-  background: #f6f6f6 url(/img/sliders/team-bg-2.jpg) 50% 0 repeat-y fixed;
+  background: #f6f6f6 url(/img/sliders/team-bg-2.jpg) 50% 0 no-repeat;
     color: #ffffff;
     padding-top: 600px;
 }
@@ -632,13 +632,20 @@ figure {
   margin-top: 10px;
   color: #7d7d7d;
 }
-.osmo_title{
+.osmo_title,.fas_title,.zhipin_title,.mucai_title{
   font-size: 18px;
   color: #7d7d7d;
   margin-bottom: 15px;
 }
+
  .osmo_logo{
   text-align: right;
+}
+.putong_logo{
+  text-align: center;
+}
+.fas_log{
+  text-align: center;
 }
 .osmo_content{
   text-align: left;
@@ -1740,7 +1747,7 @@ figure {
   position: relative;
   width: 100%;
   height: auto;
-  padding: 5em 0;
+  padding: 2em 0;
   text-align: center;
 }
 .clients::before {

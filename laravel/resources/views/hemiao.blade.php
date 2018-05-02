@@ -205,48 +205,102 @@
           </header>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="feature">
-            <p class="osmo_title">只用木蜡油</p>
-              <div class="col-md-6 osmo_logo">
-                <img src="/img/material/osmo.png">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="feature">
+              <p class="osmo_title">只用木蜡油</p>
+                <div class="col-md-6 osmo_logo">
+                  <img src="/img/material/osmo.png">
+                </div>
+              <div class="col-md-6 osmo_content">
+                禾描只用德国欧诗木木蜡油<br/>
+                木蜡油是一种天然的植物性油脂<br/>
+                不含甲醛/苯等有害物质<br/>
+                深入滋养，保持质感
               </div>
-            <div class="col-md-6 osmo_content">
-              禾描只用德国欧诗木木蜡油<br/>
-              木蜡油是一种天然的植物性油脂<br/>
-              不含甲醛/苯等有害物质<br/>
-              深入滋养，保持质感
-            </div>
 
+            </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="feature">
+              <p class="fas_title">只用FAS级木材</p>
+                <div class="col-md-6 putong_logo">
+                  <img src="/img/material/putongyiji.png">
+                  <p>普通一级</p>
+                </div>
+              <div class="col-md-6 fas_log">
+                <img src="/img/material/fas.png">
+                <p>FAS级</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="feature">
+              <p class="zhipin_title">只用直拼板</p>
+                <div class="col-md-6 putong_logo">
+                  <img src="/img/material/zhijieban.png">
+                  <p>指接板</p>
+                </div>
+              <div class="col-md-6 fas_log">
+                <img src="/img/material/zhipinban.png">
+                <p>直拼板</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="feature">
+            <p class="mucai_title">禾描精选三种经典硬木</p>
+                <div class="col-md-4">
+                  
+                    <img src="/img/material/baixiangmu.png">
+                    <p class="material_title">白橡</p>
+              </div>
+              
+                <div class="col-md-4">
+                    <img src="/img/material/heihutaomu.png">
+                    <p class="material_title">黑胡桃</p>
+              </div>
+              
+                <div class="col-md-4">
+                    <img src="/img/material/bailamu.png">
+                    <p class="material_title">白蜡</p>
+                </div>
+              </div>
+          </div>
       </div>
   </div>
-
 </section>
 <section class="clients">
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-2 col-md-offset-2">
         <div class="feature">
           <img src="/img/material/hettich.png">
           <p class="material_title">海蒂诗</p>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-2">
         <div class="feature">
           <img src="/img/material/hafele.png">
           <p class="material_title">海福乐</p>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-2">
         <div class="feature">
           <img src="/img/material/fischer.png">
           <p class="material_title">慧鱼</p>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-2">
         <div class="feature">
           <img src="/img/material/indaux.png">
           <p class="material_title">Indaux</p>
@@ -274,57 +328,42 @@
                     <div class="col-md-4 col-sm-4 item">
                         <div class="box">
                             <img src="img/thumbs/yizi.jpg" alt="" title=""/>
-                            <h4 class="material_title">椅子</h4>
-                            <p>椅子和茶几更配呦</p>
                           
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 item">
                         <div class="box">
                               <img src="img/thumbs/shujia.jpg" alt="" title=""/>
-                              <h4 class="material_title">小书架</h4>
-                              <p>白蜡木书架</p>
                             
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 item">
                         <div class="box">
                               <img src="img/thumbs/shafa.jpg" alt="" title=""/>
-                              <h4 class="material_title">沙发</h4>
-                              <p>皮质针织都有</p>
                           
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 item">
                         <div class="box">
                             <img src="img/thumbs/dianshigui.jpg" alt="" title=""/>
-                            <h4 class="material_title">电视柜</h4>
-                            <p>组合电视柜</p>
                           
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 item">
                         <div class="box">
                             <img src="img/thumbs/tatami.jpg" alt="" title=""/>
-                            <h4 class="material_title">榻榻米</h4>
-                            <p>带升降机的榻榻米</p>
                           
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 item">
                         <div class="box">
                             <img src="img/thumbs/shuangcengchuang.jpg" alt="" title=""/>
-                            <h4 class="material_title">双层床</h4>
-                            <p>提高睡的空间</p>
                           
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 item">
                         <div class="box">
                             <img src="img/thumbs/zhangzimen.jpg" alt="" title=""/>
-                            <h4 class="material_title">樟子门</h4>
-                            <p>分隔空间</p>
-                          
                         </div>
                     </div>
                 </div>
