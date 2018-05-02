@@ -45,10 +45,12 @@ body {
   height: 100%;
 }
 body {
+    font-family: SF Pro SC,SF Pro Text,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #8a96a2;
   position: relative;
-  font-family: 'Roboto', sans-serif;
-  overflow-x: hidden;
-  color: #101820;
+/*  font-family: 'Roboto', sans-serif;
+*/  overflow-x: hidden;
+  /*color: #101820;*/
   background-color: #ffffff;
 }
 h1,
@@ -139,10 +141,22 @@ figure {
 .section-title {
   text-transform: uppercase;
   text-align: center;
-  font-weight: bold;
-  letter-spacing: 3px;
-  margin: 2em;
+  font-size: 50px;
+  font-weight: 300;
+  color:#4d4d4d;
 }
+.section-subtitle{
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  color:#7d7d7d;
+}
+#background-img-1{
+  background: #f6f6f6 url(/img/sliders/team-bg.jpg) 50% 0 repeat-y fixed;
+    color: #ffffff;
+    padding-top: 600px;
+}
+
 /*.section-title::before {
   content: attr(data-text);
   position: relative;
@@ -166,6 +180,7 @@ figure {
   line-height: 1;
   text-align: left;
   margin-bottom: 1.125em;
+  color: #666
 }
 .small-title::before {
   content: attr(data-text);
@@ -348,8 +363,8 @@ figure {
   border-top-right-radius: 4px;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #838379;
-  font-size: 12px;
+  color: #353535;
+  font-size: 14px;
   text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > a:hover,
@@ -601,22 +616,30 @@ figure {
 /* ==================================
    Features                   
    ================================== */
-.features {
-  width: 100%;
-  height: auto;
-  padding: 3em 0;
-  text-align: center;
-  border-top: 1px solid #f5f4f1;
-  background: none no-repeat scroll center center #ffffff;
-}
+
 .feature {
+  margin-top: 20px;
   padding: 2.5em 12%;
   text-align: center;
 }
-.feature .fa,
-.feature .linea {
-  font-size: 1.875em;
-  color: #838379;
+.material_title{
+  font-size: 14px;
+  margin-top: 10px;
+  color: #7d7d7d;
+}
+.osmo_title{
+  font-size: 18px;
+  color: #7d7d7d;
+  margin-bottom: 15px;
+}
+ .osmo_logo{
+  text-align: right;
+}
+.osmo_content{
+  text-align: left;
+  padding-left: 30px;
+  line-height: 20px;
+  margin-top: 30px;
 }
 /* ==================================
    Quotes
@@ -838,6 +861,7 @@ figure {
 }
 
 }
+
 @media (max-width: 768px) {
   .item,
   .grid-sizer {
@@ -850,10 +874,14 @@ figure {
     padding-top: 50px;
   }
   .section-title{
-    margin: 1em;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 30px;
   }
+#background-img-1{
+    padding-top: 300px;
+}
+  .section-subtitle{
+    font-size: 10px;
+}
   .numbers{
     margin: 30px 0;
   }
@@ -861,7 +889,30 @@ figure {
 .portfolio-item{
     width: 50%;
   }
+
+.osmo_logo{
+  text-align: center;
 }
+.osmo_content{
+  text-align: center;
+  padding-left: 0px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+}
+
+ @media (max-width: 990px) {
+  .osmo_logo{
+  text-align: center;
+}
+.osmo_content{
+  text-align: center;
+  padding-left: 0px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+}
+
 @media (min-width: 768px) and (max-width: 970px) {
   .item,
   .grid-sizer {
@@ -871,13 +922,20 @@ figure {
     width: 2%;
   }
   .section-title {
-    font-size: 25px;
+    font-size: 38px;
     line-height: 35px;
+}
+#background-img-1{
+    padding-top: 400px;
+}
+.section-subtitle{
+    font-size: 12px;
 }
 .portfolio-item{
     width: 50%;
   }
 }
+
 .item-figure {
   position: relative;
   display: block;
@@ -1688,7 +1746,7 @@ figure {
   width: 100%;
   height: 100%;
   display: block;
-  background-color: #3d3935;
+  background-color: #dddddd;
   opacity: 0.4;
 }
 .brands {
@@ -1713,10 +1771,12 @@ figure {
    Contact
    ================================== */
 .contact {
+  margin-top: 60px;
   position: relative;
   width: 100%;
   height: auto;
   padding: 2em 0 4em;
+  background-color: #dddddd;
   text-align: center;
 }
 .address {
@@ -2505,14 +2565,31 @@ fieldset[disabled] .btn-link:focus {
   background: #ffd300;
 }
 
-.aboutus{
-  margin-top: 70px;
-}
 .aboutus p{
   font-size: 14px;
   text-align: left;
+  color: #7d7d7d;
 }
 .logo_img_bg{
   height: 100px;
   width: 200px;
+}
+
+.zz-sever .list-item .item{width:390px;padding-bottom:0;overflow: hidden;}
+.zz-sever .list-item .item .box{background:#fff;border:1px solid #D7D7D7;}
+.zz-sever .list-item .item .box img{width:100%;height:300px;margin:0;}
+.zz-sever .list-item .item .box h2{padding:10px 20px;margin:0;}
+.zz-sever .list-item .item .box p{padding-left:20px;color: #7d7d7d;}
+.zz-sever .list-item .item .box h4{padding-left: 20px;font-size: 16px;color: #4d4d4d;}
+
+.zz-sever .list-item{position: relative;overflow: hidden;}
+.zz-sever .list-item span[class*="-btn"]{position:absolute;z-index:99999;display:block;height:80px;width:30px;line-height:80px;text-align:center;color:#fff;background:#000;opacity:.85;}
+.zz-sever .list-item span.next-btn{position:absolute;right:0;top:100px;user-select:none;cursor:pointer;}
+.zz-sever .list-item span.prev-btn{position:absolute;left:0;top:100px;user-select:none;cursor:pointer;}
+#zzScroll .wrapbox{width:3000px;position: relative;}
+@media screen and (max-width:768px){
+    .zz-sever .list-item .item{float:left;}
+    .list-item .item{border:none;}
+    .zz-sever .list-item .wrapbox{width:3000px;position: relative;}
+
 }

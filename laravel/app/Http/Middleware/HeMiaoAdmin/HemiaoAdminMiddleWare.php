@@ -15,9 +15,8 @@ class HemiaoAdminMiddleWare
      */
     public function handle($request, Closure $next)
     {
-
-        if(session('userinfo')==null && $request->path() != 'login' && !$request->isMethod('get')){
-            return redirect("/login");  
+        if(session('userinfo')==null && $request->path() != 'login'){
+            return redirect("/login"); 
         }
         return $next($request);
     }

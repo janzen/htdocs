@@ -1588,11 +1588,10 @@ website:   	http://www.themepunch.com
 	border-style:none;
 	border-width:0;
 	color:rgba(255,255,255,1.00);
-	
-	font-size:70px;
+	font-size:50px;
 	font-style:normal;
-	font-weight:800;
-	line-height:70px;
+	font-weight:400;
+	line-height:50px;
 	padding:10px 0;
 	text-decoration:none;
 }

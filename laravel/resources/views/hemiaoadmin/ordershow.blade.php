@@ -5,7 +5,7 @@
 	<div class="page-content-area">
 
 		<div class="row" style="overflow-x: auto;">
-			<div class="col-xs-12" style="width: 2000px;">
+			<div class="col-xs-12>
 
 				<div class="table-responsive">
 
@@ -13,21 +13,12 @@
 						<thead>
 							<tr>
 								<th>操作</th>
-								<th>订单名称</th>>
-								<th>合同签订日期</th>
-								<th>小区名称</th>
-			                    <th>客户姓名</th>
+								<th>客户姓名</th>
 			                    <th>客户电话</th>
+								<th>小区名称</th>
 			                    <th>生产阶段</th>
 			                    <th>客户地址</th>
-			                    <th>合同金额</th>
-			                    <th>金额备注</th>
-			                    <th>实收金额</th>
-			                    <th>实收金额备注</th>
 			                    <th>送货时间</th>
-			                    <th>文件图片</th>
-			                    <th>备注</th>
-			                    <th>添加时间</th>
 							</tr>
 						</thead>
 
@@ -36,62 +27,30 @@
 							<tr>
 								<td>
 									<div class="hidden-sm hidden-xs btn-group">
-										<button class="btn btn-xs btn-info">
+										<a class="btn btn-xs btn-info">
 											<i class="ace-icon fa fa-pencil bigger-120"></i>
-										</button>
+										</a>
 
-										<button class="btn btn-xs btn-danger">
+										<a class="btn btn-xs btn-danger"  href="/order/del/{{$value['id']}}" onclick="return confirmAct();">
 											<i class="ace-icon fa fa-trash-o bigger-120"></i>
-										</button>
+										</a>
 									</div>
 								</td>
-								<td><a href="#">{{$value['order_at'].$value['community'].$value['customer_name']}}</a></td>
-								<td>{{$value['order_at']}}</td>
-			                    <td>{{$value['community']}}</td>
-			                    <td>{{$value['customer_name']}}</td>
+								<td><a href="/order/contractorder/info/{{$value['id']}}">{{$value['customer_name']}}</a></td>
 			                    <td>{{$value['customer_tel']}}</td>
+			                    <td>{{$value['community']}}</td>
 			                    <td>{{$value['stage']}}</td>
-			                    <td class="hidden-480"><span class="label label-sm label-warning">{{$value['address']}}</span></td>
-			                    <td>{{$value['contract_amount']}}</td>
-			                    <td class="hidden-480">{{$value['contract_amount_remarks']}}</td>
-			                    <td>{{$value['received_amount']}}</td>
-			                    <td class="hidden-480">{{$value['received_amount_remarks']}}</td>
+			                    <td class="hidden-480"><span class="label label-sm label-warning">{{$value['province'].$value['city'].$value['area'].$value['address']}}</span></td>
 			                    <td>{{$value['delivery_time']}}</td>
-			                    <td>{{$value['file_img']}}</td>
-			                    <td class="hidden-480">{{$value['remarks']}}</td>
-			                    <td>{{$value['created_at']}}</td>
+			                    <!-- <td><img width="50px" height="50px"src=/storage/{{str_replace("-","",$value['order_at']).$value['customer_name']}}/{{$value['file_img']}}></img></td> -->
+			                
 							</tr>
 							<?}}?>
 						</tbody>
 					</table>
 
 					<div class="modal-footer no-margin-top">
-
-						<ul class="pagination pull-right no-margin">
-							<li class="prev disabled">
-								<a href="#">
-									<i class="ace-icon fa fa-angle-double-left"></i>
-								</a>
-							</li>
-
-							<li class="active">
-								<a href="#">1</a>
-							</li>
-
-							<li>
-								<a href="#">2</a>
-							</li>
-
-							<li>
-								<a href="#">3</a>
-							</li>
-
-							<li class="next">
-								<a href="#">
-									<i class="ace-icon fa fa-angle-double-right"></i>
-								</a>
-							</li>
-						</ul>
+						{!! $res->render() !!}
 					</div>
 
 				</div>

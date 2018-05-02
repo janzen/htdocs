@@ -26,24 +26,6 @@
 <link rel="stylesheet" href="css/style.css">  
 
 <script src="js/vendor/modernizr.js"></script>
-<style type="text/css">
-.zz-sever .list-item .item{width:380px;padding-bottom:0;overflow: hidden;}
-.zz-sever .list-item .item .box{background:#fff;border:1px solid #D7D7D7;}
-.zz-sever .list-item .item .box img{width:100%;height:300px;margin:0;}
-.zz-sever .list-item .item .box h2{padding:10px 20px;margin:0;}
-.zz-sever .list-item .item .box p{padding:0 20px 10px 20px;}
-.zz-sever .list-item{position: relative;overflow: hidden;}
-.zz-sever .list-item span[class*="-btn"]{position:absolute;z-index:99999;display:block;height:80px;width:30px;line-height:80px;text-align:center;color:#fff;background:#000;opacity:.85;}
-.zz-sever .list-item span.next-btn{position:absolute;right:0;top:100px;user-select:none;cursor:pointer;}
-.zz-sever .list-item span.prev-btn{position:absolute;left:0;top:100px;user-select:none;cursor:pointer;}
-#zzScroll .wrapbox{width:3000px;position: relative;}
-@media screen and (max-width:768px){
-    .zz-sever .list-item .item{float:left;}
-    .list-item .item{border:none;}
-    .zz-sever .list-item .wrapbox{width:3000px;position: relative;}
-
-}
-</style>
 </head>
 <body id="home" data-spy="scroll" data-offset="50" data-target=".navbar-default">
 
@@ -83,7 +65,7 @@
 </nav>
 
 <!-- Header -->
-<header id="revolution-home" class="revolution-home">
+<header id="revolution-home" class="revolution-home" >
   <div id="rev_slider_490_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="image-hero39" data-source="gallery" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
     <!-- START REVOLUTION SLIDER 5.3.0.2 fullwidth mode -->
       <div id="rev_slider_490_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.3.0.2">
@@ -113,11 +95,10 @@
           data-paddingbottom="[0,0,0,0]"
           data-paddingleft="[0,0,0,0]"
 
-          style="z-index: 5;text-transform:left;background-color:rgba(0, 0, 0, 0.40);border-color:rgba(0, 0, 0, 0.50);border-width:0px;"> </div>
+          style="z-index: 5;text-transform:left;background-color:rgba(0, 0, 0, 0);border-color:rgba(0, 0, 0, 0.50);border-width:0px;"> </div>
 
         <!-- LAYER NR. 3 -->
         <div class="tp-caption NotGeneric-Title   tp-resizeme" 
-           id="slide-1699-layer-1" 
            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
            data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
           data-fontsize="['50','50','50','30']"
@@ -137,30 +118,6 @@
           data-paddingleft="[0,0,0,0]"
 
           style="z-index: 7; white-space: nowrap;text-transform:left;">探索空间 感受生活</div>
-
-        <!-- LAYER NR. 5 -->
-        <!-- data-actions='[{"event":"click","action":"scrollbelow","offset":"0px","delay":""}]' -->
-        <div  class="tp-caption NotGeneric-CallToAction rev-btn " 
-           id="" 
-           data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-           data-y="['middle','middle','middle','middle']" data-voffset="['80','80','80','60']" 
-           data-fontsize="['16','16','16','5']"
-          data-lineheight="['16','16','16','5']"
-           data-width="none"
-          data-height="none"
-          data-whitespace="nowrap"
-          data-type="button" 
-          data-responsive_offset="on" 
-          data-responsive="off"
-          data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":1250,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-          data-textAlign="['left','left','left','left']"
-          data-paddingtop="[10,10,10,10]"
-          data-paddingright="[30,30,30,30]"
-          data-paddingbottom="[10,10,10,10]"
-          data-paddingleft="[30,30,30,30]"
-
-          style="z-index: 9; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;border-width:0px">禾描实木定制
-</div>
       </li>
     </ul>
     <!--class="tp-caption NotGeneric-CallToAction rev-btn " 
@@ -188,126 +145,112 @@
 </header>
 
 <!-- Portfolio -->
-<section id="portfolio" class="portfolio">
+<section id="portfolio" class="portfolio" >
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <header class="section-header">
-          <h4 class="section-title" data-text="产品">环保</h4>
-          <p>对于家庭来说环保的要求是重中之重.<br /> 禾描实木定制完全达到要求.</p>
+          <h4 class="section-title">更有设计感的实木定制</h4>
+          <p class="section-subtitle">全屋整体规划设置&nbsp&nbsp|&nbsp&nbsp量身定制&nbsp&nbsp|&nbsp&nbsp关注细节</p>
         </header>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="feature">
-          <i class="icon icon-basic-lightbulb"></i>
-          <h4 class="small-title centered">主材</h4>
-          <p>北美进口黑胡桃/白橡/白蜡（符合FSC森林认证）</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="feature">
-          <i class="icon icon-basic-pencil-ruler"></i>
-          <h4 class="small-title centered">辅材</h4>
-          <p>新西兰松木</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="feature">
-          <i class="icon icon-basic-settings"></i>
-          <h4 class="small-title centered">涂料</h4>
-          <p>仅使用德国欧诗木植物木蜡油</p>
-        </div>
-      </div>
-    </div>
   </div>
+  <div id="background-img-1"></div>
 <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <header class="section-header">
-          <h4 class="section-title" data-text="产品">安全品质</h4>
-          <p>品质没得说.</p>
-        </header>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="feature">
-          <i class="icon icon-basic-lightbulb"></i>
-          <h4 class="small-title centered">边角导圆</h4>
-          <p>避免宝宝及家人磕碰</p>
+          <img src="/img/material/background_160_1.png">
+          <p class="material_title">原创设计</p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="feature">
-          <i class="icon icon-basic-pencil-ruler"></i>
-          <h4 class="small-title centered">榫卯结构</h4>
-          <p>传统工艺不仅美观，更经久耐用</p>
+          <img src="/img/material/background_160_2.png">
+          <p class="material_title">整体搭配</p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="feature">
-          <i class="icon icon-basic-settings"></i>
-          <h4 class="small-title centered">顶级五金</h4>
-          <p>选用全球领先品牌德国海蒂诗、海福乐</p>
+          <img src="/img/material/background_160_3.png">
+          <p class="material_title">圆角设计</p>
         </div>
       </div>
-    </div>
-<div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <header class="section-header">
-          <h4 class="section-title" data-text="产品">设计</h4>
-          <p>禾描家具由荷马的礼物®工作室负责全案设计</p>
-        </header>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="feature">
-          <i class="icon icon-basic-lightbulb"></i>
-          <h4 class="small-title centered">风格</h4>
-          <p>自然，简易</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="feature">
-          <i class="icon icon-basic-pencil-ruler"></i>
-          <h4 class="small-title centered">理念</h4>
-          <p>注重空间，更注重人和家具的关系</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="feature">
-          <i class="icon icon-basic-settings"></i>
-          <h4 class="small-title centered">顶级五金</h4>
-          <p>选用全球领先品牌德国海蒂诗、海福乐</p>
+          <img src="/img/material/background_160_4.png">
+          <p class="material_title">关注细节</p>
         </div>
       </div>
     </div>
   </div>
+  <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <header class="section-header">
+            <h4 class="section-title">真正环保的实木家具</h4>
+            <p class="section-subtitle">独一无二的木纹&nbsp&nbsp|&nbsp&nbsp平和温润的质感&nbsp&nbsp|&nbsp&nbsp天然且环保</p>
+          </header>
+        </div>
+      </div>
   </div>
+  <div id="background-img-1"></div>
+  <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <header class="section-header">
+            <h4 class="section-title">禾描与你一起创造更高品质</h4>
+            <p class="section-subtitle">北美FAS级木材&nbsp&nbsp|&nbsp&nbsp优选全球五金&nbsp&nbsp|&nbsp&nbsp好用更耐用</p>
+          </header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="feature">
+            <p class="osmo_title">只用木蜡油</p>
+              <div class="col-md-6 osmo_logo">
+                <img src="/img/material/osmo.png">
+              </div>
+            <div class="col-md-6 osmo_content">
+              禾描只用德国欧诗木木蜡油<br/>
+              木蜡油是一种天然的植物性油脂<br/>
+              不含甲醛/苯等有害物质<br/>
+              深入滋养，保持质感
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </div>
+
 </section>
-<!-- Clients -->
-<div class="row">
-      <div class="col-md-12">
-        <header class="section-header">
-          <h4 class="section-title">品质保障</h4>
-        </header>
-      </div>
-    </div>
 <section class="clients">
   <div class="container">
-    
     <div class="row">
-      <div class="col-md-12">
-        <ul class="brands owl-carousel">
-          <li><img src="https://osmochina.com/wp-content/uploads/2013/11/logo.gif" alt="client" /></li>
-          <li><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522407176643&di=e6ce8234709611447bace34819c6ca30&imgtype=0&src=http%3A%2F%2Fupic.jiancai.com%2Fupload%2Fuser%2Fhettich%2F2011924225529582.jpg" alt="client" /></li>
-          <li><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523001953&di=935f3709c16fc65a3b5b3453077783c3&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.0817ch.com%2Fbbs%2Fdata%2Fattachment%2Fforum%2F201510%2F18%2F183804at5iz5l75t4914lq.jpg" alt="client" /></li>
-          <li><img src="img/brands/vintlogo1-white.png" alt="client" /></li>
-        </ul>
+      <div class="col-md-3">
+        <div class="feature">
+          <img src="/img/material/hettich.png">
+          <p class="material_title">海蒂诗</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="feature">
+          <img src="/img/material/hafele.png">
+          <p class="material_title">海福乐</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="feature">
+          <img src="/img/material/fischer.png">
+          <p class="material_title">慧鱼</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="feature">
+          <img src="/img/material/indaux.png">
+          <p class="material_title">Indaux</p>
+        </div>
       </div>
     </div>
   </div>
@@ -318,83 +261,68 @@
     <div class="row">
       <div class="col-md-12">
         <header class="section-header">
-          <h4 class="section-title" data-text="产品">案例展示</h4>
+          <h4 class="section-title">定制案例</h4>
+          <p class="section-subtitle">全屋整体规划设计&nbsp&nbsp|&nbsp&nbsp量身定制&nbsp&nbsp|&nbsp&nbsp关注细节</p>
         </header>
       </div>
     </div>
     <div id="chanpin" class="gs-sever zz-sever">
-            <div class="container list-item" id="zzScroll">
+            <div class="list-item" id="zzScroll">
                <!--  <span class="prev-btn">〈</span>
                 <span class="next-btn">〉</span> -->
-                <div class="wrapbox">
-                    <div class="col-md-3 item">
+                <div class="wrapbox row">
+                    <div class="col-md-4 col-sm-4 item">
                         <div class="box">
-                          <a href="img/thumbs/yizi.jpg" class="magnific">
                             <img src="img/thumbs/yizi.jpg" alt="" title=""/>
-                            </a>
-                            <h4>椅子</h4>
+                            <h4 class="material_title">椅子</h4>
                             <p>椅子和茶几更配呦</p>
                           
                         </div>
                     </div>
-                    <div class="col-md-3 item">
+                    <div class="col-md-4 col-sm-4 item">
                         <div class="box">
-                            <a href="img/thumbs/shujia.jpg" class="magnific">
                               <img src="img/thumbs/shujia.jpg" alt="" title=""/>
-                              
-                              </a>
-                              <h4>小书架</h4>
+                              <h4 class="material_title">小书架</h4>
                               <p>白蜡木书架</p>
                             
                         </div>
                     </div>
-                    <div class="col-md-3 item">
+                    <div class="col-md-4 col-sm-4 item">
                         <div class="box">
-                            <a href="img/thumbs/shafa.jpg" class="magnific">
                               <img src="img/thumbs/shafa.jpg" alt="" title=""/>
-                              </a>
-                              <h4>沙发</h4>
+                              <h4 class="material_title">沙发</h4>
                               <p>皮质针织都有</p>
                           
                         </div>
                     </div>
-                    <div class="col-md-3 item">
+                    <div class="col-md-4 col-sm-4 item">
                         <div class="box">
-                          <a href="img/thumbs/dianshigui.jpg" class="magnific">
                             <img src="img/thumbs/dianshigui.jpg" alt="" title=""/>
-                            </a>
-                            <h4>电视柜</h4>
+                            <h4 class="material_title">电视柜</h4>
                             <p>组合电视柜</p>
                           
                         </div>
                     </div>
-                    <div class="col-md-3 item">
+                    <div class="col-md-4 col-sm-4 item">
                         <div class="box">
-                          <a href="img/thumbs/tatami.jpg" class="magnific">
                             <img src="img/thumbs/tatami.jpg" alt="" title=""/>
-                            
-                            </a>
-                            <h4>榻榻米</h4>
+                            <h4 class="material_title">榻榻米</h4>
                             <p>带升降机的榻榻米</p>
                           
                         </div>
                     </div>
-                    <div class="col-md-3 item">
+                    <div class="col-md-4 col-sm-4 item">
                         <div class="box">
-                          <a href="img/thumbs/shuangcengchuang.jpg" class="magnific">
                             <img src="img/thumbs/shuangcengchuang.jpg" alt="" title=""/>
-                            </a>
-                            <h4>双层床</h4>
+                            <h4 class="material_title">双层床</h4>
                             <p>提高睡的空间</p>
                           
                         </div>
                     </div>
-                    <div class="col-md-3 item">
+                    <div class="col-md-4 col-sm-4 item">
                         <div class="box">
-                          <a href="img/thumbs/zhangzimen.jpg" class="magnific">
                             <img src="img/thumbs/zhangzimen.jpg" alt="" title=""/>
-                          </a>
-                            <h4>樟子门</h4>
+                            <h4 class="material_title">樟子门</h4>
                             <p>分隔空间</p>
                           
                         </div>
@@ -413,83 +341,51 @@
     <div class="row">
       <div class="col-md-12">
         <header class="section-header">
-          <h4 class="section-title">服务</h4>
+          <h4 class="section-title">定制流程</h4>
+          <p class="section-subtitle">免费量房&nbsp&nbsp|&nbsp&nbsp免费设计&nbsp&nbsp|&nbsp&nbsp免费安装</p>
         </header>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-4 col-md-4">
-        <article class="post preview gridview">
-          <div class="post-media">
-            <img style="height: 256px;"  src="img/blog/1.png" alt="...">
-          </div>
-          <div class="caption">
-            <h5 class="post-title">免费设计</h5>
-            <p>专业的设计师</p>
-          </div>
-        </article>
+      <div class="col-md-3">
+        <div class="feature">
+          <img src="/img/material/icon_1.png">
+          <p class="material_title">沟通需求&nbsp上门量房</p>
+        </div>
       </div>
-      <div class="col-sm-4 col-md-4">
-        <article class="post preview gridview">
-          <div class="post-media">
-            <img style="height: 256px;" src="img/blog/2.png" alt="...">
-          </div>
-          <div class="caption">
-            <h5 class="post-title">定制</h5>
-            <p>可根据客户或设计师需求，进行免费个性化定制</p>
-          </div>
-        </article>
+      <div class="col-md-3">
+        <div class="feature">
+          <img src="/img/material/icon_2.png">
+          <p class="material_title">免费设计&nbsp确定方案</p>
+        </div>
       </div>
-      <div class="col-sm-4 col-md-4">
-        <article class="post preview gridview">
-          <div class="post-media">
-            <img style="height: 256px;"  src="img/blog/3.jpg" alt="...">
-          </div>
-          <div class="caption">
-            <!-- <ul class="meta-list">
-              <li><span class="meta">Dec 11, 2016</span></li>
-              <li><span class="meta">Illustrator</span></li>
-            </ul> -->
-            <h5 class="post-title">上门</h5>
-            <p>北京地区免费上门量房</p>
-          </div>
-        </article>
+      <div class="col-md-3">
+        <div class="feature">
+          <img src="/img/material/icon_3.png">
+          <p class="material_title">签订合同&nbsp制作生产</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="feature">
+          <img src="/img/material/icon_4.png">
+          <p class="material_title">送货安装&nbsp无忧售后</p>
+        </div>
       </div>
     </div>
   </div>
+<!-- About -->
+<section id="about" class="about" >
   <div class="container">
-    <div class="row" style="display: none;">
+    <div class="row">
       <div class="col-md-12">
         <header class="section-header">
-          <h4 class="section-title font-lg">定制流程</h4>
+          <h4 class="section-title">关于禾描</h4>
+          <p class="section-subtitle">禾描®诞生于2015年7月，北京</p>
         </header>
-      </div>
-    </div>
-    <div class="row">
-      <img style="img{
- width:auto;
- height:auto;
- max-width:100%;
- max-height:100%;
-}" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522350005644&di=0666f270f1c737a4c0b4797dd73628c9&imgtype=0&src=http%3A%2F%2Fimg010.hc360.cn%2Fk3%2FM08%2FF2%2F87%2FwKhQx1g9XfuEa11hAAAAAAz7zGY990.jpg" alt="mockup" />
-    </div>
-  </div>
-</section>
-<!-- About -->
-<section id="about" class="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <header class="section-header">
-          <h4 class="section-title" data-text="关于我们">关于禾描</h4>
-          <p>禾描®诞生于2015年7月，北京</p>
-          <div class="aboutus">
-            <p>懂空间的建筑师，爱生活的家具设计师，以及关注用户体验的互联网人，因为有着共同的居住理想“诗意地栖居于大地之上”，他们一起创立了“禾描”实木定制家具品牌。</p> <br/>
-
+        <div class="col-md-8 col-md-offset-2 aboutus">
+            <p>懂空间的建筑师，爱生活的家具设计师，以及关注用户体验的互联网人，因为有着共同的居住理想“诗意地栖居于大地之上”，他们一起创立了“禾描”实木定制家具品牌。</p>
 <p>禾描，充分考虑你的实际需求，分析空间特点，运用简约的设计语言进行设计；优选北美FAS级实木，只涂装植物性木蜡油，极力追求环保健康；采用传统榫卯与现代木作相结合的工艺，配搭全球顶级五金，为你量身定制真正好用的实木家具。禾描，探索空间，感受生活。</p>
           </div>
-
-        </header>
       </div>
     </div>
   </div>
@@ -499,31 +395,12 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <header class="section-header">
-          <h4 class="section-title">联系方式</h4>
-        </header>
-      </div>
-      <div class="col-md-12">
         <div data-animation="fadeInUp" data-animation-delay="02">
-          <img style="width: 100px" src="img/gw.jpg" alt="禾描公众号" />
-          <img style="width: 100px" src="img/gw.jpg" alt="禾描公众号" />
+          <img style="width: 150px" src="img/gw.jpg" alt="禾描公众号" />
         </div>
+        <p data-animation="fadeInUp" data-animation-delay="02" style="vertical-align: text-bottom;margin-top: 30px;">homerus@homerus.com</p>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12" data-animation="fadeInUp">         
-        <div style="margin-top: 40px;">
-          <p align="center"><i style="font-size: 20px;vertical-align:middle; " class="icon-basic-smartphone"></i>
-          <a>18601144735</a>
 
-<i style="font-size: 20px;vertical-align:middle;margin-left: 10px" class="icon-basic-mail"></i>
-          <a style="vertical-align: text-bottom;">homerus@homerus.com</a>
-
-        </p>
-        </div>
-        
-        
-      </div>
     </div>
   </div>
 </section>
@@ -589,8 +466,8 @@
     var moblie = window.navigator.userAgent.indexOf("iPhone") !== -1 || window.navigator.userAgent.indexOf("Android") !== -1;
     if(moblie){
         box.find(".item").width(box.width());
-        scrollWidth = box.width()+30;
-        scrollObj.css({"left":"-" + ($("#zzScroll .item").width()+41) + "px"});
+        scrollWidth = box.width()+45;
+        scrollObj.css({"left":"-" + ($("#zzScroll .item").width())+56 + "px"});
     }else{
         scrollObj.css({"left":"-" + scrollWidth + "px"});
     }
