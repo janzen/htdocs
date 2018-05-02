@@ -152,7 +152,12 @@ figure {
   color:#7d7d7d;
 }
 #background-img-1{
-  background: #f6f6f6 url(/img/sliders/team-bg.jpg) 50% 0 repeat-y fixed;
+  background: #f6f6f6 url(/img/sliders/team-bg-1.jpg) 50% 0 repeat-y fixed;
+    color: #ffffff;
+    padding-top: 600px;
+}
+#background-img-2{
+  background: #f6f6f6 url(/img/sliders/team-bg-2.jpg) 50% 0 repeat-y fixed;
     color: #ffffff;
     padding-top: 600px;
 }

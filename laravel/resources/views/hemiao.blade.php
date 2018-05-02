@@ -195,7 +195,7 @@
         </div>
       </div>
   </div>
-  <div id="background-img-1"></div>
+  <div id="background-img-2"></div>
   <div class="container">
       <div class="row">
         <div class="col-md-12">
