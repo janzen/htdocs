@@ -107,7 +107,7 @@ class Order extends Model
     }
     public function selectWhereIn($ids){
     	if(!$ids) return null;
-		$res = Order::whereIn('id',$ids)->orderByRaw("find_in_set(id, '" . implode(",", $ids) . "')")->get();
+		$res = Order::whereIn('id',$ids)->orderByRaw("find_in_set(id, '" . implode(",", $ids) . "')")->paginate(30);
         if($res)
             return $res;
         else
@@ -119,6 +119,7 @@ class Order extends Model
 		$stateOne = $orderStateAxis->checkStateOne();
 		$orderTimeAxis = new OrderTimeAxis();
 		$descOrderArr = $orderTimeAxis->checkTimeOne($stateOne);
+
 		$orderInfo = $this->selectWhereIn($descOrderArr[0]);
 		$orderState = $orderStateAxis->selectWhereIn($descOrderArr[0]);
 		$orderStateArr = array();
@@ -137,5 +138,66 @@ class Order extends Model
 		$arrayRangeWarning  = $descOrderArr[2];//警告数组范围
         $arrayRangeDanger  = $descOrderArr[1];//错误数组范围
 		return array($orderInfo,$orderStateArr,$orderTimeArr,$arrayRangeWarning,$arrayRangeDanger);
+    }
+
+    public function showSecondStage(){
+    	$orderStateAxis = new OrderStateAxis();
+		$stateTwo = $orderStateAxis->checkStateTwo();
+
+		$orderTimeAxis = new OrderTimeAxis();
+		$descOrderArr = $orderTimeAxis->checkTimeTwo($stateTwo);
+
+		$orderInfo = $this->selectWhereIn($descOrderArr[0]);
+		$orderState = $orderStateAxis->selectWhereIn($descOrderArr[0]);
+		$orderStateArr = array();
+		if($orderState){
+			foreach ($orderState as $key => $value) {
+				$orderStateArr[$value['order_id']] = $value;
+			}
+		}
+		$orderTime = $orderTimeAxis->selectWhereIn($descOrderArr[0]);
+		$orderTimeArr = array();
+		if($orderTime){
+			foreach ($orderTime as $key => $value) {
+				$orderTimeArr[$value['order_id']] = $value;
+			}
+		}
+		$arrayRangeWarning  = $descOrderArr[2];//警告数组范围
+        $arrayRangeDanger  = $descOrderArr[1];//错误数组范围
+		return array($orderInfo,$orderStateArr,$orderTimeArr,$arrayRangeWarning,$arrayRangeDanger);
+
+    }
+
+    public function showThirdStage(){
+    	$orderStateAxis = new OrderStateAxis();
+		$stateThird = $orderStateAxis->checkStateThird();
+
+		$orderTimeAxis = new OrderTimeAxis();
+		$descOrderArr = $orderTimeAxis->checkTimeThird($stateThird);
+
+		$orderInfo = $this->selectWhereIn($descOrderArr[0]);
+		$orderState = $orderStateAxis->selectWhereIn($descOrderArr[0]);
+		$orderStateArr = array();
+		if($orderState){
+			foreach ($orderState as $key => $value) {
+				$orderStateArr[$value['order_id']] = $value;
+			}
+		}
+		$orderTime = $orderTimeAxis->selectWhereIn($descOrderArr[0]);
+		$orderTimeArr = array();
+		if($orderTime){
+			foreach ($orderTime as $key => $value) {
+				$orderTimeArr[$value['order_id']] = $value;
+			}
+		}
+		$arrayRangeWarning  = $descOrderArr[2];//警告数组范围
+        $arrayRangeDanger  = $descOrderArr[1];//错误数组范围
+		return array($orderInfo,$orderStateArr,$orderTimeArr,$arrayRangeWarning,$arrayRangeDanger);
+    }
+
+
+    public function updState($orderId,$field,$checkState){
+    	$orderStateAxis = new OrderStateAxis();
+    	$orderStateAxis->updState($orderId,$field,$checkState);
     }
 }

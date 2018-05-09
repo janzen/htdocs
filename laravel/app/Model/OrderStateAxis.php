@@ -45,6 +45,7 @@ class OrderStateAxis extends Model
     public function checkStateOne(){
         $res = OrderStateAxis::where("payment_state",'=',0)->orWhere("drawing_state",'=',0)->orWhere("drawing_finish_state",'=',0)->get();
         $orderIds = array();
+        $orderIds['payment'] = $orderIds['drawing'] = $orderIds['drawing_finish'] = array();
         if($res){
             foreach ($res as $key => $value) {
                 if($value['payment_state'] == 0)
@@ -58,4 +59,69 @@ class OrderStateAxis extends Model
 
         return $orderIds;
     }
+
+    public function checkStateTwo(){
+        $res = OrderStateAxis::where(["payment_state"=>1,"drawing_state"=>1,"drawing_finish_state"=>1])->where(function($query){
+                $query->where("mailing_drawings_state",'=',0)->orWhere("send_material_state",'=',0)->orWhere("send_material_finish_state",'=',0)->orWhere("woodworker_progress_state",'=',0)->orWhere("woodworker_progress_finish_state",'=',0)->orWhere("polish_state",'=',0)->orWhere("oil_clear_state",'=',0)->orWhere("assemble_state",'=',0)->orWhere("packaging_logistics_state",'=',0);
+        })->get();
+        $orderIds = array();
+        $orderIds['mailing_drawings'] = $orderIds['send_material'] = $orderIds['send_material_finish'] = $orderIds['woodworker_progress'] = $orderIds['woodworker_progress_finish'] = $orderIds['polish'] = $orderIds['oil_clear'] = $orderIds['assemble'] = $orderIds['packaging_logistics'] = array();
+        if($res){
+            foreach ($res as $key => $value) {
+            if($value['mailing_drawings_state'] == 0)
+                $orderIds['mailing_drawings'][$value['id']] = $value['order_id'];
+            if($value['send_material_state'] == 0)
+                $orderIds['send_material'][$value['id']] = $value['order_id'];
+            if($value['send_material_finish_state'] == 0)
+                $orderIds['send_material_finish'][$value['id']] = $value['order_id'];
+            if($value['woodworker_progress_state'] == 0)
+                $orderIds['woodworker_progress'][$value['id']] = $value['order_id'];
+            if($value['woodworker_progress_finish_state'] == 0)
+                $orderIds['woodworker_progress_finish'][$value['id']] = $value['order_id'];
+            if($value['polish_state'] == 0)
+                $orderIds['polish'][$value['id']] = $value['order_id'];
+            if($value['oil_clear_state'] == 0)
+                $orderIds['oil_clear'][$value['id']] = $value['order_id'];
+            if($value['assemble_state'] == 0)
+                $orderIds['assemble'][$value['id']] = $value['order_id'];
+            if($value['packaging_logistics_state'] == 0)
+                $orderIds['packaging_logistics'][$value['id']] = $value['order_id'];
+            }
+        }
+
+        return $orderIds;
+    }
+
+    public function checkStateThird(){
+        $res = OrderStateAxis::where(["payment_state"=>1,"drawing_state"=>1,"drawing_finish_state"=>1,"mailing_drawings_state"=>1,"send_material_state"=>1,"send_material_finish_state"=>1,"woodworker_progress_state"=>1,"woodworker_progress_finish_state"=>1,"polish_state"=>1,"oil_clear_state"=>1,"assemble_state"=>1,"packaging_logistics_state"=>1])->where(function($query){
+                $query->where("arrival_state",'=',0)->orWhere("check_state",'=',0)->orWhere("delivers_state",'=',0);
+        })->get();
+        $orderIds = array();
+        $orderIds['arrival'] = $orderIds['check'] = $orderIds['delivers'] = array();
+        if($res){
+            foreach ($res as $key => $value) {
+            if($value['arrival_state'] == 0)
+                $orderIds['arrival'][$value['id']] = $value['order_id'];
+            if($value['check_state'] == 0)
+                $orderIds['check'][$value['id']] = $value['order_id'];
+            if($value['delivers_state'] == 0)
+                $orderIds['delivers'][$value['id']] = $value['order_id'];
+            
+            }
+        }
+
+        return $orderIds;
+    }
+
+    public function updState($orderId,$field,$checkState){
+        $fieldStr = $field."_state";
+        if($checkState=="true"){
+            $state = 1;
+        }else{
+            $state = 0;
+        }
+        $result = OrderStateAxis::where('order_id', '=', $orderId)  
+        ->update([$fieldStr=>$state]);
+    }
+
 }

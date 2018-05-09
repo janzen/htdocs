@@ -49,5 +49,10 @@ Route::get('/order/contractorder/ins/show','HeMiaoAdmin\OrderController@showins'
 
 
 Route::get('/order/firststage','HeMiaoAdmin\OrderController@firststage');
+Route::get('/order/secondstate','HeMiaoAdmin\OrderController@secondstate');
+Route::get('/order/thirdstate','HeMiaoAdmin\OrderController@thirdstate');
+
+Route::post('/order/updstage','HeMiaoAdmin\OrderController@updstage');
+
 
 

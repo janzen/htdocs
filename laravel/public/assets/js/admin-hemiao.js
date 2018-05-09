@@ -32,8 +32,33 @@ jQuery(function($) {
 	            });
 	            $("#input_area").append(html);
 	        });
+		
+	        $("input[name='checkboxs']").click(function(){
+	        	var checkId = $(this).val();
+	        	if($(this).is(':checked')){
+					ajaxPostCheck(checkId,true);
+	        	}else{
+					ajaxPostCheck(checkId,false);
+	        	}
+	        });
 		});
-
+function ajaxPostCheck(checkId,isChecked){
+	$.ajax({
+			headers: {
+	          'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+	        },
+        type: 'POST',
+        url: '/order/updstage',
+        data:'{"dataVal":"'+checkId+'","checkVal":"'+isChecked+'"}',
+        dataType: 'json',
+        success: function (data) {
+            
+        },
+        error: function () {
+            alert("提交错误")
+        }
+    });
+}
 
 //格式化日期
 var formatDate = function (date) {  

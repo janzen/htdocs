@@ -59,6 +59,44 @@ class OrderController extends Controller
 		$banner = array('/home'=>'禾描','/order/firststage'=>'第一阶段');
 		return view('hemiaoadmin.orderfirststage',array('orderInfo'=>$orderInfo,'orderStateArr'=>$orderStateArr,'orderTimeArr'=>$orderTimeArr,'arrayRangeWarning'=>$arrayRangeWarning,'arrayRangeDanger'=>$arrayRangeDanger,'banner'=>$banner));
 	}
+
+	/*第二阶段*/
+	public function secondstate(){
+		$res = array();
+		$res = $this->order->showSecondStage();
+		$orderInfo = $res[0];
+		$orderStateArr = $res[1];
+		$orderTimeArr = $res[2];
+		$arrayRangeWarning = $res[3];
+		$arrayRangeDanger = $res[4];
+		$banner = array('/home'=>'禾描','/order/firststage'=>'第二阶段');
+		return view('hemiaoadmin.ordersecondstate',array('orderInfo'=>$orderInfo,'orderStateArr'=>$orderStateArr,'orderTimeArr'=>$orderTimeArr,'arrayRangeWarning'=>$arrayRangeWarning,'arrayRangeDanger'=>$arrayRangeDanger,'banner'=>$banner));
+	}
+
+	public function thirdstate(){
+		$res = array();
+		$res = $this->order->showThirdStage();
+		$orderInfo = $res[0];
+		$orderStateArr = $res[1];
+		$orderTimeArr = $res[2];
+		$arrayRangeWarning = $res[3];
+		$arrayRangeDanger = $res[4];
+		$banner = array('/home'=>'禾描','/order/firststage'=>'第三阶段');
+		return view('hemiaoadmin.orderthirdstate',array('orderInfo'=>$orderInfo,'orderStateArr'=>$orderStateArr,'orderTimeArr'=>$orderTimeArr,'arrayRangeWarning'=>$arrayRangeWarning,'arrayRangeDanger'=>$arrayRangeDanger,'banner'=>$banner));
+
+	}
+
+	public function updstage(Request $request){
+		$postData = json_decode($request->getContent(), true);
+		$checkInfo = explode("-",$postData['dataVal']);
+		$orderId = $checkInfo[0];
+		$orderField = $checkInfo[1];
+		$checkState = $postData['checkVal'];
+		$this->order->updState($orderId,$orderField,$checkState);
+		return 1;
+	}
+
+
 	/*修改*/
 	public function upd(){
 
@@ -66,7 +104,7 @@ class OrderController extends Controller
 
 	/*删除*/
 	public function del(){
-		
+		dd(1);
 	}
 
 }

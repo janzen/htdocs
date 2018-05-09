@@ -47,6 +47,22 @@
 
 						<b class="arrow"></b>
 					</li>
+					<li <? if(Request::path()=="order/secondstate"){ ?>class="active" <? } ?>>
+						<a href="/order/secondstate">
+							<i class="menu-icon fa fa-caret-right"></i>
+							第二阶段
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+					<li <? if(Request::path()=="order/thirdstate"){ ?>class="active" <? } ?>>
+						<a href="/order/thirdstate">
+							<i class="menu-icon fa fa-caret-right"></i>
+							第三阶段
+						</a>
+
+						<b class="arrow"></b>
+					</li>
 				</ul>
 			</li>
 

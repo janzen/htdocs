@@ -48,10 +48,12 @@
 							<?}}?>
 						</tbody>
 					</table>
-
-					<div class="modal-footer no-margin-top">
+						@if($res)
+						<div class="modal-footer no-margin-top">
 						{!! $res->render() !!}
-					</div>
+						</div>
+						@endif
+					
 
 				</div>
 
