@@ -103,8 +103,10 @@ class OrderController extends Controller
 	}
 
 	/*删除*/
-	public function del(){
-		dd(1);
+	public function del(Request $request){
+		$orderId = $request->order_id;
+		$this->order->upd($orderId,0);
+		return redirect("/order/contractorder");
 	}
 
 }

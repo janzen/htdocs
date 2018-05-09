@@ -14,7 +14,7 @@ class OrderTimeAxis extends Model
      *
      * @var array
      */
-    protected $fillable = ['order_id','cycle','delivery_date','payment_date','drawing_date','drawing_finish_date','mailing_drawings_date','send_material_date','send_material_finish_date','woodworker_progress_date','woodworker_progress_finish_date','polish_date','oil_clear_date','assemble_date','packaging_logistics_date','arrival_date','check_date','delivers_date','created_at','updated_at'];
+    protected $fillable = ['order_id','data_state','cycle','delivery_date','payment_date','drawing_date','drawing_finish_date','mailing_drawings_date','send_material_date','send_material_finish_date','woodworker_progress_date','woodworker_progress_finish_date','polish_date','oil_clear_date','assemble_date','packaging_logistics_date','arrival_date','check_date','delivers_date','created_at','updated_at'];
 
 
     public function saveDate($startDate,$orderId){
@@ -22,6 +22,7 @@ class OrderTimeAxis extends Model
         $data = date('Y-m-d H:i:s');
     	$arrInfo = array('order_id'=>$orderId,
                          'cycle'=>60,
+                         'data_state'=>1,
                          'payment_date'=>$startDate,
                          'drawing_date'=>date('Y-m-d',strtotime('+6 day',$startDateStr)),
                          'drawing_finish_date'=>date('Y-m-d',strtotime('+8 day',$startDateStr)),
@@ -532,5 +533,10 @@ class OrderTimeAxis extends Model
             }
         }
         return array($descOrderId,$arrayRangeDanger,$arrayRangeWarning);
+    }
+
+    public function upd($orderId,$state){
+        $result = OrderTimeAxis::where('order_id', '=', $orderId)  
+        ->update(["data_state"=>$state]);
     }
 }

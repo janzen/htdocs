@@ -14,12 +14,12 @@ class Order extends Model
      *
      * @var array
      */
-    protected $fillable = ['order_at','community','customer_name','customer_tel','stage','province','city','area','address','contract_amount','contract_amount_remarks','received_amount','received_amount_remarks','delivery_time','created_at','updated_at','remarks','file_img'];
+    protected $fillable = ['order_at','data_state','community','customer_name','customer_tel','stage','province','city','area','address','contract_amount','contract_amount_remarks','received_amount','received_amount_remarks','delivery_time','created_at','updated_at','remarks','file_img'];
 
 
 
     public function getAll(){
-    	$res = Order::orderBy('stage','asc')->paginate(30);
+    	$res = Order::where("data_state",'=',1)->orderBy('stage','asc')->paginate(30);
     	if($res)
     		return $res;
     	return null;
@@ -61,6 +61,7 @@ class Order extends Model
 		 $path = $file->move(storage_path().'/uploads/'.$orderAtStr.$customerName.'/',$filename);  // 重命名保存
 		 $arrInfo = array('order_at' => $orderAt,
 		 				  'community'=>$community,
+		 				  'data_state'=>1,
 		 				  'customer_name'=>$customerName,
 		 				  'customer_tel'=>$customerTel,
 		 				  'stage'=>'1',//1预备2生产3待送货4完成5待维修6疑难7中止
@@ -199,5 +200,17 @@ class Order extends Model
     public function updState($orderId,$field,$checkState){
     	$orderStateAxis = new OrderStateAxis();
     	$orderStateAxis->updState($orderId,$field,$checkState);
+    }
+
+
+    public function upd($orderId,$state){
+    	$orderStateAxis = new OrderStateAxis();
+    	$orderStateAxis->upd($orderId,$state);
+
+        $result = Order::where('id', '=', $orderId)  
+        ->update(["data_state"=>$state]);
+
+        $orderTimeAxis = new OrderTimeAxis();
+		$orderTimeAxis->upd($orderId,$state);
     }
 }

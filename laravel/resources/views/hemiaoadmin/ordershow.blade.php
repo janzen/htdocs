@@ -31,7 +31,7 @@
 											<i class="ace-icon fa fa-pencil bigger-120"></i>
 										</a>
 
-										<a class="btn btn-xs btn-danger"  href="/order/del/{{$value['id']}}" onclick="return confirmAct();">
+										<a class="btn btn-xs btn-danger"  href="/order/contractorder/del/{{$value['id']}}" onclick="return confirmAct();">
 											<i class="ace-icon fa fa-trash-o bigger-120"></i>
 										</a>
 									</div>

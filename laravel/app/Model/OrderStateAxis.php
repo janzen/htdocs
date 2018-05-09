@@ -14,7 +14,7 @@ class OrderStateAxis extends Model
      *
      * @var array
      */
-    protected $fillable = ['order_id','delivery_state','payment_state','drawing_state','drawing_finish_state','mailing_drawings_state','send_material_state','send_material_finish_state','woodworker_progress_state','woodworker_progress_finish_state','polish_state','oil_clear_state','assemble_state','packaging_logistics_state','arrival_state','check_state','delivers_state','created_at','updated_at'];
+    protected $fillable = ['order_id','data_state','delivery_state','payment_state','drawing_state','drawing_finish_state','mailing_drawings_state','send_material_state','send_material_finish_state','woodworker_progress_state','woodworker_progress_finish_state','polish_state','oil_clear_state','assemble_state','packaging_logistics_state','arrival_state','check_state','delivers_state','created_at','updated_at'];
 
 
     public function saveState($orderId){
@@ -43,7 +43,9 @@ class OrderStateAxis extends Model
     }
 
     public function checkStateOne(){
-        $res = OrderStateAxis::where("payment_state",'=',0)->orWhere("drawing_state",'=',0)->orWhere("drawing_finish_state",'=',0)->get();
+        $res = OrderStateAxis::where("data_state",'=',1)->where(function($query){
+            $query->where("payment_state",'=',0)->orWhere("drawing_state",'=',0)->orWhere("drawing_finish_state",'=',0);
+        })->get();
         $orderIds = array();
         $orderIds['payment'] = $orderIds['drawing'] = $orderIds['drawing_finish'] = array();
         if($res){
@@ -61,7 +63,7 @@ class OrderStateAxis extends Model
     }
 
     public function checkStateTwo(){
-        $res = OrderStateAxis::where(["payment_state"=>1,"drawing_state"=>1,"drawing_finish_state"=>1])->where(function($query){
+        $res = OrderStateAxis::where(["data_state"=>1,"payment_state"=>1,"drawing_state"=>1,"drawing_finish_state"=>1])->where(function($query){
                 $query->where("mailing_drawings_state",'=',0)->orWhere("send_material_state",'=',0)->orWhere("send_material_finish_state",'=',0)->orWhere("woodworker_progress_state",'=',0)->orWhere("woodworker_progress_finish_state",'=',0)->orWhere("polish_state",'=',0)->orWhere("oil_clear_state",'=',0)->orWhere("assemble_state",'=',0)->orWhere("packaging_logistics_state",'=',0);
         })->get();
         $orderIds = array();
@@ -93,7 +95,7 @@ class OrderStateAxis extends Model
     }
 
     public function checkStateThird(){
-        $res = OrderStateAxis::where(["payment_state"=>1,"drawing_state"=>1,"drawing_finish_state"=>1,"mailing_drawings_state"=>1,"send_material_state"=>1,"send_material_finish_state"=>1,"woodworker_progress_state"=>1,"woodworker_progress_finish_state"=>1,"polish_state"=>1,"oil_clear_state"=>1,"assemble_state"=>1,"packaging_logistics_state"=>1])->where(function($query){
+        $res = OrderStateAxis::where(["data_state"=>1,"payment_state"=>1,"drawing_state"=>1,"drawing_finish_state"=>1,"mailing_drawings_state"=>1,"send_material_state"=>1,"send_material_finish_state"=>1,"woodworker_progress_state"=>1,"woodworker_progress_finish_state"=>1,"polish_state"=>1,"oil_clear_state"=>1,"assemble_state"=>1,"packaging_logistics_state"=>1])->where(function($query){
                 $query->where("arrival_state",'=',0)->orWhere("check_state",'=',0)->orWhere("delivers_state",'=',0);
         })->get();
         $orderIds = array();
@@ -122,6 +124,10 @@ class OrderStateAxis extends Model
         }
         $result = OrderStateAxis::where('order_id', '=', $orderId)  
         ->update([$fieldStr=>$state]);
+    }
+    public function upd($orderId,$state){
+        $result = OrderStateAxis::where('order_id', '=', $orderId)  
+        ->update(["data_state"=>$state]);
     }
 
 }
