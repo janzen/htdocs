@@ -142,7 +142,7 @@ figure {
   text-transform: uppercase;
   text-align: center;
   font-size: 50px;
-  font-weight: 300;
+  font-weight:normal;
   color:#4d4d4d;
 }
 .section-subtitle{
@@ -151,35 +151,6 @@ figure {
   letter-spacing: 3px;
   color:#7d7d7d;
 }
-#background-img-1{
-  background: #f6f6f6 url(/img/sliders/team-bg-1.jpg) 50% 0 no-repeat;
-    color: #ffffff;
-    padding-top: 600px;
-}
-#background-img-2{
-  background: #f6f6f6 url(/img/sliders/team-bg-2.jpg) 50% 0 no-repeat;
-    color: #ffffff;
-    padding-top: 600px;
-}
-
-/*.section-title::before {
-  content: attr(data-text);
-  position: relative;
-  display: table;
-  margin: 1.5em auto;
-  font-size: 0.625em;
-  line-height: 1;
-  font-weight: normal;
-  letter-spacing: 2px;
-}
-.section-title::after {
-  content: "";
-  display: table;
-  margin: 1.5em auto;
-  width: 2em;
-  height: 1px;
-  background-color: #101820;
-}*/
 .small-title {
   font-weight: bold;
   line-height: 1;
@@ -369,6 +340,7 @@ figure {
 }
 .navbar-default .navbar-nav > li > a {
   color: #353535;
+  font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -594,7 +566,7 @@ figure {
    ================================== */
 .revolution-home{
   position: relative;
-  margin:0px;
+  margin-top:80px;
   padding: 0px;
   z-index: 99;
 }
@@ -621,23 +593,107 @@ figure {
 /* ==================================
    Features                   
    ================================== */
-
+.target-fix {
+    position: relative;
+    top: -100px; /*偏移值*/
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
 .feature {
-  margin-top: 20px;
-  padding: 2.5em 12%;
+  margin-top: 50px;
   text-align: center;
+}
+.img_title_p_back{
+  background-color:rgba(255,255,255,0.7);
+  width: 100%;
+  height: 35px;
+  margin-top: -35px;
+  z-index: 1;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.big_title_home{
+  margin-top: -400px;
+}
+.big_title_home p{
+  font-size: 50px;
+  font-weight: 350;
+  color: #fff;
+}
+.img_title_p_back_mu{
+  background-color:rgba(255,255,255,0.7);
+  width: 100%;
+  height: 25px;
+  margin-top: -25px;
+  z-index: 1;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.feature .img_circle{
+  width: 140px;
+  z-index:-1;
+}
+.feature .img_circle_mu{
+  width: 110px;
+  z-index:-1;
+}
+.img_circle_mu_ji{
+  width: 180px;
+  z-index:-1;
+}
+.img_circle_wujin{
+  width: 140px;
+  z-index:-1;
 }
 .material_title{
   font-size: 14px;
-  margin-top: 10px;
   color: #7d7d7d;
 }
-.osmo_title,.fas_title,.zhipin_title,.mucai_title{
+.osmo_title,.fas_title,.zhipin_title,.mucai_title,.wujinpeijian_title{
   font-size: 18px;
   color: #7d7d7d;
   margin-bottom: 15px;
 }
+.box_span{
+  font-size: 8px;
+  color: #7d7d7d;
+}
+.box_img{
+  width: 50px;
+}
+.box_ma_div{
+  text-align: center;
+  padding-right: 0px;
+  padding-left: 0px;
+}
 
+.margin-15px{
+  margin-top: 15px;
+}
+.box_background{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 0px;
+  padding-right: 0px;
+  background: #f7f5f6;
+}
+.box_content_div{
+  padding-left: 0px;
+  margin-top: 5px;
+}
+.box_p_1{
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.box_p_2{
+  font-size: 8px;
+  margin-bottom: 0px;
+  color: #7d7d7d;
+}
  .osmo_logo{
   text-align: right;
 }
@@ -649,9 +705,7 @@ figure {
 }
 .osmo_content{
   text-align: left;
-  padding-left: 30px;
-  line-height: 20px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 /* ==================================
    Quotes
@@ -819,7 +873,6 @@ figure {
   position: relative;
   width: 100%;
   height: auto;
-  padding: 2em 0 4em;
   text-align: center;
 }
 .isotope {
@@ -871,7 +924,6 @@ figure {
   float: none !important;
   text-align: center;  
 }
-
 }
 
 @media (max-width: 768px) {
@@ -882,15 +934,9 @@ figure {
   .gutter-sizer {
     width: 1%;
   }
-  .navbar-fixed-top + .revolution-home{
-    padding-top: 50px;
-  }
   .section-title{
-    font-size: 30px;
+    font-size: 28px;
   }
-#background-img-1{
-    padding-top: 300px;
-}
   .section-subtitle{
     font-size: 10px;
 }
@@ -912,10 +958,15 @@ figure {
   margin-top: 20px;
 }
 }
-
  @media (max-width: 990px) {
   .osmo_logo{
   text-align: center;
+}
+.big_title_home{
+  margin-top: -150px;
+}
+.big_title_home p{
+  font-size: 18px;
 }
 .osmo_content{
   text-align: center;
@@ -930,15 +981,18 @@ figure {
   .grid-sizer {
     width: 33%;
   }
+  .big_title_home{
+  margin-top: -250px;
+}
+.big_title_home p{
+  font-size: 30px;
+}
   .gutter-sizer {
     width: 2%;
   }
   .section-title {
     font-size: 38px;
     line-height: 35px;
-}
-#background-img-1{
-    padding-top: 400px;
 }
 .section-subtitle{
     font-size: 12px;
@@ -947,7 +1001,6 @@ figure {
     width: 50%;
   }
 }
-
 .item-figure {
   position: relative;
   display: block;
@@ -2578,30 +2631,12 @@ fieldset[disabled] .btn-link:focus {
 }
 
 .aboutus p{
-  font-size: 14px;
+  font-size: 16px;
   text-align: left;
+  font-weight: normal;
   color: #7d7d7d;
 }
 .logo_img_bg{
   height: 100px;
   width: 200px;
-}
-
-.zz-sever .list-item .item{width:390px;padding-bottom:0;overflow: hidden;}
-.zz-sever .list-item .item .box{background:#fff;border:1px solid #D7D7D7;}
-.zz-sever .list-item .item .box img{width:100%;height:300px;margin:0;}
-.zz-sever .list-item .item .box h2{padding:10px 20px;margin:0;}
-.zz-sever .list-item .item .box p{padding-left:20px;color: #7d7d7d;}
-.zz-sever .list-item .item .box h4{padding-left: 20px;font-size: 16px;color: #4d4d4d;}
-
-.zz-sever .list-item{position: relative;overflow: hidden;}
-.zz-sever .list-item span[class*="-btn"]{position:absolute;z-index:99999;display:block;height:80px;width:30px;line-height:80px;text-align:center;color:#fff;background:#000;opacity:.85;}
-.zz-sever .list-item span.next-btn{position:absolute;right:0;top:100px;user-select:none;cursor:pointer;}
-.zz-sever .list-item span.prev-btn{position:absolute;left:0;top:100px;user-select:none;cursor:pointer;}
-#zzScroll .wrapbox{width:3000px;position: relative;}
-@media screen and (max-width:768px){
-    .zz-sever .list-item .item{float:left;}
-    .list-item .item{border:none;}
-    .zz-sever .list-item .wrapbox{width:3000px;position: relative;}
-
 }
