@@ -11,11 +11,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('hemiao');
 });
-Route::get('/hemiao', function () {
-	return view('hemiao');
-});
+// Route::get('/hemiao', function () {
+// 	return view('hemiao');
+// });
 
 //注册页面
 Route::get('/register','HeMiaoAdmin\RegisterController@index');
