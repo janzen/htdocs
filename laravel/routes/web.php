@@ -13,9 +13,9 @@
 Route::get('/', function () {
     return view('hemiao');
 });
-// Route::get('/hemiao', function () {
-// 	return view('hemiao');
-// });
+Route::get('/hemiao', function () {
+	return view('welcome');
+});
 
 //注册页面
 Route::get('/register','HeMiaoAdmin\RegisterController@index');
