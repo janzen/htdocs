@@ -36,7 +36,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="#home">
-        <img src="img/logo.png" alt="LOGO" />
+        <img src="img/logo.png" style="width: 160px;margin-left: -15px;" alt="LOGO" />
       </a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -259,7 +259,7 @@
     </div>
     <div class="row">
       <div class="col-md-6 margin-15px">
-          <img class="img-responsive center-block" src="/img/material/anli_1.jpg">
+          <img class="img-responsive center-block" src="/img/material/anli_1.png">
             <div class="col-md-12 box_background">
               <div class="col-md-9 box_content_div">
               <p class="box_p_1">找不到合适的家具，像他们一样定制吧</p>
@@ -288,7 +288,7 @@
     </div>
     <div class="row">
       <div class="col-md-6 margin-15px">
-          <img class="img-responsive center-block" src="/img/material/anli_2.jpg">
+          <img class="img-responsive center-block" src="/img/material/anli_2.png">
             <div class="col-md-12 box_background">
               <div class="col-md-9 box_content_div">
               <p class="box_p_1">一室变三室，她的空间魔法</p>
@@ -302,7 +302,7 @@
       </div>
 
       <div class="col-md-6 margin-15px">
-        <img class="img-responsive center-block" src="/img/material/anli_4.jpg">
+        <img class="img-responsive center-block" src="/img/material/anli_4.png">
             <div class="col-md-12 box_background">
               <div class="col-md-9 box_content_div">
               <p class="box_p_1">客厅不以电视为中心是一种怎样的体验</p>
@@ -330,34 +330,35 @@
     <div class="row">
       <div class="col-md-3">
         <div class="feature">
-          <img class="img-responsive center-block" style="width: 100px" src="/img/material/icon_1.png">
-          <p style="font-size: 30px;font-weight: 800;">1</p>
+          <img class="img-responsive center-block" style="height: 50px;padding-left: 20px;" src="/img/material/22.png">
+          <p style="font-size: 40px;font-weight: 800;">1</p>
           <p class="material_title">沟通需求&nbsp上门量房</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="feature">
-          <img class="img-responsive center-block"  style="width: 100px" src="/img/material/icon_2.png">
-          <p style="font-size: 30px;font-weight: 800;">2</p>
+          <img class="img-responsive center-block"  style="height: 50px" src="/img/material/23.png">
+          <p style="font-size: 40px;font-weight: 800;">2</p>
           <p class="material_title">免费设计&nbsp确定方案</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="feature">
-          <img class="img-responsive center-block"  style="width: 100px" src="/img/material/icon_3.png">
-          <p style="font-size: 30px;font-weight: 800;">3</p>
+          <img class="img-responsive center-block"  style="height: 50px;padding-left: 5px;" src="/img/material/24.png">
+          <p style="font-size: 40px;font-weight: 800;">3</p>
           <p class="material_title">签订合同&nbsp制作生产</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="feature">
-          <img class="img-responsive center-block"  style="width: 100px" src="/img/material/icon_4.png">
-          <p style="font-size: 30px;font-weight: 800;">4</p>
+          <img class="img-responsive center-block"  style="height: 50px;padding-right: 10px;" src="/img/material/25.png">
+          <p style="font-size: 40px;font-weight: 800;">4</p>
           <p class="material_title">送货安装&nbsp无忧售后</p>
         </div>
       </div>
     </div>
   </div>
+</section>
 <!-- About -->
 <section id="about" class="about" >
   <div class="container">
@@ -381,19 +382,21 @@
       <div class="col-md-12">
         <div class="col-md-2 col-md-offset-4">
           <img class="img-responsive center-block" style="width: 100px" src="/img/material/wx_ma.png" alt="禾描公众号" />
-          <p style="color: #7b7b7b;">微信公众号</p>
+          <p style="font-weight: lighter;color: #7b7b7b;">微信公众号</p>
         </div>
         <div class="col-md-2">
           <img class="img-responsive center-block" style="width: 100px" src="/img/material/wx_ma.png" alt="禾描公众号" />
-          <p style="color: #7b7b7b;">淘宝店铺</p>
+          <p style="font-weight: lighter;color: #7b7b7b;">淘宝店铺</p>
         </div>
       </div>
       
     </div>
   </div>
-  <p style="vertical-align: text-bottom;margin-top: 30px;">商务合作：homerus@homerus.com</p>
 </section>
+<div class="footer">
+    <p style="vertical-align: text-bottom;margin-top: 30px;">商务合作：homerus@homerus.com</p>
 
+</div>
 <script src="js/jquery.js"></script>
 <script src="js/vendor/fastclick.js"></script>
 
