@@ -258,28 +258,28 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 margin-15px">
-          <img class="img-responsive center-block" src="/img/material/anli_1.png">
-            <div class="col-md-12 box_background">
-              <div class="col-md-9 box_content_div">
+      <div class="col-md-6">
+          <img class="img-responsive center-block padding-15px" src="/img/material/anli_1.png">
+            <div class="col-md-12 col-xs-12 box_background">
+              <div class="col-md-9 col-xs-9 box_content_div">
               <p class="box_p_1">找不到合适的家具，像他们一样定制吧</p>
               <p class="box_p_2">一房，两人，三只喵，他们选择定制家具</p>
               </div>
-              <div  class="col-md-3 box_ma_div">
+              <div  class="col-md-3 col-xs-3 box_ma_div">
                 <img class="img-responsive center-block box_img" src="/img/material/anli_ma_1.png">
                 <span class="box_span">了解更多</span>
               </div>
             </div>
       </div>
 
-      <div class="col-md-6 margin-15px">
-        <img class="img-responsive center-block" src="/img/material/anli_3.png">
-            <div class="col-md-12 box_background">
-              <div class="col-md-9 box_content_div">
+      <div class="col-md-6">
+        <img class="img-responsive center-block padding-15px" src="/img/material/anli_3.png">
+            <div class="col-md-12 col-xs-12 box_background">
+              <div class="col-md-9 col-xs-9 box_content_div">
               <p class="box_p_1">咏春 VS 八卦，客厅改造健身房</p>
               <p class="box_p_2">温暖有爱的家</p>
               </div>
-              <div  class="col-md-3 box_ma_div">
+              <div  class="col-md-3 col-xs-3 box_ma_div">
                 <img class="img-responsive center-block box_img" src="/img/material/anli_ma_3.png">
                 <span class="box_span">了解更多</span>
               </div>
@@ -287,28 +287,28 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 margin-15px">
-          <img class="img-responsive center-block" src="/img/material/anli_2.png">
-            <div class="col-md-12 box_background">
-              <div class="col-md-9 box_content_div">
+      <div class="col-md-6">
+          <img class="img-responsive center-block padding-15px" src="/img/material/anli_2.png">
+            <div class="col-md-12 col-xs-12 box_background">
+              <div class="col-md-9 col-xs-9 box_content_div">
               <p class="box_p_1">一室变三室，她的空间魔法</p>
               <p class="box_p_2">空间小不是大问题</p>
               </div>
-              <div  class="col-md-3 box_ma_div">
+              <div  class="col-md-3 col-xs-3 box_ma_div">
                 <img class="img-responsive center-block box_img" src="/img/material/anli_ma_2.png">
                 <span class="box_span">了解更多</span>
               </div>
             </div>
       </div>
 
-      <div class="col-md-6 margin-15px">
-        <img class="img-responsive center-block" src="/img/material/anli_4.png">
-            <div class="col-md-12 box_background">
-              <div class="col-md-9 box_content_div">
+      <div class="col-md-6">
+        <img class="img-responsive center-block padding-15px" src="/img/material/anli_4.png">
+            <div class="col-md-12 col-xs-12 box_background">
+              <div class="col-md-9 col-xs-9 box_content_div">
               <p class="box_p_1">客厅不以电视为中心是一种怎样的体验</p>
               <p class="box_p_2">家与工作室的完美结合</p>
               </div>
-              <div  class="col-md-3 box_ma_div">
+              <div  class="col-md-3 col-xs-3 box_ma_div">
                 <img class="img-responsive center-block box_img" src="/img/material/anli_ma_4.png">
                 <span class="box_span">了解更多</span>
               </div>
