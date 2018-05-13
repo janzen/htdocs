@@ -328,28 +328,28 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 col-xs-6">
         <div class="feature">
           <img class="img-responsive center-block" style="height: 50px;padding-left: 20px;" src="/img/material/22.png">
           <p style="font-size: 40px;font-weight: 800;">1</p>
           <p class="material_title">沟通需求&nbsp上门量房</p>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-xs-6">
         <div class="feature">
           <img class="img-responsive center-block"  style="height: 50px" src="/img/material/23.png">
           <p style="font-size: 40px;font-weight: 800;">2</p>
           <p class="material_title">免费设计&nbsp确定方案</p>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-xs-6">
         <div class="feature">
           <img class="img-responsive center-block"  style="height: 50px;padding-left: 5px;" src="/img/material/24.png">
           <p style="font-size: 40px;font-weight: 800;">3</p>
           <p class="material_title">签订合同&nbsp制作生产</p>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-xs-6">
         <div class="feature">
           <img class="img-responsive center-block"  style="height: 50px;padding-right: 10px;" src="/img/material/25.png">
           <p style="font-size: 40px;font-weight: 800;">4</p>
@@ -394,7 +394,7 @@
   </div>
 </section>
 <div class="footer">
-    <p style="vertical-align: text-bottom;margin-top: 30px;">商务合作：homerus@homerus.com</p>
+    <p>商务合作：homerus@homerus.com</p>
 
 </div>
 <script src="js/jquery.js"></script>
