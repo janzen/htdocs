@@ -81,7 +81,7 @@
   </div>
 <div class="container">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-6 col-xs-6">
         <div class="feature">
           <img class="img-responsive center-block img_circle" src="/img/material/background_160_1.png">
           <div class="img_title_p_back">
@@ -90,7 +90,7 @@
           
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-6 col-xs-6">
         <div class="feature">
           <img class="img-responsive center-block img_circle" src="/img/material/background_160_2.png">
           <div class="img_title_p_back">
@@ -98,7 +98,7 @@
         </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-6 col-xs-6">
         <div class="feature">
           <img class="img-responsive center-block img_circle" src="/img/material/background_160_3.png">
           <div class="img_title_p_back">
@@ -106,7 +106,7 @@
         </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-6 col-xs-6">
         <div class="feature">
           <img class="img-responsive center-block img_circle" src="/img/material/background_160_4.png">
           <div class="img_title_p_back">
@@ -156,41 +156,37 @@
     </div>
     <div class="row">
         <div class="col-md-12">
-          <div class="feature">
-              <div class="col-md-6">
-                <p class="fas_title margin-15px">只用FAS级木材</p>
-                <div class="col-md-6 fas_log margin-15px">
+              <div class="col-md-6 col-xs-12">
+                <p class="fas_title" style="padding-top: 30px;">只用FAS级木材</p>
+                <div class="col-md-6 col-xs-6 fas_log">
                   <img class="img-responsive center-block img_circle_mu_ji" src="/img/material/fas.png">
                   <div class="img_title_p_back_mu">
                   <p>FAS级</p>
                 </div>
                 </div>
-                <div class="col-md-6 putong_logo margin-15px">
+                <div class="col-md-6 col-xs-6 putong_logo">
                   <img class="img-responsive center-block img_circle_mu_ji" src="/img/material/putongyiji.png">
                   <div class="img_title_p_back_mu">
                   <p>普通一级</p>
                 </div>
                 </div>
               </div>
-            </div>
 
-            <div class="feature">
-              <div class="col-md-6">
-                <p class="zhipin_title margin-15px">只使用直拼工艺</p>
-                <div class="col-md-6 margin-15px fas_log">
+              <div class="col-md-6 col-xs-12">
+                <p class="zhipin_title padding-15px" style="padding-top: 30px;">只使用直拼工艺</p>
+                <div class="col-md-6 col-xs-6 fas_log">
                   <img class="img-responsive center-block img_circle_mu_ji" src="/img/material/zhipinban.png">
                   <div class="img_title_p_back_mu">
                   <p>直拼板</p>
                 </div>
                 </div>
-                <div class="col-md-6 margin-15px putong_logo">
+                <div class="col-md-6 col-xs-6 putong_logo">
                     <img class="img-responsive center-block img_circle_mu_ji" src="/img/material/zhijieban.png">
                   <div class="img_title_p_back_mu">
                     <p>指接板</p>
                   </div>
                   </div>
               </div>
-          </div>
         </div>
       </div>
 
@@ -225,19 +221,19 @@
       <div class="col-md-12">
         <div class="feature">
           <p class="wujinpeijian_title">全球优选五金配件</p>
-          <div class="col-md-3 margin-15px">
+          <div class="col-md-3 col-xs-6 margin-15px">
               <img class="img-responsive center-block img_circle_wujin" src="/img/material/hettich.png">
               <p class="material_title margin-15px">海蒂诗</p>
           </div>
-          <div class="col-md-3 margin-15px">
+          <div class="col-md-3 col-xs-6 margin-15px">
               <img class="img-responsive center-block img_circle_wujin" src="/img/material/hafele.png">
               <p class="material_title margin-15px">海福乐</p>
           </div>
-          <div class="col-md-3 margin-15px">
+          <div class="col-md-3 col-xs-6 margin-15px">
               <img class="img-responsive center-block img_circle_wujin" src="/img/material/indaux.png">
               <p class="material_title margin-15px">Indaux</p>
           </div>
-          <div class="col-md-3 margin-15px">
+          <div class="col-md-3 col-xs-6 margin-15px">
               <img class="img-responsive center-block img_circle_wujin" src="/img/material/fischer.png">
               <p class="material_title margin-15px">慧鱼</p>
           </div>
