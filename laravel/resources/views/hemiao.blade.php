@@ -130,7 +130,7 @@
     <div class="row">
         <div class="col-md-12">
           <div class="feature">
-          <p class="mucai_title">禾描精选三种经典硬木</p>
+          <p class="mucai_title">精选北美进口硬木</p>
               <div class="col-md-3 col-md-offset-2 margin-15px">
                   <img  class="img-responsive center-block img_circle_mu" src="/img/material/baixiangmu.png">
                   <div class="img_title_p_back">
