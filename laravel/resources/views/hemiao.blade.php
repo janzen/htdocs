@@ -47,8 +47,8 @@
             <li><a href="#blog" class="smoothScroll">服务</a></li>
             <li><a href="#about" class="smoothScroll">关于我们</a></li>
             <li>
-              <a class="visible-xs-block" target="_blank" href="http://shop111117.top/eDG4KS" class="smoothScroll">淘宝</a>
-              <a class="visible-md-block visible-sm-block visible-lg-block" target="_blank" href="https://shop142723414.taobao.com" class="smoothScroll" >淘宝</a>
+              <a class="visible-xs-block visible-sm-block" target="_blank" href="http://shop111117.top/eDG4KS" class="smoothScroll">淘宝</a>
+              <a class="visible-md-block visible-lg-block" target="_blank" href="https://shop142723414.taobao.com" class="smoothScroll" >淘宝</a>
               </li>
       </ul>
     </div>
@@ -60,8 +60,8 @@
   <div class="container">
     <div class="row">
       <picture>
-            <source srcset="/img/sliders/notgenericherobg2.png" media="(max-width: 600px)">
-            <img srcset="/img/sliders/notgenericherobg.png"/>
+            <source srcset="/img/sliders/notgenericherobg2.jpg" media="(max-width: 600px)">
+            <img srcset="/img/sliders/notgenericherobg.jpg"/>
         </picture>
       
       <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 big_title_home">
@@ -85,8 +85,8 @@
   <div class="container">
     <div class="row">
        <picture>
-            <source srcset="/img/sliders/team-bg-2.png" media="(max-width: 600px)">
-            <img srcset="/img/sliders/team-bg-1.png"/>
+            <source srcset="/img/sliders/team-bg-2.jpg" media="(max-width: 600px)">
+            <img srcset="/img/sliders/team-bg-1.jpg"/>
         </picture>
       
     </div>
@@ -95,7 +95,7 @@
     <div class="row">
       <div class="col-md-3 col-sm-6 col-xs-6">
         <div class="feature">
-          <img class="img-responsive center-block img_circle" data-original="/img/material/background_160_1.png">
+          <img class="img-responsive center-block img_circle" data-original="/img/material/background_160_1.jpg">
           <div class="img_title_p_back">
             <p class="material_title">原创设计</p>
           </div>
@@ -104,7 +104,7 @@
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6">
         <div class="feature">
-          <img class="img-responsive center-block img_circle" data-original="/img/material/background_160_2.png">
+          <img class="img-responsive center-block img_circle" data-original="/img/material/background_160_2.jpg">
           <div class="img_title_p_back">
           <p class="material_title">整体搭配</p>
         </div>
@@ -112,7 +112,7 @@
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6">
         <div class="feature">
-          <img class="img-responsive center-block img_circle" data-original="/img/material/background_160_3.png">
+          <img class="img-responsive center-block img_circle" data-original="/img/material/background_160_3.jpg">
           <div class="img_title_p_back">
           <p class="material_title">圆角设计</p>
         </div>
@@ -120,7 +120,7 @@
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6">
         <div class="feature">
-          <img class="img-responsive center-block img_circle" data-original="/img/material/background_160_4.png">
+          <img class="img-responsive center-block img_circle" data-original="/img/material/background_160_4.jpg">
           <div class="img_title_p_back">
           <p class="material_title">关注细节</p>
         </div>
@@ -138,8 +138,8 @@
       </div>
     <div class="row">
       <picture>
-            <source srcset="/img/sliders/team-bg-22.png" media="(max-width: 600px)">
-            <img srcset="/img/sliders/team-bg-2.png"/>
+            <source srcset="/img/sliders/team-bg-22.jpg" media="(max-width: 600px)">
+            <img srcset="/img/sliders/team-bg-2.jpg"/>
         </picture>
     </div>
     <div class="row">
@@ -147,21 +147,21 @@
           <div class="feature">
           <p class="mucai_title">精选北美进口硬木</p>
               <div class="col-md-3 col-md-offset-2 margin-15px">
-                  <img  class="img-responsive center-block img_circle_mu" data-original="/img/material/baixiangmu.png">
+                  <img  class="img-responsive center-block img_circle_mu" data-original="/img/material/baixiangmu.jpg">
                   <div class="img_title_p_back">
                   <p class="material_title">白橡</p>
                 </div>
             </div>
             
               <div class="col-md-2 margin-15px">
-                  <img  class="img-responsive center-block img_circle_mu" data-original="/img/material/heihutaomu.png">
+                  <img  class="img-responsive center-block img_circle_mu" data-original="/img/material/heihutaomu.jpg">
                  <div class="img_title_p_back">
                   <p class="material_title">黑胡桃</p>
                 </div>
             </div>
             
               <div class="col-md-3 margin-15px">
-                  <img  class="img-responsive center-block img_circle_mu" data-original="/img/material/bailamu.png">
+                  <img  class="img-responsive center-block img_circle_mu" data-original="/img/material/bailamu.jpg">
                   <div class="img_title_p_back">
                   <p class="material_title">白蜡</p>
                 </div>
@@ -230,8 +230,8 @@
       </div>
     <div class="row">
       <picture>
-            <source srcset="/img/sliders/team-bg-32.png" media="(max-width: 600px)">
-            <img srcset="/img/sliders/team-bg-3.png"/>
+            <source srcset="/img/sliders/team-bg-32.jpg" media="(max-width: 600px)">
+            <img srcset="/img/sliders/team-bg-3.jpg"/>
         </picture>
     </div>
 
@@ -273,7 +273,7 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-          <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_1.png">
+          <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_1.jpg">
             <div class="col-md-12 col-xs-12 box_background">
               <div class="col-md-9 col-xs-9 box_content_div">
               <p class="box_p_1">找不到合适的家具，像他们一样定制吧</p>
@@ -287,7 +287,7 @@
       </div>
 
       <div class="col-md-6">
-        <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_3.png">
+        <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_3.jpg">
             <div class="col-md-12 col-xs-12 box_background">
               <div class="col-md-9 col-xs-9 box_content_div">
               <p class="box_p_1">咏春 VS 八卦，客厅改造健身房</p>
@@ -302,7 +302,7 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-          <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_2.png">
+          <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_2.jpg">
             <div class="col-md-12 col-xs-12 box_background">
               <div class="col-md-9 col-xs-9 box_content_div">
               <p class="box_p_1">一室变三室，她的空间魔法</p>
@@ -316,7 +316,7 @@
       </div>
 
       <div class="col-md-6">
-        <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_4.png">
+        <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_4.jpg">
             <div class="col-md-12 col-xs-12 box_background">
               <div class="col-md-9 col-xs-9 box_content_div">
               <p class="box_p_1">客厅不以电视为中心是一种怎样的体验</p>
