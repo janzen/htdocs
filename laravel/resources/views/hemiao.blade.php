@@ -171,15 +171,16 @@
     </div>
     <div class="row">
         <div class="col-md-12">
+          <div class="feature">
               <div class="col-md-6 col-xs-12">
                 <p class="fas_title" style="padding-top: 30px;">只用FAS级木材</p>
-                <div class="col-md-6 col-xs-6 fas_log">
+                <div class="col-md-6 col-xs-6 fas_log" style="margin-top: 10px">
                   <img class="img-responsive center-block img_circle_mu_ji" data-original="/img/material/fas.png">
                   <div class="img_title_p_back_mu">
                   <p>FAS级</p>
                 </div>
                 </div>
-                <div class="col-md-6 col-xs-6 putong_logo">
+                <div class="col-md-6 col-xs-6 putong_logo" style="margin-top: 10px">
                   <img class="img-responsive center-block img_circle_mu_ji" data-original="/img/material/putongyiji.png">
                   <div class="img_title_p_back_mu">
                   <p>普通一级</p>
@@ -189,19 +190,20 @@
 
               <div class="col-md-6 col-xs-12">
                 <p class="zhipin_title padding-15px" style="padding-top: 30px;">只使用直拼工艺</p>
-                <div class="col-md-6 col-xs-6 fas_log">
+                <div class="col-md-6 col-xs-6 fas_log" style="margin-top: 10px">
                   <img class="img-responsive center-block img_circle_mu_ji" data-original="/img/material/zhipinban.png">
                   <div class="img_title_p_back_mu">
                   <p>直拼板</p>
                 </div>
                 </div>
-                <div class="col-md-6 col-xs-6 putong_logo">
+                <div class="col-md-6 col-xs-6 putong_logo" style="margin-top: 10px">
                     <img class="img-responsive center-block img_circle_mu_ji" data-original="/img/material/zhijieban.png">
                   <div class="img_title_p_back_mu">
                     <p>指接板</p>
                   </div>
                   </div>
               </div>
+            </div>
         </div>
       </div>
 
