@@ -22,15 +22,6 @@
 </head>
 <body id="home" data-spy="scroll" data-offset="50" data-target=".navbar-default">
 
-<!-- Preloader -->
-<!-- <div class="preloader">
-  <div class="preloader10">
-    <span></span>
-    <span></span>
-  </div>
-</div> -->
-
-
 <!-- Navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -61,7 +52,7 @@
 <header class="revolution-home" >
   <div class="container">
     <div class="row">
-      <img data-original="img/sliders/notgenericherobg.png"/>
+      <img src="img/sliders/notgenericherobg.png"/>
       <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 big_title_home">
       <p style="text-align: center;">探索空间&nbsp;&nbsp;感受生活</p>
     </div>
