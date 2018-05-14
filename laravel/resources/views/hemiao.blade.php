@@ -37,7 +37,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="#home">
-        <img data-original="/img/logo.png" style="width: 160px;margin-left: -15px;margin-top: 10px;" alt="LOGO" />
+        <img data-original="/img/logo.png" style="width: 160px;margin-left: -15px;margin-top: 10px;" />
       </a>
     </div>
     <div class="collapse navbar-collapse is-collapse" id="bs-example-navbar-collapse-1">
