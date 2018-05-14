@@ -21,6 +21,7 @@
   $(function() {
       $("img").lazyload({effect: "fadeIn"});
   });
+  document.createElement( "picture" );
 </script>
 </head>
 <body id="home" data-spy="scroll" data-offset="50" data-target=".navbar-default">
@@ -55,7 +56,12 @@
 <header class="revolution-home" >
   <div class="container">
     <div class="row">
-      <img src="img/sliders/notgenericherobg.png"/>
+      <picture>
+            <source srcset="/img/sliders/notgenericherobg2.png" media="(max-width: 600px)">
+            <source srcset="/img/sliders/notgenericherobg1.png" media="(max-width: 800px)">
+            <img srcset="/img/sliders/notgenericherobg.png"/>
+        </picture>
+      
       <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 big_title_home">
       <p style="text-align: center;">探索空间&nbsp;&nbsp;感受生活</p>
     </div>
