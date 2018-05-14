@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="css/main.css">
 <script type="text/javascript" charset="utf-8">
   $(function() {
-      $("img").lazyload({ threshold :200});
+      $("img").lazyload({effect: "fadeIn"});
   });
 </script>
 </head>
