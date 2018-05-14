@@ -47,8 +47,8 @@
             <li><a href="#blog" class="smoothScroll">服务</a></li>
             <li><a href="#about" class="smoothScroll">关于我们</a></li>
             <li>
-              <a class="visible-xs-block" target="_blank" srcset="http://shop111117.top/eDG4KS" class="smoothScroll">淘宝</a>
-              <a class="visible-md-block visible-sm-block visible-lg-block" target="_blank" srcset="https://shop142723414.taobao.com" class="smoothScroll" >淘宝</a>
+              <a class="visible-xs-block" target="_blank" href="http://shop111117.top/eDG4KS" class="smoothScroll">淘宝</a>
+              <a class="visible-md-block visible-sm-block visible-lg-block" target="_blank" href="https://shop142723414.taobao.com" class="smoothScroll" >淘宝</a>
               </li>
       </ul>
     </div>
