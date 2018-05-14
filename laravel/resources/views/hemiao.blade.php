@@ -46,7 +46,10 @@
             <li><a href="#portfolio" class="smoothScroll">产品</a></li>
             <li><a href="#blog" class="smoothScroll">服务</a></li>
             <li><a href="#about" class="smoothScroll">关于我们</a></li>
-            <li><a target="_blank" href="http://shop111117.top/eDG4KS" class="smoothScroll">淘宝</a></li>
+            <li>
+              <a class="visible-xs-block" target="_blank" srcset="http://shop111117.top/eDG4KS" class="smoothScroll">淘宝</a>
+              <a class="visible-md-block visible-sm-block visible-lg-block" target="_blank" srcset="https://shop142723414.taobao.com" class="smoothScroll" >淘宝</a>
+              </li>
       </ul>
     </div>
   </div>
@@ -58,7 +61,6 @@
     <div class="row">
       <picture>
             <source srcset="/img/sliders/notgenericherobg2.png" media="(max-width: 600px)">
-            <source srcset="/img/sliders/notgenericherobg1.png" media="(max-width: 800px)">
             <img srcset="/img/sliders/notgenericherobg.png"/>
         </picture>
       
@@ -82,7 +84,11 @@
   </div>
   <div class="container">
     <div class="row">
-      <img data-original="/img/sliders/team-bg-1.png"/>
+       <picture>
+            <source srcset="/img/sliders/team-bg-2.png" media="(max-width: 600px)">
+            <img srcset="/img/sliders/team-bg-1.png"/>
+        </picture>
+      
     </div>
   </div>
 <div class="container">
@@ -131,7 +137,10 @@
         </div>
       </div>
     <div class="row">
-      <img src="/img/sliders/team-bg-2.png"/>
+      <picture>
+            <source srcset="/img/sliders/team-bg-22.png" media="(max-width: 600px)">
+            <img srcset="/img/sliders/team-bg-2.png"/>
+        </picture>
     </div>
     <div class="row">
         <div class="col-md-12">
@@ -220,7 +229,10 @@
         </div>
       </div>
     <div class="row">
-      <img data-original="/img/sliders/team-bg-3.png"/>
+      <picture>
+            <source srcset="/img/sliders/team-bg-32.png" media="(max-width: 600px)">
+            <img srcset="/img/sliders/team-bg-3.png"/>
+        </picture>
     </div>
 
     <div class="row">

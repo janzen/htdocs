@@ -109,4 +109,12 @@ class OrderController extends Controller
 		return redirect("/order/contractorder");
 	}
 
+
+	public function isweixin(){
+		if ( strpos($_SERVER['HTTP_USER_AGENT'], 'MicroMessenger') !== false ) {  
+            echo "是";  
+    }    
+    echo "否";  
+	}
+
 }
