@@ -9,6 +9,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 <meta name=”keywords” content=“禾描,实木定制,实木家具定制,实木衣柜定制,实木直拼,实木平拼,实木榻榻米定制,环保,白橡,黑胡桃,木蜡油,整木定制”>
 <meta name=”description” content=“描®诞生于2015年7月 北京 懂空间的建筑师 爱生活的家具设计师 以及关注用户体验的互联网人 因为有着共同的居住理想“诗意地栖居于大地之上” 他们一起创立了“禾描”实木家具设计品牌。实木定制,实木家具定制,实木衣柜定制,实木直拼,实木平拼,实木榻榻米定制,环保,白橡,黑胡桃,木蜡油,整木定制”>
+<link href="{{asset('/img/favicon.png')}}" rel="Shortcut Icon" type="image/x-icon" />
+
+
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <script src="js/jquery.js"></script>
 <script src="js/jquery.lazyload.js"></script>
@@ -26,14 +29,14 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header" style="min-height: 80px">
-      <button style="margin-top: 15px;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button style="margin-top: 30px;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
       <a href="#home">
-        <img data-original="img/logo.png" style="width: 160px;margin-left: -15px;margin-top: 10px;" alt="LOGO" />
+        <img data-original="/img/logo.png" style="width: 160px;margin-left: -15px;margin-top: 10px;" alt="LOGO" />
       </a>
     </div>
     <div class="collapse navbar-collapse is-collapse" id="bs-example-navbar-collapse-1">
