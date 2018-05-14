@@ -64,7 +64,7 @@
             <img srcset="/img/sliders/notgenericherobg.jpg"/>
         </picture>
       
-      <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 big_title_home">
+      <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 big_title_home">
       <p style="text-align: center;">探索空间&nbsp;&nbsp;感受生活</p>
     </div>
     </div>
