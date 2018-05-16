@@ -411,7 +411,7 @@
 </section>
 <div class="footer">
     <p>商务合作：homerus@homerus.com</p>
-
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1273712786'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1273712786%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>  
 </div>
 <script src="js/vendor/fastclick.js"></script>
 <script src="js/vendor/jquery.appear.js"></script>                  <!-- jQuery Appear -->
@@ -424,6 +424,6 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/vendor/jquery.easing.1.3.js"></script>              <!-- jQuery Easing -->
 <script src="js/vendor/jquery.validate.min.js"></script>            <!-- jQuery Validate -->
-<script src="js/main.js"></script>                                  <!-- Custom jQuery -->
+<script src="js/main.js"></script>                                <!-- Custom jQuery -->
 </body>
 </html>
