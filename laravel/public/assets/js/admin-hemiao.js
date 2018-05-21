@@ -63,7 +63,7 @@ function ajaxPostCheck(checkId,isChecked){
 //格式化日期
 var formatDate = function (date) {  
     var y = date.getFullYear();  
-    var m = date.getMonth() + 1;  
+    var m = date.getMonth();  
     m = m < 10 ? '0' + m : m;  
     var d = date.getDate();  
     d = d < 10 ? ('0' + d) : d;  
@@ -91,9 +91,9 @@ function ymdTime(id){
 		  initialDate:start_time,
 　　　　}).on('changeDate',function(ev){
             var time = $(id).val().split('-');
-			time = new Date(Number(time['0']),(Number(time['1'])),Number(time['2'])); 
-			time.setDate(time.getDate() + 60);
-			delivery_time = formatDate(time);
+			timeStr = new Date(Number(time['0']),(Number(time['1'])),Number(time['2'])); 
+			timeStr.setDate(timeStr.getDate() + 60);
+			delivery_time = formatDate(timeStr);
 			ymdTime("#id-date-picker-2");
         }); 
 
