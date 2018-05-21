@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>禾描</title>
+<title>禾描官网-探索空间 感受生活</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 <meta name=”keywords” content=“禾描,禾描家具,实木定制,实木家具定制,实木衣柜定制,实木直拼,实木平拼,实木榻榻米定制,环保,白橡,黑胡桃,木蜡油,整木定制”>
 <meta name=”description” content=“描®诞生于2015年7月 北京 懂空间的建筑师 爱生活的家具设计师 以及关注用户体验的互联网人 因为有着共同的居住理想“诗意地栖居于大地之上” 他们一起创立了“禾描”实木家具设计品牌。实木定制,实木家具定制,实木衣柜定制,实木直拼,实木平拼,实木榻榻米定制,环保,白橡,黑胡桃,木蜡油,整木定制”>
@@ -169,6 +169,36 @@
             </div>
         </div>
     </div>
+  
+      <div class="row">
+        <div class="col-md-12">
+          <div class="feature">
+            <p class="osmo_title margin-15px">德国植物性木蜡油</p>
+              <div class="col-md-4 col-md-offset-2 osmo_logo margin-15px">
+                <img width="160px" data-original="/img/material/osmo.png">
+              </div>
+            <div class="col-md-4 osmo_content">
+              <p>禾描®只涂装德国欧诗木木蜡油<br/>木蜡油是以天然的植物油和蜡制成<br/>安全无毒，通过食品安全等级<br/>可以放心使用在儿童和宠物的环境</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <header class="section-header">
+            <h4 class="section-title">禾描与你一起创造更高品质</h4>
+          </header>
+        </div>
+      </div>
+    <div class="row">
+      <picture>
+            <source srcset="/img/sliders/team-bg-32.jpg" media="(max-width: 600px)">
+            <img srcset="/img/sliders/team-bg-3.jpg"/>
+        </picture>
+    </div>
     <div class="row">
         <div class="col-md-12">
           <div class="feature">
@@ -206,37 +236,6 @@
             </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <div class="feature">
-            <p class="osmo_title margin-15px">德国植物性木蜡油</p>
-              <div class="col-md-4 col-md-offset-2 osmo_logo margin-15px">
-                <img width="160px" data-original="/img/material/osmo.png">
-              </div>
-            <div class="col-md-4 osmo_content">
-              <p>禾描®只用德国欧诗木木蜡油<br/>木蜡油是以天然的植物油和蜡制成<br/>安全无毒，通过食品安全等级<br/>可以放心使用在儿童和宠物的环境</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-  </div>
-  <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <header class="section-header">
-            <h4 class="section-title">禾描与你一起创造更高品质</h4>
-          </header>
-        </div>
-      </div>
-    <div class="row">
-      <picture>
-            <source srcset="/img/sliders/team-bg-32.jpg" media="(max-width: 600px)">
-            <img srcset="/img/sliders/team-bg-3.jpg"/>
-        </picture>
-    </div>
-
     <div class="row">
       <div class="col-md-12">
         <div class="feature">
@@ -410,7 +409,7 @@
   </div>
 </section>
 <div class="footer">
-    <p>商务合作：homerus@homerus.com</p>
+    <p>商务合作：homerus@homerus.cn</p>
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1273712786'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1273712786%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>  
 </div>
 <script src="js/vendor/fastclick.js"></script>
