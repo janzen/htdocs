@@ -146,21 +146,21 @@
         <div class="col-md-12">
           <div class="feature">
           <p class="mucai_title">精选北美进口硬木</p>
-              <div class="col-md-3 col-md-offset-2 margin-15px">
+              <div class="col-md-4 col-sm-4 col-xs-4 margin-15px">
                   <img  class="img-responsive center-block img_circle_mu" data-original="/img/material/baixiangmu.jpg">
                   <div class="img_title_p_back">
                   <p class="material_title">白橡</p>
                 </div>
             </div>
             
-              <div class="col-md-2 margin-15px">
+              <div class="col-md-4 col-sm-4  col-xs-4 margin-15px">
                   <img  class="img-responsive center-block img_circle_mu" data-original="/img/material/heihutaomu.jpg">
                  <div class="img_title_p_back">
                   <p class="material_title">黑胡桃</p>
                 </div>
             </div>
             
-              <div class="col-md-3 margin-15px">
+              <div class="col-md-4  col-sm-4  col-xs-4 margin-15px">
                   <img  class="img-responsive center-block img_circle_mu" data-original="/img/material/bailamu.jpg">
                   <div class="img_title_p_back">
                   <p class="material_title">白蜡</p>
