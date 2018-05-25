@@ -13,11 +13,16 @@
 Route::get('/', function () {
     return view('hemiao');
 });
+Route::get('/wxuseqwdz', function () {
+    return view('wxuseqwdz');
+});
+
 Route::get('/hemiao', function () {
 	return view('welcome');
 });
 //微信判断
 Route::get('/isweixin','HeMiaoAdmin\OrderController@isweixin');
+
 
 //注册页面
 Route::get('/register','HeMiaoAdmin\RegisterController@index');
