@@ -2,48 +2,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
     <title>HTML5页面直接调用百度地图API,获取当前位置，直接导航目的地</title>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=wDYEcxgRRheZwyC9jpN1Tt7fzr2zjosZ"></script>  
+    <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>  
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script><!--调用jQuery-->
 
   <style type="text/css">
         body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
     </style> </head><body>  
-   <div id="allmap"></div></body>  </html>  <script type="text/javascript">  
-
-    var map = new BMap.Map("allmap");  
-    var point = new BMap.Point(116.709684,39.89778);
-    map.centerAndZoom(point, 16);  
-    map.enableScrollWheelZoom(); 
-
-    var myIcon = new BMap.Icon("myicon.png",new BMap.Size(30,30),{
-        anchor: new BMap.Size(10,10)    
-    });    var marker=new BMap.Marker(point,{icon: myIcon});  
-    map.addOverlay(marker);  
-
-    var geolocation = new BMap.Geolocation();
-    geolocation.getCurrentPosition(function(r){
-        if(this.getStatus() == BMAP_STATUS_SUCCESS){            var mk = new BMap.Marker(r.point);
-            map.addOverlay(mk);            //map.panTo(r.point);//地图中心点移到当前位置
-            var latCurrent = r.point.lat;            var lngCurrent = r.point.lng;            //alert('我的位置：'+ latCurrent + ',' + lngCurrent);
-
-            location.href="http://api.map.baidu.com/direction?origin="+latCurrent+","+lngCurrent+"&destination=39.89778,116.709684&mode=driving&region=北京&output=html";
-
-        }        else {
-            alert('failed'+this.getStatus());
-        }        
-    },{enableHighAccuracy: true})
-
-
-    map.addOverlay(marker);  
-    var licontent="<b>健龙森羽毛球馆</b><br>";  
-        licontent+="<span><strong>地址：</strong>北京市通州区滨河中路108号</span><br>";  
-        licontent+="<span><strong>电话：</strong>(010)81556565 / 6969</span><br>";          
-    var opts = { 
-        width : 200,
-        height: 80,
-    };         
-    var  infoWindow = new BMap.InfoWindow(licontent, opts);  
-    marker.openInfoWindow(infoWindow);  
-    marker.addEventListener('click',function(){
-        marker.openInfoWindow(infoWindow);
-    });  </script>
+   <div id="allmap"></div></body>  </html>  
+   <script type="text/javascript">  
+wx.openLocation({
+    latitude: 0, // 纬度，浮点数，范围为90 ~ -90
+    longitude: 0, // 经度，浮点数，范围为180 ~ -180。
+    name: '', // 位置名
+    address: '', // 地址详情说明
+    scale: 1, // 地图缩放级别,整形值,范围从1~28。默认为最大
+    infoUrl: '' // 在查看位置界面底部显示的超链接,可点击跳转
+    });
+    </script>
