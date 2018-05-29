@@ -47,12 +47,12 @@ wx.config({
     // });
 $(function(){
 setTimeout(function(){wx.openLocation({
-      latitude: 23.099994,
-      longitude: 113.324520,
-      name: 'TIT 创意园',
-      address: '广州市海珠区新港中路 397 号',
+      latitude: 39.993850,
+      longitude: 116.470090,
+      name: '禾描工作室',
+      address: '北京市朝阳区里外里公寓一单元2001',
       scale: 14,
-      infoUrl: 'http://weixin.qq.com'
+      infoUrl: 'http://www.homerus.cn'
     });},2000);
 });
 
