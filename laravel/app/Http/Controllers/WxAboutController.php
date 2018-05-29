@@ -30,7 +30,7 @@ class WxAboutController extends Controller
 	        "signature" => $signature,
 	        "string" => $string
 	    );
-
+dd($signPackage);
 
     	return view('map',$signPackage);
     }
