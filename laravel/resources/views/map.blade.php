@@ -12,10 +12,10 @@
    <script type="text/javascript">  
 wx.config({
     debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
-    appId: <?echo $signPackage['appId']?>, // 必填，公众号的唯一标识
-    timestamp: <?echo $signPackage['timestamp']?>, // 必填，生成签名的时间戳
-    nonceStr: <?echo $signPackage['nonceStr']?>, // 必填，生成签名的随机串
-    signature: <?echo $signPackage['signature']?>,// 必填，签名
+    appId: <?echo $appId?>, // 必填，公众号的唯一标识
+    timestamp: <?echo $timestamp?>, // 必填，生成签名的时间戳
+    nonceStr: <?echo $nonceStr?>, // 必填，生成签名的随机串
+    signature: <?echo $signature?>,// 必填，签名
     jsApiList: ['openLocation'] // 必填，需要使用的JS接口列表 这里填写需要用到的微信api openlocation为使用微信内置地图查看位置接口
 });
 
