@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="zh-cmn-Hans">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
-    <title>HTML5页面直接调用百度地图API,获取当前位置，直接导航目的地</title>
+    <title>地图</title>
     <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>  
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script><!--调用jQuery-->
 
@@ -11,7 +11,7 @@
    <div id="allmap"></div></body>  </html>  
    <script type="text/javascript">  
 wx.config({
-    debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+    debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
     appId: <?echo $appId?>, // 必填，公众号的唯一标识
     timestamp: <?echo $timestamp?>, // 必填，生成签名的时间戳
     nonceStr: <?echo $nonceStr?>, // 必填，生成签名的随机串
