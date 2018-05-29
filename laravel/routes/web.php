@@ -16,7 +16,7 @@ Route::get('/', function () {
 Route::get('/wxuseqwdz', function () {
     return view('wxuseqwdz');
 });
-Route::get('/maptest','WxAboutController@wxMap');
+Route::get('/hemiaomap','WxAboutController@wxMap');
 
 Route::get('/hemiao', function () {
 	return view('welcome');
