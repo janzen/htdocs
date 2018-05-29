@@ -200,9 +200,13 @@
 
         </style>
     </head>
-    <body>
+    <body ontouchstart="">
+        <div class="wxapi_container">
+            
+            <div class="lbox_close wxapi_form">
         <img src="img/weixingongzhonghao/5.jpg" class="img-responsive center-block">
         <button class="btn btn_primary" id="openLocation">打开地图</button>
+    </div></div>
      </body>
         <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>  
         <script type="text/javascript">  
