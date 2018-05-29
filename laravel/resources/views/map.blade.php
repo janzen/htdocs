@@ -11,7 +11,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         
-    </head><body ontouchstart=""></body>
+    </head><body ontouchstart="">1</body>
         <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>  
         <script type="text/javascript">  
 wx.config({
