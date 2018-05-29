@@ -7,7 +7,8 @@
 
   <style type="text/css">
         body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
-    </style> </head>
+    </style> 
+</head>
 
     <body>  
    <span class="desc" style="color: red">地理位置接口-使用微信内置地图查看位置接口</span><br>
@@ -28,6 +29,7 @@ wx.config({
     jsApiList: ['openLocation'] // 必填，需要使用的JS接口列表 这里填写需要用到的微信api openlocation为使用微信内置地图查看位置接口
 });
 document.querySelector('#openLocation').onclick = function () {
+    alert("sdf");
     wx.openLocation({
       latitude: 23.099994,
       longitude: 113.324520,
