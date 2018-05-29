@@ -34,6 +34,7 @@ wx.config({
 wx.getLocation({  
             type : 'gcj02', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'  
             success : function(res) {  
+                alert("00");  
                 //使用微信内置地图查看位置接口  
                 wx.openLocation({  
                     latitude : res.latitude, // 纬度，浮点数，范围为90 ~ -90  
@@ -43,9 +44,10 @@ wx.getLocation({
                     scale : 28, // 地图缩放级别,整形值,范围从1~28。默认为最大  
                     infoUrl : 'http://www.gongjuji.net' // 在查看位置界面底部显示的超链接,可点击跳转（测试好像不可用）  
                 });  
+                alert("11");  
             },  
             cancel : function(res) {  
-                  
+                alert("22");  
             }  
         }); 
 
