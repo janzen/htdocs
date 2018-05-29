@@ -20,7 +20,7 @@ class WxAboutController extends Controller
 		$ticket = $jsapiArr['ticket'];
 
 
-		$string='jsapi_ticket='.$ticket.'&noncestr='.$noncestr.'timestamp='.$timestamp.'&url='.$url;
+		$string='jsapi_ticket='.$ticket.'&noncestr='.$noncestr.'&timestamp='.$timestamp.'&url='.$url;
 	    $signature = sha1($string);
 	    $signPackage = array(
 	        "appId"     =>"wxcfa82ce1a3e84893",
