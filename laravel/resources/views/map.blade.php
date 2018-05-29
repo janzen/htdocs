@@ -10,6 +10,8 @@
         <meta name=”description” content=“禾描|实木定制|实木家具定制|实木衣柜定制|实木直拼|实木平拼|实木榻榻米定制|环保|白橡|黑胡桃|木蜡油”>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        
+    </head><body ontouchstart=""></body>
         <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>  
         <script type="text/javascript">  
 wx.config({
@@ -101,8 +103,4 @@ wx.getLocation({
                 margin-bottom: 30px;
             }
         </style>
-    </head>
-    <body>
-    
-    </body>
 </html>
