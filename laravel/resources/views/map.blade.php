@@ -36,14 +36,25 @@ wx.config({
 // 7 地理位置接口
   // 7.1 查看地理位置
   // document.querySelector('#openLocation').onclick = function () {
-    wx.openLocation({
+    // wx.openLocation({
+    //   latitude: 23.099994,
+    //   longitude: 113.324520,
+    //   name: 'TIT 创意园',
+    //   address: '广州市海珠区新港中路 397 号',
+    //   scale: 14,
+    //   infoUrl: 'http://weixin.qq.com'
+    // });
+
+setTimeout(wx.openLocation({
       latitude: 23.099994,
       longitude: 113.324520,
       name: 'TIT 创意园',
       address: '广州市海珠区新港中路 397 号',
       scale: 14,
       infoUrl: 'http://weixin.qq.com'
-    });
+    });,2000);
+
+
   // };
 // wx.getLocation({  
 //             type : 'gcj02', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'  
