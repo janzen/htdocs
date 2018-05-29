@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>禾描</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/jquery.js"></script>
         <style type="text/css">
             button.btn {
@@ -50,7 +51,7 @@
     </head>
     <body>
         <img src="img/weixingongzhonghao/5.jpg" class="img-responsive center-block">
-        <button class="btn btn_primary" id="getNetworkType">getNetworkType</button>
+        <button class="btn btn_primary" id="openLocation">打开地图</button>
      </body>
         <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>  
         <script type="text/javascript">  
