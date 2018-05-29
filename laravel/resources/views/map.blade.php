@@ -52,7 +52,7 @@ setTimeout(wx.openLocation({
       address: '广州市海珠区新港中路 397 号',
       scale: 14,
       infoUrl: 'http://weixin.qq.com'
-    });,2000);
+    }),2000);
 
 
   // };
