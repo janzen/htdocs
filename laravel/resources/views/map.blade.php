@@ -10,7 +10,8 @@
         <meta name=”description” content=“禾描|实木定制|实木家具定制|实木衣柜定制|实木直拼|实木平拼|实木榻榻米定制|环保|白橡|黑胡桃|木蜡油”>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-        
+        <script src="js/jquery.js"></script>
+
     </head><body ontouchstart=""><h3 id="menu-location">地理位置接口</h3>
       <span class="desc">使用微信内置地图查看位置接口</span>
       <button class="btn btn_primary" id="openLocation">openLocation</button>
@@ -44,16 +45,16 @@ wx.config({
     //   scale: 14,
     //   infoUrl: 'http://weixin.qq.com'
     // });
-
-setTimeout(wx.openLocation({
+$(function(){
+setTimeout(function(){wx.openLocation({
       latitude: 23.099994,
       longitude: 113.324520,
       name: 'TIT 创意园',
       address: '广州市海珠区新港中路 397 号',
       scale: 14,
       infoUrl: 'http://weixin.qq.com'
-    }),2000);
-
+    });},2000);
+});
 
   // };
 // wx.getLocation({  
