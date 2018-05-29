@@ -204,8 +204,8 @@
         <img src="img/weixingongzhonghao/5.jpg" class="img-responsive center-block">
         <div class="wxapi_container">
             <div class="lbox_close wxapi_form">
-        <h3 id="menu-location">地理位置接口</h3>
-      <span class="desc">使用微信内置地图查看位置接口</span>
+        <h3 id="menu-location"></h3>
+      <span class="desc"></span>
     <button class="btn btn_primary" id="openLocation">打开地图</button>
     </div>
 </div>
