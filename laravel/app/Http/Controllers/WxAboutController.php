@@ -21,7 +21,7 @@ class WxAboutController extends Controller
 
 
 		$string='jsapi_ticket='.$ticket.'&noncestr='.$noncestr.'×tamp='.$timestamp.'&url='.$url;
-	    $signature = sha1($string);
+	    $signature = sha1("jsapi_ticket=kgt8ON7yVITDhtdwci0qeaoZi7lcUcb-lkVvrsmBjjONtD7LLqmtC157-bE-vv4pEvBN95yWxMBaEK3wbiQCFw&noncestr=KPcelVljpIkk5wO1&timestamp=1527577182&url=http://homerus.cn/maptest");
 	    $signPackage = array(
 	        "appId"     =>"wxcfa82ce1a3e84893",
 	        "nonceStr"  =>$noncestr,
