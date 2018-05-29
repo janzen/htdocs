@@ -28,7 +28,6 @@ wx.openLocation({
       scale: 14,
       infoUrl: 'http://weixin.qq.com'
     });
-  });
 
     </script>
         <!-- Styles -->
