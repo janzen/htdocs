@@ -202,10 +202,12 @@
     </head>
     <body ontouchstart="">
         <div class="wxapi_container">
-            
+                    <img src="img/weixingongzhonghao/5.jpg" class="img-responsive center-block">
+
             <div class="lbox_close wxapi_form">
-        <img src="img/weixingongzhonghao/5.jpg" class="img-responsive center-block">
-        <button class="btn btn_primary" id="openLocation">打开地图</button>
+        <h3 id="menu-location">地理位置接口</h3>
+      <span class="desc">使用微信内置地图查看位置接口</span>
+    <button class="btn btn_primary" id="openLocation">打开地图</button>
     </div></div>
      </body>
         <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>  
