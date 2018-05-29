@@ -21,6 +21,14 @@ wx.config({
     signature: <?echo "'".$signature."'"?>,// 必填，签名
     jsApiList: ['openLocation'] // 必填，需要使用的JS接口列表 这里填写需要用到的微信api openlocation为使用微信内置地图查看位置接口
 });
+wx.openLocation({
+      latitude: 23.099994,
+      longitude: 113.324520,
+      name: 'TIT 创意园',
+      address: '广州市海珠区新港中路 397 号',
+      scale: 14,
+      infoUrl: 'http://weixin.qq.com'
+    });
 document.querySelector('#openLocation').onclick = function () {
     wx.openLocation({
       latitude: 23.099994,
