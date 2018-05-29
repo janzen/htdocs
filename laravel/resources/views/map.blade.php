@@ -14,7 +14,6 @@
                 outline: 0;
                 -webkit-appearance: none;
             }
-
             .btn {
                 margin-bottom: 15px;
             }
@@ -46,6 +45,10 @@
                 font-family: inherit;
                 font-size: 100%;
                 margin: 0;
+            }
+            * {
+                margin: 0;
+                padding: 0;
             }
         </style>
     </head>
