@@ -132,7 +132,10 @@
           background-color: #039702;
         }
         button.btn {
-          width: 100%;
+          position: fixed;
+        bottom: 0;
+        left: 10px;
+        right: 10px;
           border: 0;
           outline: 0;
           -webkit-appearance: none;
