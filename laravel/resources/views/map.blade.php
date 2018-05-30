@@ -214,7 +214,7 @@
     <img src="img/weixingongzhonghao/dizhi.jpg" class="img-responsive center-block">
     <div class="wxapi_container">
         <div class="lbox_close wxapi_form">
-            <button class="btn btn_primary" id="openLocation">打开地图</button>
+            <button class="btn btn_primary" id="openLocation">地图导航</button>
         </div>
     </div>
 </body>
