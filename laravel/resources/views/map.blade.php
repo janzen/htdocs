@@ -66,7 +66,6 @@
           position: relative;
         }
         .lbox_close:before {
-          content: " ";
           position: absolute;
           left: 0;
           top: 0;
@@ -79,7 +78,6 @@
           transform: scale(0.5);
         }
         .lbox_close:after {
-          content: " ";
           position: absolute;
           left: 0;
           top: 0;
