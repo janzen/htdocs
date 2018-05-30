@@ -192,10 +192,8 @@
           -webkit-transform: scale(0.5);
           transform: scale(0.5);
         }
-        .btn {
-          margin-bottom: 15px;
-        }
         .center-block {
+            margin-bottom: 50px;
             display: block;
             margin-right: auto;
             margin-left: auto;
