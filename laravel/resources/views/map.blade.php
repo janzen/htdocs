@@ -191,10 +191,10 @@
           transform: scale(0.5);
         }
         .center-block {
-            padding-bottom: 60px;
+            padding-bottom: 50px;
             display: block;
-            margin-right: auto;
-            margin-left: auto;
+            margin-right: 10px;
+            margin-left: 10px;
             }
         .img-responsive {
             display: block;
