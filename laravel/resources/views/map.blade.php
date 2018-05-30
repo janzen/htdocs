@@ -218,8 +218,6 @@
     <img src="img/weixingongzhonghao/dizhi.jpg" class="img-responsive center-block">
     <div class="wxapi_container">
         <div class="lbox_close wxapi_form">
-            <h3 id="menu-location"></h3>
-            <span class="desc"></span>
             <button class="btn btn_primary" id="openLocation">打开地图</button>
         </div>
     </div>
