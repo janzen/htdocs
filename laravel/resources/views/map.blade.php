@@ -191,7 +191,7 @@
           transform: scale(0.5);
         }
         .center-block {
-            margin-bottom: 50px;
+            margin-bottom: 60px;
             display: block;
             margin-right: auto;
             margin-left: auto;
