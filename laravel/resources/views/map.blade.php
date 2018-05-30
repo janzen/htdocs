@@ -15,7 +15,7 @@
         body {
           line-height: 1.6;
           font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-          background-color: #f1f0f6;
+          background-color: #fff;
         }
         * {
           margin: 0;
@@ -164,9 +164,9 @@
         .wxapi_form {
           padding: 0 15px;
           position: fixed;
-            bottom: 0;
-            left: 10px;
-            right: 10px;
+            bottom: 15px;
+            left: 15px;
+            right: 15px;
         }
         h3 {
           padding-top: 16px;
