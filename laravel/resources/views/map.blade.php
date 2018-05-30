@@ -195,12 +195,10 @@
             display: block;
             margin-right: auto;
             margin-left: auto;
-            padding-left: 10px;
-            padding-right: 10px;
             }
         .img-responsive {
             display: block;
-            max-width: 100%;
+            max-width: 90%;
             height: auto;
         }
         img {
