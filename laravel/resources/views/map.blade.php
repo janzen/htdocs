@@ -2,230 +2,226 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>微信JS-SDK Demo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-        <title>禾描</title>
-        <script src="js/jquery.js"></script>
-        <style type="text/css">
-            html {
-                  -ms-text-size-adjust: 100%;
-                  -webkit-text-size-adjust: 100%;
-                  -webkit-user-select: none;
-                  user-select: none;
-                }
-                body {
-                  line-height: 1.6;
-                  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-                  background-color: #f1f0f6;
-                }
-                * {
-                  margin: 0;
-                  padding: 0;
-                }
-                button {
-                  font-family: inherit;
-                  font-size: 100%;
-                  margin: 0;
-                  *font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-                }
-                ul,
-                ol {
-                  padding-left: 0;
-                  list-style-type: none;
-                }
-                a {
-                  text-decoration: none;
-                }
-                .label_box {
-                  background-color: #ffffff;
-                }
-                .label_item {
-                  padding-left: 15px;
-                }
-                .label_inner {
-                  padding-top: 10px;
-                  padding-bottom: 10px;
-                  min-height: 24px;
-                  position: relative;
-                }
-                .label_inner:before {
-                  content: " ";
-                  position: absolute;
-                  left: 0;
-                  top: 0;
-                  width: 200%;
-                  height: 1px;
-                  border-top: 1px solid #ededed;
-                  -webkit-transform-origin: 0 0;
-                  transform-origin: 0 0;
-                  -webkit-transform: scale(0.5);
-                  transform: scale(0.5);
-                  top: auto;
-                  bottom: -2px;
-                }
-                .lbox_close {
-                  position: relative;
-                }
-                .lbox_close:before {
-                  content: " ";
-                  position: absolute;
-                  left: 0;
-                  top: 0;
-                  width: 200%;
-                  height: 1px;
-                  border-top: 1px solid #ededed;
-                  -webkit-transform-origin: 0 0;
-                  transform-origin: 0 0;
-                  -webkit-transform: scale(0.5);
-                  transform: scale(0.5);
-                }
-                .lbox_close:after {
-                  content: " ";
-                  position: absolute;
-                  left: 0;
-                  top: 0;
-                  width: 200%;
-                  height: 1px;
-                  border-top: 1px solid #ededed;
-                  -webkit-transform-origin: 0 0;
-                  transform-origin: 0 0;
-                  -webkit-transform: scale(0.5);
-                  transform: scale(0.5);
-                  top: auto;
-                  bottom: -2px;
-                }
-                .lbox_close .label_item:last-child .label_inner:before {
-                  display: none;
-                }
-                .btn {
-                  display: block;
-                  margin-left: auto;
-                  margin-right: auto;
-                  padding-left: 14px;
-                  padding-right: 14px;
-                  font-size: 18px;
-                  text-align: center;
-                  text-decoration: none;
-                  overflow: visible;
-                  /*.btn_h(@btnHeight);*/
-                  height: 42px;
-                  border-radius: 5px;
-                  -moz-border-radius: 5px;
-                  -webkit-border-radius: 5px;
-                  box-sizing: border-box;
-                  -moz-box-sizing: border-box;
-                  -webkit-box-sizing: border-box;
-                  color: #ffffff;
-                  line-height: 42px;
-                  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-                }
-                .btn.btn_inline {
-                  display: inline-block;
-                }
-                .btn_primary {
-                  background-color: #04be02;
-                }
-                .btn_primary:not(.btn_disabled):visited {
-                  color: #ffffff;
-                }
-                .btn_primary:not(.btn_disabled):active {
-                  color: rgba(255, 255, 255, 0.9);
-                  background-color: #039702;
-                }
-                button.btn {
-                  width: 100%;
-                  border: 0;
-                  outline: 0;
-                  -webkit-appearance: none;
-                }
-                button.btn:focus {
-                  outline: 0;
-                }
-                .wxapi_container {
-                  font-size: 16px;
-                }
-                h1 {
-                  font-size: 14px;
-                  font-weight: 400;
-                  line-height: 2em;
-                  padding-left: 15px;
-                  color: #8d8c92;
-                }
-                .desc {
-                  font-size: 14px;
-                  font-weight: 400;
-                  line-height: 2em;
-                  color: #8d8c92;
-                }
-                .wxapi_index_item a {
-                  display: block;
-                  color: #3e3e3e;
-                  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-                }
-                .wxapi_form {
-                  background-color: #ffffff;
-                  padding: 0 15px;
-                  margin-top: 30px;
-                  padding-bottom: 15px;
-                }
-                h3 {
-                  padding-top: 16px;
-                  margin-top: 25px;
-                  font-size: 16px;
-                  font-weight: 400;
-                  color: #3e3e3e;
-                  position: relative;
-                }
-                h3:first-child {
-                  padding-top: 15px;
-                }
-                h3:before {
-                  content: " ";
-                  position: absolute;
-                  left: 0;
-                  top: 0;
-                  width: 200%;
-                  height: 1px;
-                  border-top: 1px solid #ededed;
-                  -webkit-transform-origin: 0 0;
-                  transform-origin: 0 0;
-                  -webkit-transform: scale(0.5);
-                  transform: scale(0.5);
-                }
-                .btn {
-                  margin-bottom: 15px;
-                }
-                .center-block {
-                    display: block;
-                    margin-right: auto;
-                    margin-left: auto;
-                    }
-                .img-responsive {
-                    display: block;
-                    max-width: 100%;
-                    height: auto;
-                }
-                img {
-                    vertical-align: middle;
-                }
-                img {
-                    border: 0;
-                }
+<title>禾描</title>
+<script src="js/jquery.js"></script>
+<style type="text/css">
+    html {
+          -ms-text-size-adjust: 100%;
+          -webkit-text-size-adjust: 100%;
+          -webkit-user-select: none;
+          user-select: none;
+        }
+        body {
+          line-height: 1.6;
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          background-color: #f1f0f6;
+        }
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        button {
+          font-family: inherit;
+          font-size: 100%;
+          margin: 0;
+          *font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        ul,
+        ol {
+          padding-left: 0;
+          list-style-type: none;
+        }
+        a {
+          text-decoration: none;
+        }
+        .label_box {
+          background-color: #ffffff;
+        }
+        .label_item {
+          padding-left: 15px;
+        }
+        .label_inner {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          min-height: 24px;
+          position: relative;
+        }
+        .label_inner:before {
+          content: " ";
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 200%;
+          height: 1px;
+          border-top: 1px solid #ededed;
+          -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+          -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+          top: auto;
+          bottom: -2px;
+        }
+        .lbox_close {
+          position: relative;
+        }
+        .lbox_close:before {
+          content: " ";
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 200%;
+          height: 1px;
+          border-top: 1px solid #ededed;
+          -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+          -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+        }
+        .lbox_close:after {
+          content: " ";
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 200%;
+          height: 1px;
+          border-top: 1px solid #ededed;
+          -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+          -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+          top: auto;
+          bottom: -2px;
+        }
+        .lbox_close .label_item:last-child .label_inner:before {
+          display: none;
+        }
+        .btn {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: 14px;
+          padding-right: 14px;
+          font-size: 18px;
+          text-align: center;
+          text-decoration: none;
+          overflow: visible;
+          /*.btn_h(@btnHeight);*/
+          height: 42px;
+          border-radius: 5px;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          color: #ffffff;
+          line-height: 42px;
+          -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+        }
+        .btn.btn_inline {
+          display: inline-block;
+        }
+        .btn_primary {
+          background-color: #04be02;
+        }
+        .btn_primary:not(.btn_disabled):visited {
+          color: #ffffff;
+        }
+        .btn_primary:not(.btn_disabled):active {
+          color: rgba(255, 255, 255, 0.9);
+          background-color: #039702;
+        }
+        button.btn {
+          width: 100%;
+          border: 0;
+          outline: 0;
+          -webkit-appearance: none;
+        }
+        button.btn:focus {
+          outline: 0;
+        }
+        .wxapi_container {
+          font-size: 16px;
+        }
+        h1 {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 2em;
+          padding-left: 15px;
+          color: #8d8c92;
+        }
+        .desc {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 2em;
+          color: #8d8c92;
+        }
+        .wxapi_index_item a {
+          display: block;
+          color: #3e3e3e;
+          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+        .wxapi_form {
+          padding: 0 15px;
+        }
+        h3 {
+          padding-top: 16px;
+          margin-top: 25px;
+          font-size: 16px;
+          font-weight: 400;
+          color: #3e3e3e;
+          position: relative;
+        }
+        h3:first-child {
+          padding-top: 15px;
+        }
+        h3:before {
+          content: " ";
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 200%;
+          height: 1px;
+          border-top: 1px solid #ededed;
+          -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+          -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+        }
+        .btn {
+          margin-bottom: 15px;
+        }
+        .center-block {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            }
+        .img-responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        img {
+            vertical-align: middle;
+        }
+        img {
+            border: 0;
+        }
 
-        </style>
-    </head>
-    <body ontouchstart="">
-        <img src="img/weixingongzhonghao/5.jpg" class="img-responsive center-block">
-        <div class="wxapi_container">
-            <div class="lbox_close wxapi_form">
-        <h3 id="menu-location"></h3>
-      <span class="desc"></span>
-    <button class="btn btn_primary" id="openLocation">打开地图</button>
+</style>
+</head>
+<body ontouchstart="">
+    <img src="img/weixingongzhonghao/5.jpg" class="img-responsive center-block">
+    <div class="wxapi_container">
+        <div class="lbox_close wxapi_form">
+            <h3 id="menu-location"></h3>
+            <span class="desc"></span>
+            <button class="btn btn_primary" id="openLocation">打开地图</button>
+        </div>
     </div>
-</div>
-     </body>
-        <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>  
-        <script type="text/javascript">  
+</body>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>  
+<script type="text/javascript">  
 wx.config({
     debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
     appId: <?echo "'".$appId."'"?>, // 必填，公众号的唯一标识
