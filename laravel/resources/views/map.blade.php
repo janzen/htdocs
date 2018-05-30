@@ -215,7 +215,7 @@
 </style>
 </head>
 <body ontouchstart="">
-    <img src="img/weixingongzhonghao/5.jpg" class="img-responsive center-block">
+    <img src="img/weixingongzhonghao/dizhi.jpg" class="img-responsive center-block">
     <div class="wxapi_container">
         <div class="lbox_close wxapi_form">
             <h3 id="menu-location"></h3>
