@@ -1,9 +1,9 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>微信JS-SDK Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
         <title>禾描</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/jquery.js"></script>
