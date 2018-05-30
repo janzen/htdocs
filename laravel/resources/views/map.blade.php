@@ -5,7 +5,6 @@
   <title>微信JS-SDK Demo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
         <title>禾描</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/jquery.js"></script>
         <style type="text/css">
             html {
