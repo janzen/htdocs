@@ -195,7 +195,22 @@
                 .btn {
                   margin-bottom: 15px;
                 }
-
+                .center-block {
+                    display: block;
+                    margin-right: auto;
+                    margin-left: auto;
+                    }
+                .img-responsive {
+                    display: block;
+                    max-width: 100%;
+                    height: auto;
+                }
+                img {
+                    vertical-align: middle;
+                }
+                img {
+                    border: 0;
+                }
 
         </style>
     </head>
