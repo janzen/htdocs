@@ -198,7 +198,7 @@
             }
         .img-responsive {
             display: block;
-            max-width: 90%;
+            max-width: 95%;
             height: auto;
         }
         img {
