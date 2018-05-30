@@ -132,10 +132,7 @@
           background-color: #039702;
         }
         button.btn {
-          position: fixed;
-        bottom: 0;
-        left: 10px;
-        right: 10px;
+          width: 100%;
           border: 0;
           outline: 0;
           -webkit-appearance: none;
@@ -166,6 +163,10 @@
         }
         .wxapi_form {
           padding: 0 15px;
+          position: fixed;
+            bottom: 0;
+            left: 10px;
+            right: 10px;
         }
         h3 {
           padding-top: 16px;
