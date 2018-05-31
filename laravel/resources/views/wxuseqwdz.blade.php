@@ -35,6 +35,7 @@
             <img src="img/weixingongzhonghao/9.jpg" class="img-responsive center-block">
             <img src="img/weixingongzhonghao/10.jpg" class="img-responsive center-block">
             <img src="img/weixingongzhonghao/4.jpg" class="img-responsive center-block">
+            <img src="img/weixingongzhonghao/13.jpg" class="img-responsive center-block">
             <img src="img/weixingongzhonghao/11.jpg" class="img-responsive center-block">
             <img src="img/weixingongzhonghao/12.jpg" class="img-responsive center-block">
 </html>
