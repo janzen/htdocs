@@ -44,4 +44,8 @@ class WxAboutController extends Controller
 	    }
 	    return $str;
 	  }
+
+	  public function productManual(){
+	  	
+	  }
 }
