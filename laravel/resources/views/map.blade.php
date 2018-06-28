@@ -213,7 +213,7 @@
 <body ontouchstart="">
     <img src="img/weixingongzhonghao/dizhi.jpg" class="img-responsive center-block">
     <div class="img-responsive center-block">
-      <h3>线下店在哪儿</h3>
+      <h1>线下店在哪儿</h1>
       <p>为了帮助客户节约成本，以及创建更真实的空间感，禾描不设立独立卖场，体验店接受预约参观。</p>
       <p>营业时间：13:30～22:30（其他时间也接受预约）</p>
       <p>预约电话：15110178004（微信同号）</p>
