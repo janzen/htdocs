@@ -192,7 +192,6 @@
           transform: scale(0.5);
         }
         .center-block {
-            padding-bottom: 50px;
             display: block;
             margin-right: auto;
             margin-left: auto;
@@ -213,7 +212,7 @@
 </head>
 <body ontouchstart="">
     <img src="img/weixingongzhonghao/dizhi.jpg" class="img-responsive center-block">
-    <div>
+    <div class="center-block">
       <h3>线下店在哪儿</h3>
       <p>为了帮助客户节约成本，以及创建更真实的空间感，禾描不设立独立卖场，体验店接受预约参观。</p>
       <p>营业时间：13:30～22:30（其他时间也接受预约）</p>
