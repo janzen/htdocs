@@ -170,7 +170,7 @@
         h3 {
           padding-top: 16px;
           margin-top: 25px;
-          font-size: 22px;
+          font-size: 20px;
           font-weight: 400;
           color: #3e3e3e;
           position: relative;
@@ -209,7 +209,7 @@
         }
 
         .pfont{
-          font-size: 16px;
+          font-size: 14px;
           color: #3e3e3e;
         }
 </style>
