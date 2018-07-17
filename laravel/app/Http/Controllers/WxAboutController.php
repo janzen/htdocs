@@ -60,7 +60,7 @@ class WxAboutController extends Controller
       "publishedAt": "2018-07-13T00:00:00.0Z", 
       "source": "web", 
       "type": "\u798f\u5229", 
-      "url": "http://ww1.sinaimg.cn/large/0073sXn7ly1ft82s05kpaj30j50pjq9v.jpg", 
+      "url": "http://www.homerus.cn/img/thumbs/shujia.jpg", 
       "used": true, 
       "who": "lijinshanmx"
     }, 
@@ -71,7 +71,7 @@ class WxAboutController extends Controller
       "publishedAt": "2018-07-11T00:00:00.0Z", 
       "source": "web", 
       "type": "\u798f\u5229", 
-      "url": "https://ww1.sinaimg.cn/large/0065oQSqly1ft5q7ys128j30sg10gnk5.jpg", 
+      "url": "http://www.homerus.cn/img/thumbs/shujia.jpg", 
       "used": true, 
       "who": "lijinshanmx"
     }, 
@@ -82,7 +82,7 @@ class WxAboutController extends Controller
       "publishedAt": "2018-07-10T00:00:00.0Z", 
       "source": "web", 
       "type": "\u798f\u5229", 
-      "url": "https://ww1.sinaimg.cn/large/0065oQSqgy1ft4kqrmb9bj30sg10fdzq.jpg", 
+      "url": "http://www.homerus.cn/img/thumbs/shujia.jpg", 
       "used": true, 
       "who": "lijinshanmx"
     }, 
@@ -93,7 +93,7 @@ class WxAboutController extends Controller
       "publishedAt": "2018-07-09T00:00:00.0Z", 
       "source": "web", 
       "type": "\u798f\u5229", 
-      "url": "http://ww1.sinaimg.cn/large/0065oQSqly1ft3fna1ef9j30s210skgd.jpg", 
+      "url": "http://www.homerus.cn/img/thumbs/shujia.jpg", 
       "used": true, 
       "who": "lijinshanmx"
     }, 
@@ -104,7 +104,7 @@ class WxAboutController extends Controller
       "publishedAt": "2018-07-06T00:00:00.0Z", 
       "source": "web", 
       "type": "\u798f\u5229", 
-      "url": "http://ww1.sinaimg.cn/large/0065oQSqly1fszxi9lmmzj30f00jdadv.jpg", 
+      "url": "http://www.homerus.cn/img/thumbs/shujia.jpg", 
       "used": true, 
       "who": "lijinshanmx"
     }, 
@@ -115,7 +115,7 @@ class WxAboutController extends Controller
       "publishedAt": "2018-07-05T00:00:00.0Z", 
       "source": "web", 
       "type": "\u798f\u5229", 
-      "url": "http://ww1.sinaimg.cn/large/0065oQSqly1fsysqszneoj30hi0pvqb7.jpg", 
+      "url": "http://www.homerus.cn/img/thumbs/shujia.jpg", 
       "used": true, 
       "who": "lijinshanmx"
     }, 
@@ -126,7 +126,7 @@ class WxAboutController extends Controller
       "publishedAt": "2018-07-03T00:00:00.0Z", 
       "source": "web", 
       "type": "\u798f\u5229", 
-      "url": "http://ww1.sinaimg.cn/large/0065oQSqly1fswhaqvnobj30sg14hka0.jpg", 
+      "url": "http://www.homerus.cn/img/thumbs/shujia.jpg", 
       "used": true, 
       "who": "lijinshanmx"
     }, 
@@ -137,7 +137,7 @@ class WxAboutController extends Controller
       "publishedAt": "2018-07-02T00:00:00.0Z", 
       "source": "web", 
       "type": "\u798f\u5229", 
-      "url": "http://ww1.sinaimg.cn/large/0065oQSqly1fsvb1xduvaj30u013175p.jpg", 
+      "url": "http://www.homerus.cn/img/thumbs/shujia.jpg", 
       "used": true, 
       "who": "lijinshanmx"
     }, 
@@ -148,7 +148,7 @@ class WxAboutController extends Controller
       "publishedAt": "2018-06-28T00:00:00.0Z", 
       "source": "web", 
       "type": "\u798f\u5229", 
-      "url": "http://ww1.sinaimg.cn/large/0065oQSqly1fsq9iq8ttrj30k80q9wi4.jpg", 
+      "url": "http://www.homerus.cn/img/thumbs/shujia.jpg", 
       "used": true, 
       "who": "lijinshanmx"
     }, 
@@ -159,7 +159,7 @@ class WxAboutController extends Controller
       "publishedAt": "2018-06-27T00:00:00.0Z", 
       "source": "web", 
       "type": "\u798f\u5229", 
-      "url": "http://ww1.sinaimg.cn/large/0065oQSqly1fsp4iok6o4j30j60optbl.jpg", 
+      "url": "http://www.homerus.cn/img/thumbs/shujia.jpg", 
       "used": true, 
       "who": "lijinshanmx"
     }
