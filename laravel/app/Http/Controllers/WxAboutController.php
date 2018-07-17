@@ -62,7 +62,7 @@ class WxAboutController extends Controller
       "type": "\u798f\u5229", 
       "url": "http://wsw.homerus.cn/img/weixingongzhonghao/1.jpg", 
       "used": true, 
-      "who": "lijinshanmx"
+      "who": "homerus"
     }, 
     {
       "_id": "5b456f5d421aa92fc4eebe48", 
@@ -73,7 +73,7 @@ class WxAboutController extends Controller
       "type": "\u798f\u5229", 
       "url": "http://wsw.homerus.cn/img/weixingongzhonghao/1.jpg", 
       "used": true, 
-      "who": "lijinshanmx"
+      "who": "homerus"
     }, 
     {
       "_id": "5b441f06421aa92fccb520a2", 
@@ -84,7 +84,7 @@ class WxAboutController extends Controller
       "type": "\u798f\u5229", 
       "url": "http://wsw.homerus.cn/img/weixingongzhonghao/1.jpg", 
       "used": true, 
-      "who": "lijinshanmx"
+      "who": "homerus"
     }, 
     {
       "_id": "5b42d1aa421aa92d1cba2918", 
@@ -95,7 +95,7 @@ class WxAboutController extends Controller
       "type": "\u798f\u5229", 
       "url": "http://wsw.homerus.cn/img/weixingongzhonghao/1.jpg", 
       "used": true, 
-      "who": "lijinshanmx"
+      "who": "homerus"
     }, 
     {
       "_id": "5b3ed2d5421aa91cfe803e35", 
@@ -106,7 +106,7 @@ class WxAboutController extends Controller
       "type": "\u798f\u5229", 
       "url": "http://wsw.homerus.cn/img/weixingongzhonghao/1.jpg", 
       "used": true, 
-      "who": "lijinshanmx"
+      "who": "homerus"
     }, 
     {
       "_id": "5b3d883f421aa906e5b3c6f1", 
@@ -117,7 +117,7 @@ class WxAboutController extends Controller
       "type": "\u798f\u5229", 
       "url": "http://wsw.homerus.cn/img/weixingongzhonghao/1.jpg", 
       "used": true, 
-      "who": "lijinshanmx"
+      "who": "homerus"
     }, 
     {
       "_id": "5b3ae394421aa906e7db029b", 
@@ -128,7 +128,7 @@ class WxAboutController extends Controller
       "type": "\u798f\u5229", 
       "url": "http://wsw.homerus.cn/img/weixingongzhonghao/1.jpg", 
       "used": true, 
-      "who": "lijinshanmx"
+      "who": "homerus"
     }, 
     {
       "_id": "5b398cf8421aa95570db5491", 
@@ -139,7 +139,7 @@ class WxAboutController extends Controller
       "type": "\u798f\u5229", 
       "url": "http://wsw.homerus.cn/img/weixingongzhonghao/1.jpg", 
       "used": true, 
-      "who": "lijinshanmx"
+      "who": "homerus"
     }, 
     {
       "_id": "5b33ccf2421aa95570db5478", 
@@ -150,7 +150,7 @@ class WxAboutController extends Controller
       "type": "\u798f\u5229", 
       "url": "http://wsw.homerus.cn/img/weixingongzhonghao/1.jpg", 
       "used": true, 
-      "who": "lijinshanmx"
+      "who": "homerus"
     }, 
     {
       "_id": "5b32807e421aa95570db5471", 
@@ -161,7 +161,7 @@ class WxAboutController extends Controller
       "type": "\u798f\u5229", 
       "url": "http://wsw.homerus.cn/img/weixingongzhonghao/1.jpg", 
       "used": true, 
-      "who": "lijinshanmx"
+      "who": "homerus"
     }
   ]
 }';
