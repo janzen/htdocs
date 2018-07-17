@@ -18,6 +18,8 @@ Route::get('/wxuseqwdz', function () {
 });
 Route::get('/hemiaomap','WxAboutController@wxMap');
 
+Route::get('homerusPhoto','WxAboutController@homerusPhoto');
+
 Route::get('/hemiao', function () {
 	return view('welcome');
 });
