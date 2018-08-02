@@ -47,9 +47,13 @@
             <li><a href="#blog" class="smoothScroll">服务</a></li>
             <li><a href="#about" class="smoothScroll">关于我们</a></li>
             <li>
+              <a class="visible-xs-block visible-sm-block" target="_blank" href="http://hemiaojiaju.jd.com" class="smoothScroll">京东</a>
+              <a class="visible-md-block visible-lg-block" target="_blank" href="http://hemiaojiaju.jd.com" class="smoothScroll" >京东</a>
+            </li>
+            <li>
               <a class="visible-xs-block visible-sm-block" target="_blank" href="http://shop111117.top/eDG4KS" class="smoothScroll">淘宝</a>
               <a class="visible-md-block visible-lg-block" target="_blank" href="https://shop142723414.taobao.com" class="smoothScroll" >淘宝</a>
-              </li>
+            </li>
       </ul>
     </div>
   </div>
@@ -395,12 +399,16 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="col-md-2 col-md-offset-4">
+      	<div class="col-md-2 col-md-offset-3">
+          <img class="img-responsive center-block" style="width: 100px" data-original="/img/material/jingdong.png" alt="京东店铺" />
+          <p style="font-weight: lighter;color: #7b7b7b;">京东店铺</p>
+        </div>
+        <div class="col-md-2">
           <img class="img-responsive center-block" style="width: 100px" data-original="/img/material/wx_ma.png" alt="禾描公众号" />
           <p style="font-weight: lighter;color: #7b7b7b;">微信公众号</p>
         </div>
         <div class="col-md-2">
-          <img class="img-responsive center-block" style="width: 100px" data-original="/img/material/wx_ma.png" alt="禾描公众号" />
+          <img class="img-responsive center-block" style="width: 100px" data-original="/img/material/taobao.png" alt="淘宝店铺" />
           <p style="font-weight: lighter;color: #7b7b7b;">淘宝店铺</p>
         </div>
       </div>
