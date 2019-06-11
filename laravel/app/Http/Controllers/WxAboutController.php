@@ -51,7 +51,60 @@ class WxAboutController extends Controller
 
     public function wxXcx(Request $request){
         $page = $request->page;
-        
+        if($page==1){
+          return "{
+            'error':false,
+            'results':[
+              {'toptitle':'餐厅',
+              'listcontent':[
+                  {
+                    'title':'餐桌',
+                    'listdesc':[
+                      {'type':'2','title':'餐桌','img':'http://www.homerus.cn/img/chanpinji/canzhuo1.jpg'},
+                      {'type':'2','title':'餐桌','img':'http://www.homerus.cn/img/chanpinji/canzhuo2.jpg'},
+                      {'type':'2','title':'餐桌','img':'http://www.homerus.cn/img/chanpinji/canzhuo3.jpg'},
+                    ]
+                  },
+                  {
+                    'title':'餐椅',
+                    'listdesc':[
+                      {'type':'2','title':'餐椅','img':'http://www.homerus.cn/img/chanpinji/canyi1.jpg'},
+                      {'type':'2','title':'餐椅','img':'http://www.homerus.cn/img/chanpinji/canyi2.jpg'},
+                      {'type':'2','title':'餐桌','img':'http://www.homerus.cn/img/chanpinji/canyi3.jpg'},
+                    ]
+                  },
+                  {
+                    'title':'餐边柜',
+                    'listdesc':[
+                      {'type':'2','title':'餐边柜','img':'http://www.homerus.cn/img/chanpinji/canbiangui1.jpg'},
+                      {'type':'2','title':'餐边柜','img':'http://www.homerus.cn/img/chanpinji/canbiangui2.jpg'}
+                    ]
+                  }
+                ]
+              },
+              {'toptitle':'客厅',
+              'listcontent':[
+                  {
+                    'title':'电视柜',
+                    'listdesc':[
+                      {'type':'2','title':'电视柜','img':'http://www.homerus.cn/img/chanpinji/dainshigui1.jpg'},
+                      {'type':'2','title':'电视柜','img':'http://www.homerus.cn/img/chanpinji/dianshigui2.jpg'},
+                      {'type':'2','title':'电视柜','img':'http://www.homerus.cn/img/chanpinji/dianshigui3.jpg'},
+                      {'type':'2','title':'电视柜','img':'http://www.homerus.cn/img/chanpinji/dianshigui4.jpg'},
+                    ]
+                  },
+                  {
+                    'title':'沙发',
+                    'listdesc':[
+                      {'type':'2','title':'沙发','img':'http://www.homerus.cn/img/chanpinji/shafa1.jpg'},
+                      {'type':'2','title':'沙发','img':'http://www.homerus.cn/img/chanpinji/shafa2.jpg'},
+                      {'type':'2','title':'沙发','img':'http://www.homerus.cn/img/chanpinji/shafa3.jpg'}
+                    ]
+                  }              
+                ]
+              }
+            ]}";
+        }
     }
 	  public function homerusPhoto(){
 	  	return '{
