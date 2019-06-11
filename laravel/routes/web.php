@@ -16,6 +16,9 @@ Route::get('/', function () {
 Route::get('/wxuseqwdz', function () {
     return view('wxuseqwdz');
 });
+
+Route::get('/hemiaoxcx/{page}','WxAboutController@wxXcx');
+
 Route::get('/hemiaomap','WxAboutController@wxMap');
 
 Route::get('homerusPhoto','WxAboutController@homerusPhoto');
