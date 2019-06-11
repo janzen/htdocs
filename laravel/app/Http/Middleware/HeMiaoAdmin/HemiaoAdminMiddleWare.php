@@ -15,9 +15,9 @@ class HemiaoAdminMiddleWare
      */
     public function handle($request, Closure $next)
     {
-        if(session('userinfo')==null && $request->path() != 'login' && $request->path() != 'wxuseqwdz' && $request->path() != 'hemiaoxcx' && $request->path() != 'hemiaomap' && $request->path() != 'homerusPhoto' && $request->path() != '/'){
-            return redirect("/login"); 
-        }
+        // if(session('userinfo')==null && $request->path() != 'login' && $request->path() != 'wxuseqwdz' && $request->path() != 'hemiaoxcx' && $request->path() != 'hemiaomap' && $request->path() != 'homerusPhoto' && $request->path() != '/'){
+        //     return redirect("/login"); 
+        // }
         return $next($request);
     }
 }
