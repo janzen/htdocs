@@ -52,88 +52,23 @@ class WxAboutController extends Controller
     public function wxXcx(Request $request){
         $page = $request->page;
         if($page==1){
-          $list=array(
-                  "error"=>false,
-                  "results"=>array("toptitle"=>'餐厅',
-                                   "listcontent"=>array("title"=>'餐桌',
-                                                        "listdesc"=>array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐桌',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo1.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐桌',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo2.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐桌',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo3.jpg'
-                                                                    )
-                                                      ),
-                                                      array("title"=>'餐椅',
-                                                        "listdesc"=>array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐椅',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canyi1.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐椅',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canyi2.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐椅',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canyi3.jpg'
-                                                                    )
-                                                      ),
-                                                      array("title"=>'餐边柜',
-                                                        "listdesc"=>array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐边柜',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canbiangui1.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐边柜',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canbiangui2.jpg'
-                                                                    )
-                                                      )
-                                 ),
-                            array("toptitle"=>'客厅',
-                                   "listcontent"=>array("title"=>'电视柜',
-                                                        "listdesc"=>array(
-                                                                      "type"=>2,
-                                                                      "title"=>'电视柜',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/dainshigui1.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'电视柜',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/dainshigui2.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'电视柜',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/dainshigui3.jpg'
-                                                                    )
-                                                      ),
-                                                      array("title"=>'沙发',
-                                                        "listdesc"=>array(
-                                                                      "type"=>2,
-                                                                      "title"=>'沙发',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/shafa1.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'沙发',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/shafa2.jpg'
-                                                                    )
-                                                      )
-                                 )
-                );
+          $list["error"] = false;
+          $list["results"][0]["toptitle"] =  '餐厅';
+          $list["results"][0]["listcontent"][0]["title"] =  '餐桌';
+          $list["results"][0]["listcontent"][0]["listdesc"][0]["type"] =  2;
+          $list["results"][0]["listcontent"][0]["listdesc"][0]["title"] =  '餐桌';
+          $list["results"][0]["listcontent"][0]["listdesc"][0]["img"] =  'http://www.homerus.cn/img/chanpinji/canzhuo1.jpg';
+          $list["results"][0]["listcontent"][0]["listdesc"][1]["type"] =  2;
+          $list["results"][0]["listcontent"][0]["listdesc"][1]["title"] =  '餐桌';
+          $list["results"][0]["listcontent"][0]["listdesc"][1]["img"] =  'http://www.homerus.cn/img/chanpinji/canzhuo2.jpg';
+
+          $list["results"][0]["listcontent"][1]["listdesc"][0]["type"] =  2;
+          $list["results"][0]["listcontent"][1]["listdesc"][0]["title"] =  '餐椅';
+          $list["results"][0]["listcontent"][1]["listdesc"][0]["img"] =  'http://www.homerus.cn/img/chanpinji/canyi1.jpg';
+          $list["results"][0]["listcontent"][1]["listdesc"][1]["type"] =  2;
+          $list["results"][0]["listcontent"][1]["listdesc"][1]["title"] =  '餐椅';
+          $list["results"][0]["listcontent"][1]["listdesc"][1]["img"] =  'http://www.homerus.cn/img/chanpinji/canyi2.jpg';
+
 
 
           return json_encode($list);
