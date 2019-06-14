@@ -136,7 +136,7 @@ class WxAboutController extends Controller
                 );
 
 
-          return $list;
+          return json_encode($list);
         }
     }
 	  public function homerusPhoto(){
