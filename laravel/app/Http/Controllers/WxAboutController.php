@@ -55,85 +55,101 @@ class WxAboutController extends Controller
           
           $list=array(
                   "error"=>false,
-                  "results"=>array("toptitle"=>'餐厅',
-                                   "listcontent"=>array("title"=>'餐桌',
+                  "results"=>array(
+                                array("toptitle"=>'餐厅',
+                                   "listcontent"=>array(
+                                                      array("title"=>'餐桌',
                                                         "listdesc"=>array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐桌',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo1.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐桌',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo2.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐桌',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo3.jpg'
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo1.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo2.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo3.jpg'
+                                                                      )
                                                                     )
                                                       ),
                                                       array("title"=>'餐椅',
                                                         "listdesc"=>array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐椅',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canyi1.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐椅',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canyi2.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐椅',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canyi3.jpg'
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐椅',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canyi1.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐椅',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canyi2.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐椅',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canyi3.jpg'
+                                                                      )
                                                                     )
                                                       ),
                                                       array("title"=>'餐边柜',
                                                         "listdesc"=>array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐边柜',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canbiangui1.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'餐边柜',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/canbiangui2.jpg'
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐边柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canbiangui1.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐边柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canbiangui2.jpg'
+                                                                      )
                                                                     )
                                                       )
+                                                    )
                                  ),
                             array("toptitle"=>'客厅',
-                                   "listcontent"=>array("title"=>'电视柜',
+                                   "listcontent"=>array(
+                                                      array("title"=>'电视柜',
                                                         "listdesc"=>array(
-                                                                      "type"=>2,
-                                                                      "title"=>'电视柜',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/dainshigui1.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'电视柜',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/dainshigui2.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'电视柜',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/dainshigui3.jpg'
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'电视柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dainshigui1.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'电视柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dainshigui2.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'电视柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dainshigui3.jpg'
+                                                                      )
                                                                     )
                                                       ),
                                                       array("title"=>'沙发',
                                                         "listdesc"=>array(
-                                                                      "type"=>2,
-                                                                      "title"=>'沙发',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/shafa1.jpg'
-                                                                    ),
-                                                                    array(
-                                                                      "type"=>2,
-                                                                      "title"=>'沙发',
-                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/shafa2.jpg'
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'沙发',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shafa1.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'沙发',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shafa2.jpg'
+                                                                      )
                                                                     )
                                                       )
+                                                    )
                                  )
+                          )
                 );
 
 print("<pre>"); // 格式化输出数组 
