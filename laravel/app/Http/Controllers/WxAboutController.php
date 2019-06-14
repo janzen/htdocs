@@ -137,9 +137,8 @@ class WxAboutController extends Controller
                 );
 
 print("<pre>"); // 格式化输出数组 
-print_r($list); 
-print("</pre>"); 
-          return json_encode($list);
+print_r($list);
+          // return json_encode($list);
         }
     }
 	  public function homerusPhoto(){
