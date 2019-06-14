@@ -133,7 +133,7 @@ class WxAboutController extends Controller
                                                                     )
                                                       )
                                  )
-                )
+                );
 
 
           return $list;
