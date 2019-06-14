@@ -69,7 +69,7 @@ class WxAboutController extends Controller
           $list["results"][0]["listcontent"][1]["listdesc"][1]["title"] =  '餐椅';
           $list["results"][0]["listcontent"][1]["listdesc"][1]["img"] =  'http://www.homerus.cn/img/chanpinji/canyi2.jpg';
 
-
+          print_r($list);
 
           return json_encode($list);
         }
