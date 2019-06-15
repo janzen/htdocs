@@ -149,12 +149,17 @@ class WxAboutController extends Controller
                                                                         "type"=>2,
                                                                         "title"=>'沙发',
                                                                         "img"=>'http://www.homerus.cn/img/chanpinji/shafa2.jpg'
+                                                                      ),array(
+                                                                        "type"=>2,
+                                                                        "title"=>'沙发',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shafa3.jpg'
                                                                       )
                                                                     )
                                                       )
                                                     )
                                  )
-                          )
+                          ),
+                  "listmap"=>array('http://www.homerus.cn/img/chanpinji/canzhuo1.jpg','http://www.homerus.cn/img/chanpinji/canzhuo2.jpg','http://www.homerus.cn/img/chanpinji/canzhuo3.jpg','http://www.homerus.cn/img/chanpinji/canyi1.jpg','http://www.homerus.cn/img/chanpinji/canyi2.jpg','http://www.homerus.cn/img/chanpinji/canyi3.jpg','http://www.homerus.cn/img/chanpinji/canbiangui1.jpg','http://www.homerus.cn/img/chanpinji/canbiangui2.jpg','http://www.homerus.cn/img/chanpinji/dainshigui1.jpg','http://www.homerus.cn/img/chanpinji/dainshigui2.jpg','http://www.homerus.cn/img/chanpinji/dainshigui3.jpg','http://www.homerus.cn/img/chanpinji/dainshigui4.jpg','http://www.homerus.cn/img/chanpinji/shafa1.jpg','http://www.homerus.cn/img/chanpinji/shafa2.jpg','http://www.homerus.cn/img/chanpinji/shafa3.jpg')
                 );
 
           return $list;
