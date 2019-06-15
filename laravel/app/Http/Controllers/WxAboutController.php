@@ -124,12 +124,17 @@ class WxAboutController extends Controller
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'电视柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dainshigui2.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dianshigui2.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'电视柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dainshigui3.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dianshigui3.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'电视柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dianshigui4.jpg'
                                                                       )
                                                                     )
                                                       ),
@@ -152,7 +157,7 @@ class WxAboutController extends Controller
                           )
                 );
 
-          return json_encode($list);
+          return $list;
         }
     }
 	  public function homerusPhoto(){
