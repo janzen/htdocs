@@ -274,6 +274,12 @@ class WxAboutController extends Controller
                 );
 
           return $list;
+        }else{
+          $list=array(
+                  "error"=>false,
+                  "results"=>array(),
+                );
+          return $list;
         }
     }
 	  public function homerusPhoto(){
