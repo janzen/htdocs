@@ -287,28 +287,28 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-          <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_1.jpg">
+          <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_ding.jpg">
             <div class="col-md-12 col-xs-12 box_background">
               <div class="col-md-9 col-xs-9 box_content_div">
-              <p class="box_p_1">找不到合适的家具，像他们一样定制吧</p>
-              <p class="box_p_2">一房，两人，三只喵，他们选择定制家具</p>
+              <p class="box_p_1">挺急的，在线等，老婆怀孕中，不动硬装，家里如何改造？</p>
+              <p class="box_p_2">不动硬装，也不将就</p>
               </div>
               <div  class="col-md-3 col-xs-3 box_ma_div">
-                <img class="img-responsive center-block box_img" data-original="/img/material/anli_ma_1.png">
+                <img class="img-responsive center-block box_img" data-original="/img/material/anli_ma_ding.png">
                 <span class="box_span">了解更多</span>
               </div>
             </div>
       </div>
 
       <div class="col-md-6">
-        <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_3.jpg">
+        <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_xiao.jpg">
             <div class="col-md-12 col-xs-12 box_background">
               <div class="col-md-9 col-xs-9 box_content_div">
-              <p class="box_p_1">咏春 VS 八卦，客厅改造健身房</p>
-              <p class="box_p_2">温暖有爱的家</p>
+              <p class="box_p_1">实木家具一定要配大白墙？她用「颜色」点亮空间</p>
+              <p class="box_p_2">超历害屋主的超大胆搭配大法</p>
               </div>
               <div  class="col-md-3 col-xs-3 box_ma_div">
-                <img class="img-responsive center-block box_img" data-original="/img/material/anli_ma_3.png">
+                <img class="img-responsive center-block box_img" data-original="/img/material/anli_ma_xiao.png">
                 <span class="box_span">了解更多</span>
               </div>
             </div>
@@ -316,28 +316,28 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-          <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_2.jpg">
+          <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_tian.jpg">
             <div class="col-md-12 col-xs-12 box_background">
               <div class="col-md-9 col-xs-9 box_content_div">
-              <p class="box_p_1">一室变三室，她的空间魔法</p>
-              <p class="box_p_2">空间小不是大问题</p>
+              <p class="box_p_1">满墙书柜 | 读书狂人的梦想</p>
+              <p class="box_p_2">能放下海量书籍的书柜</p>
               </div>
               <div  class="col-md-3 col-xs-3 box_ma_div">
-                <img class="img-responsive center-block box_img" data-original="/img/material/anli_ma_2.png">
+                <img class="img-responsive center-block box_img" data-original="/img/material/anli_ma_tian.png">
                 <span class="box_span">了解更多</span>
               </div>
             </div>
       </div>
 
       <div class="col-md-6">
-        <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_4.jpg">
+        <img class="img-responsive center-block padding-15px" data-original="/img/material/anli_yang.jpg">
             <div class="col-md-12 col-xs-12 box_background">
               <div class="col-md-9 col-xs-9 box_content_div">
-              <p class="box_p_1">客厅不以电视为中心是一种怎样的体验</p>
-              <p class="box_p_2">家与工作室的完美结合</p>
+              <p class="box_p_1">客厅越大越好？她把客厅改小了却更美</p>
+              <p class="box_p_2">全实木实现自己家具的想法</p>
               </div>
               <div  class="col-md-3 col-xs-3 box_ma_div">
-                <img class="img-responsive center-block box_img" data-original="/img/material/anli_ma_4.png">
+                <img class="img-responsive center-block box_img" data-original="/img/material/anli_ma_yang.png">
                 <span class="box_span">了解更多</span>
               </div>
             </div>
