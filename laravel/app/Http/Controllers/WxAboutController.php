@@ -48,7 +48,16 @@ class WxAboutController extends Controller
 	  public function productManual(){
 	  	
 	  }
-
+    public function wxXcxbanner(Request $request){
+        $list = array('error'=>false,
+                      'bannerList'=>array(
+                        array('type'=>'h5','desc'=>'https://www.homerus.cn/img/wxxcx/7501.jpg'),
+                        array('type'=>'h5','desc'=>'https://www.homerus.cn/img/wxxcx/7502.jpg'),
+                        array('type'=>'h5','desc'=>'https://www.homerus.cn/img/wxxcx/7503.jpg'),
+                      )
+                    );
+      return $list;
+    }
     public function wxXcx(Request $request){
         $page = $request->page;
         if($page==1){

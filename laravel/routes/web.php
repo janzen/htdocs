@@ -18,6 +18,7 @@ Route::get('/wxuseqwdz', function () {
 });
 
 Route::get('/hemiaoxcx/{page}','WxAboutController@wxXcx');
+Route::get('/hemiaoxcxbanner/','WxAboutController@wxXcxbanner');
 
 Route::get('/hemiaomap','WxAboutController@wxMap');
 
