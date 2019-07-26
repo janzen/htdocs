@@ -55,6 +55,7 @@ class WxAboutController extends Controller
           
           $list=array(
                   "error"=>false,
+                  "totalPage"=>10,
                   "results"=>array(
                                 array("toptitle"=>'餐厅',
                                    "listcontent"=>array(
@@ -166,6 +167,7 @@ class WxAboutController extends Controller
         }else if($page==2){
             $list=array(
                   "error"=>false,
+                  "totalPage"=>10,
                   "results"=>array(
                                 array("toptitle"=>'餐厅1',
                                    "listcontent"=>array(
@@ -277,6 +279,7 @@ class WxAboutController extends Controller
         }else{
           $list=array(
                   "error"=>false,
+                  "totalPage"=>10,
                   "results"=>array(),
                 );
           return $list;
