@@ -66,11 +66,11 @@ class WxAboutController extends Controller
           "error"=>false,
           "totalPage"=>10,
           "results"=>array(
-            array('title'=>"禾描椅",'imgUrl'=>"https://i.loli.net/2017/08/21/599a521472424.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://i.loli.net/2017/08/21/599a521472424.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://i.loli.net/2017/08/21/599a521472424.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://i.loli.net/2017/08/21/599a521472424.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://i.loli.net/2017/08/21/599a521472424.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
           )
         );
       }else{
