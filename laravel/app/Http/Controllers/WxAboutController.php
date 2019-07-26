@@ -58,6 +58,31 @@ class WxAboutController extends Controller
                     );
       return $list;
     }
+
+    public function wxCase(Request $request){
+      $page = $request->page;
+      if($page == 1){
+        $list = array(
+          "error"=>false,
+          "totalPage"=>10,
+          "results"=>array(
+            array('title'=>"禾描椅",'imgUrl'=>"https://i.loli.net/2017/08/21/599a521472424.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://i.loli.net/2017/08/21/599a521472424.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://i.loli.net/2017/08/21/599a521472424.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://i.loli.net/2017/08/21/599a521472424.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://i.loli.net/2017/08/21/599a521472424.jpg",'linkUrl'=>"baidu.com",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+          )
+        );
+      }else{
+        $list = array(
+          "error"=>false,
+          "totalPage"=>10,
+          "results"=>array()
+        );
+      }
+      return $list;
+    }
+
     public function wxXcx(Request $request){
         $page = $request->page;
         if($page==1){
