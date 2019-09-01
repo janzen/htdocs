@@ -98,17 +98,37 @@ class WxAboutController extends Controller
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐桌',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo1.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/canzhuo1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐桌',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo2.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/canzhuo2.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐桌',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo3.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/canzhuo3.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/canzhuo4.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/canzhuo5.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/canzhuo6.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/canzhuo7.jpg'
                                                                       )
                                                                     )
                                                       ),
@@ -117,17 +137,37 @@ class WxAboutController extends Controller
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐椅',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canyi1.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐椅',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canyi2.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng2.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐椅',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canyi3.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng3.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐椅',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng4.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐椅',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng5.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐椅',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng6.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐椅',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng7.jpg'
                                                                       )
                                                                     )
                                                       ),
@@ -136,12 +176,12 @@ class WxAboutController extends Controller
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐边柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canbiangui1.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/biangui1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐边柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canbiangui2.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/biangui2.jpg'
                                                                       )
                                                                     )
                                                       )
@@ -154,22 +194,17 @@ class WxAboutController extends Controller
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'电视柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dainshigui1.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/dianshigui1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'电视柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dianshigui2.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/dianshigui2.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'电视柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dianshigui3.jpg'
-                                                                      ),
-                                                                      array(
-                                                                        "type"=>2,
-                                                                        "title"=>'电视柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dianshigui4.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/dianshigui3.jpg'
                                                                       )
                                                                     )
                                                       ),
@@ -178,16 +213,24 @@ class WxAboutController extends Controller
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'沙发',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shafa1.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/shafa1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'沙发',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shafa2.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/shafa2.jpg'
                                                                       ),array(
                                                                         "type"=>2,
                                                                         "title"=>'沙发',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shafa3.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/shafa3.jpg'
+                                                                      ),array(
+                                                                        "type"=>2,
+                                                                        "title"=>'沙发',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/shafa4.jpg'
+                                                                      ),array(
+                                                                        "type"=>2,
+                                                                        "title"=>'沙发',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/shafa5.jpg'
                                                                       )
                                                                     )
                                                       )
