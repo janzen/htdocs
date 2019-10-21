@@ -233,7 +233,7 @@
     </div>
     <div class="wxapi_container">
         <div class="lbox_close wxapi_form">
-            <button class="btn btn_primary" id="openLocation">地图导航</button>
+            <button class="btn btn_primary" id="openLocation">自驾导航</button>
         </div>
     </div>
 </body>
@@ -254,7 +254,7 @@ wx.config({
       latitude: 39.993850,
       longitude: 116.470090,
       name: '禾描家',
-      address: '北京市朝阳区里外里公寓一单元',
+      address: '北京市朝阳区里外里公寓停车场',
       scale: 14,
       infoUrl: 'http://www.homerus.cn'
     });
