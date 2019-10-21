@@ -237,7 +237,7 @@ class WxAboutController extends Controller
                                                     )
                                  )
                           ),
-                  "imgMap"=>array('http://www.homerus.cn/img/chanpinji/canzhuo1.jpg','http://www.homerus.cn/img/chanpinji/canzhuo2.jpg','http://www.homerus.cn/img/chanpinji/canzhuo3.jpg','http://www.homerus.cn/img/chanpinji/canyi1.jpg','http://www.homerus.cn/img/chanpinji/canyi2.jpg','http://www.homerus.cn/img/chanpinji/canyi3.jpg','http://www.homerus.cn/img/chanpinji/canbiangui1.jpg','http://www.homerus.cn/img/chanpinji/canbiangui2.jpg','http://www.homerus.cn/img/chanpinji/dainshigui1.jpg','http://www.homerus.cn/img/chanpinji/dainshigui2.jpg','http://www.homerus.cn/img/chanpinji/dainshigui3.jpg','http://www.homerus.cn/img/chanpinji/dainshigui4.jpg','http://www.homerus.cn/img/chanpinji/shafa1.jpg','http://www.homerus.cn/img/chanpinji/shafa2.jpg','http://www.homerus.cn/img/chanpinji/shafa3.jpg')
+                  "imgMap"=>array('http://www.homerus.cn/img/chanpinji/canting/canzhuo1.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo2.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo2.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo4.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo5.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo6.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo7.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng1.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng2.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng3.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng4.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng5.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng6.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng7.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui1.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui2.jpg','http://www.homerus.cn/img/chanpinji/canting/dianshigui1.jpg','http://www.homerus.cn/img/chanpinji/canting/dianshigui2.jpg','http://www.homerus.cn/img/chanpinji/canting/dianshigui3.jpg','http://www.homerus.cn/img/chanpinji/canting/shafa1.jpg','http://www.homerus.cn/img/chanpinji/canting/shafa2.jpg','http://www.homerus.cn/img/chanpinji/canting/shafa3.jpg','http://www.homerus.cn/img/chanpinji/canting/shafa4.jpg','http://www.homerus.cn/img/chanpinji/canting/shafa5.jpg')
                 );
 
           return $list;
@@ -246,110 +246,156 @@ class WxAboutController extends Controller
                   "error"=>false,
                   "totalPage"=>10,
                   "results"=>array(
-                                array("toptitle"=>'餐厅1',
+                                array("toptitle"=>'满墙书柜',
                                    "listcontent"=>array(
-                                                      array("title"=>'餐桌',
+                                                      array("title"=>'书柜',
                                                         "listdesc"=>array(
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'餐桌',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo1.jpg'
+                                                                        "title"=>'书柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'餐桌',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo2.jpg'
+                                                                        "title"=>'书柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui2.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'餐桌',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canzhuo3.jpg'
-                                                                      )
-                                                                    )
-                                                      ),
-                                                      array("title"=>'餐椅',
-                                                        "listdesc"=>array(
-                                                                      array(
-                                                                        "type"=>2,
-                                                                        "title"=>'餐椅',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canyi1.jpg'
+                                                                        "title"=>'书柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui3.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'餐椅',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canyi2.jpg'
+                                                                        "title"=>'书柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui4.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'餐椅',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canyi3.jpg'
-                                                                      )
-                                                                    )
-                                                      ),
-                                                      array("title"=>'餐边柜',
-                                                        "listdesc"=>array(
-                                                                      array(
-                                                                        "type"=>2,
-                                                                        "title"=>'餐边柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canbiangui1.jpg'
+                                                                        "title"=>'书柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui5.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'餐边柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canbiangui2.jpg'
+                                                                        "title"=>'书柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui6.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'书柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui7.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'书柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui8.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'书柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui9.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'书柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui10.jpg'
                                                                       )
                                                                     )
                                                       )
                                                     )
                                  ),
-                            array("toptitle"=>'客厅1',
+                            array("toptitle"=>'书房',
                                    "listcontent"=>array(
-                                                      array("title"=>'电视柜',
+                                                      array("title"=>'书桌',
                                                         "listdesc"=>array(
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'电视柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dainshigui1.jpg'
+                                                                        "title"=>'书桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/shuzhuo1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'电视柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dianshigui2.jpg'
+                                                                        "title"=>'书桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/shuzhuo2.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'电视柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dianshigui3.jpg'
+                                                                        "title"=>'书桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/shuzhuo3.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'电视柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/dianshigui4.jpg'
+                                                                        "title"=>'书桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/shuzhuo4.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'书桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/shuzhuo5.jpg'
                                                                       )
                                                                     )
                                                       ),
-                                                      array("title"=>'沙发',
+                                                      array("title"=>'椅子',
                                                         "listdesc"=>array(
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'沙发',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shafa1.jpg'
+                                                                        "title"=>'椅子',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/yizi1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'沙发',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shafa2.jpg'
-                                                                      ),array(
+                                                                        "title"=>'椅子',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/yizi2.jpg'
+                                                                      )
+                                                                    )
+                                                      ),
+                                                      array("title"=>'组合柜',
+                                                        "listdesc"=>array(
+                                                                      array(
                                                                         "type"=>2,
-                                                                        "title"=>'沙发',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shafa3.jpg'
+                                                                        "title"=>'组合柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zazhigui1.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'组合柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zazhigui2.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'组合柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zazhigui3.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'组合柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zazhigui4.jpg'
+                                                                      )
+                                                                    )
+                                                      ),
+                                                      array("title"=>'格子边柜',
+                                                        "listdesc"=>array(
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'格子边柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/gezibangui1.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'组合柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/gezibangui2.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'组合柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/gezibangui3.jpg'
                                                                       )
                                                                     )
                                                       )
                                                     )
                                  )
                           ),
-                  "imgMap"=>array('http://www.homerus.cn/img/chanpinji/canzhuo1.jpg','http://www.homerus.cn/img/chanpinji/canzhuo2.jpg','http://www.homerus.cn/img/chanpinji/canzhuo3.jpg','http://www.homerus.cn/img/chanpinji/canyi1.jpg','http://www.homerus.cn/img/chanpinji/canyi2.jpg','http://www.homerus.cn/img/chanpinji/canyi3.jpg','http://www.homerus.cn/img/chanpinji/canbiangui1.jpg','http://www.homerus.cn/img/chanpinji/canbiangui2.jpg','http://www.homerus.cn/img/chanpinji/dainshigui1.jpg','http://www.homerus.cn/img/chanpinji/dainshigui2.jpg','http://www.homerus.cn/img/chanpinji/dainshigui3.jpg','http://www.homerus.cn/img/chanpinji/dainshigui4.jpg','http://www.homerus.cn/img/chanpinji/shafa1.jpg','http://www.homerus.cn/img/chanpinji/shafa2.jpg','http://www.homerus.cn/img/chanpinji/shafa3.jpg')
+                  "imgMap"=>array('http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui1.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui2.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui3.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui4.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui5.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui6.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui7.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui8.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui9.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui10.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo1.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo2.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo3.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo4.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo5.jpg','http://www.homerus.cn/img/chanpinji/shufang/yizi1.jpg','http://www.homerus.cn/img/chanpinji/shufang/yizi2.jpg','http://www.homerus.cn/img/chanpinji/shufang/zazhigui1.jpg','http://www.homerus.cn/img/chanpinji/shufang/zazhigui2.jpg','http://www.homerus.cn/img/chanpinji/shufang/zazhigui3.jpg','http://www.homerus.cn/img/chanpinji/shufang/zazhigui4.jpg','http://www.homerus.cn/img/chanpinji/shufang/gezibangui1.jpg','http://www.homerus.cn/img/chanpinji/shufang/gezibangui2.jpg','http://www.homerus.cn/img/chanpinji/shufang/gezibangui3.jpg')
                 );
 
           return $list;
