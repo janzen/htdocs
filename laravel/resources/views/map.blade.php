@@ -228,9 +228,9 @@
       <p class="pfont margin20 fontweight">为保证沟通体验，请提前预约</p>
       <p class="pfont margin20">预约电话：15110178004（微信同号）</p>
       <p class="pfont margin20">营业时间：13:30～22:30（其他时间也接受预约）</p>
-      <p class="pfont margin20">地&nbsp&nbsp&nbsp&nbsp址：北京市朝阳区望京里外里公寓1单元</p>
-      <p class="pfont margin20">地&nbsp&nbsp&nbsp&nbsp铁：14号线阜通站B口对面黑色楼</p>
-      <p class="pfont margin20">导&nbsp&nbsp&nbsp&nbsp航：里外里公寓地下停车场入口（从地库乘电梯上楼）</p>
+      <p class="pfont margin20">地&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp址：北京市朝阳区望京里外里公寓1单元</p>
+      <p class="pfont margin20">地&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp铁：14号线阜通站B口对面黑色楼</p>
+      <p class="pfont margin20">导&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp航：里外里公寓地下停车场入口（从地库乘电梯上楼）</p>
     </div>
     <div class="wxapi_container">
         <div class="lbox_close wxapi_form">
