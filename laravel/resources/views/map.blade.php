@@ -225,7 +225,8 @@
     <img src="img/weixingongzhonghao/dizhi.jpg" class="img-responsive center-block">
     <div class="img-responsive center-block">
       <h3 class="margin20" style="margin-bottom: 10px;">线下体验</h3>
-      <p class="pfont margin20 fontweight">因需要和设计师充分沟通，为了保证您的定制体验，请提前1天预约 </p>
+      <p class="pfont margin20">因需要和设计师充分沟通，</p>
+      <p class="pfont margin20 fontweight">为了保证您的定制体验，请提前1天预约 </p>
       <p class="pfont margin20">预约电话：15110178004（微信同号）</p>
       <p class="pfont margin20">营业时间：13:30～22:30（其他时间也接受预约）</p>
       <p class="pfont margin20">线下体验店地址: 北京市朝阳区望京里外里公寓一单元</p>
