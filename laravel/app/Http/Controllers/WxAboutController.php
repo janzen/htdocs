@@ -84,11 +84,16 @@ class WxAboutController extends Controller
           "error"=>false,
           "totalPage"=>10,
           "results"=>array(
-            array('title'=>"45㎡三居室",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/1.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/1",'desc'=>"小户型设计要以实用为主，环保放第一位。再有就是售后服务，服务态度，响应及时非常重要。",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"电视？哪有黑胡桃岛台",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/2.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/2",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"黑白灰太冷淡",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/3.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/3",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"看辣妈的客厅布局",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/4.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/4",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"客厅不以电视为中心",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/5.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/5",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"45㎡三居室",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/1.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/1",'desc'=>"小户型设计要以实用为主，环保放第一位。再有就是售后服务，服务态度，响应及时非常重要。"),
+            array('title'=>"电视？哪有黑胡桃岛台",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/2.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/2",'desc'=>"客厅去电视化似乎正在成为一种潮流，尤其是有宝宝的家庭，注重孩子的成长，注重一家人的交流，让客厅变得自由开放更重要。"),
+            array('title'=>"黑白灰太冷淡",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/3.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/3",'desc'=>"“森系空间”   
+森系是一种拥抱大自然的，清新的感觉，也是一种追求自然的生活态度。
+它如山间清爽的风，林间温柔的光，治愈身心。"),
+            array('title'=>"看辣妈的客厅布局",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/4.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/4",'desc'=>"屋主是拥有两个萌宝的超级辣妈
+除了每个妈妈都关注的环保问题，屋主也在房间布局和家具的选择上，处处体现“让孩子自己动手”的教育理念，给宝贝们创造一个舒心的成长环境。"),
+            array('title'=>"客厅不以电视为中心",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/5.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/5",'desc'=>"客厅不以电视为中心是一种什么样的体验？
+分享下禾描家的客厅。
+为了能让用户有更好的场景体验和空间感，我们选了常见的两室一厅作为工作室，并按照真实的家的生活场景打造。"),
           )
         );
       }else{
