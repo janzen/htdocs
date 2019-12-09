@@ -212,17 +212,17 @@ class WxAboutController extends Controller
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'电视柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/dianshigui1.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/keting/dianshigui1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'电视柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/dianshigui2.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/keting/dianshigui2.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'电视柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/dianshigui3.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/keting/dianshigui3.jpg'
                                                                       )
                                                                     )
                                                       ),
@@ -231,31 +231,31 @@ class WxAboutController extends Controller
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'沙发',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/shafa1.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/keting/shafa1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'沙发',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/shafa2.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/keting/shafa2.jpg'
                                                                       ),array(
                                                                         "type"=>2,
                                                                         "title"=>'沙发',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/shafa3.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/keting/shafa3.jpg'
                                                                       ),array(
                                                                         "type"=>2,
                                                                         "title"=>'沙发',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/shafa4.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/keting/shafa4.jpg'
                                                                       ),array(
                                                                         "type"=>2,
                                                                         "title"=>'沙发',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/shafa5.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/keting/shafa5.jpg'
                                                                       )
                                                                     )
                                                       )
                                                     )
                                  )
                           ),
-                  "imgMap"=>array('http://www.homerus.cn/img/chanpinji/canting/canzhuo1.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo2.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo2.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo4.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo5.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo6.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo7.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng1.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng2.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng3.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng4.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng5.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng6.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng7.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui1.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui2.jpg','http://www.homerus.cn/img/chanpinji/canting/dianshigui1.jpg','http://www.homerus.cn/img/chanpinji/canting/dianshigui2.jpg','http://www.homerus.cn/img/chanpinji/canting/dianshigui3.jpg','http://www.homerus.cn/img/chanpinji/canting/shafa1.jpg','http://www.homerus.cn/img/chanpinji/canting/shafa2.jpg','http://www.homerus.cn/img/chanpinji/canting/shafa3.jpg','http://www.homerus.cn/img/chanpinji/canting/shafa4.jpg','http://www.homerus.cn/img/chanpinji/canting/shafa5.jpg')
+                  "imgMap"=>array('http://www.homerus.cn/img/chanpinji/canting/canzhuo1.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo2.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo2.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo4.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo5.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo6.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo7.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng1.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng2.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng3.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng4.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng5.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng6.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng7.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui1.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui2.jpg','http://www.homerus.cn/img/chanpinji/keting/dianshigui1.jpg','http://www.homerus.cn/img/chanpinji/keting/dianshigui2.jpg','http://www.homerus.cn/img/chanpinji/keting/dianshigui3.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa1.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa2.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa3.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa4.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa5.jpg')
                 );
 
           return $list;
