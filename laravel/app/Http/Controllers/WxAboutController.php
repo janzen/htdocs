@@ -84,11 +84,11 @@ class WxAboutController extends Controller
           "error"=>false,
           "totalPage"=>10,
           "results"=>array(
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.com/linkUrl/1",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.com/linkUrl/2",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.com/linkUrl/3",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.com/linkUrl/4",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.com/linkUrl/5",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/1",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/2",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/3",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/4",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/5",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
           )
         );
       }else{
