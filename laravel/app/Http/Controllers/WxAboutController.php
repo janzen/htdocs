@@ -59,6 +59,24 @@ class WxAboutController extends Controller
       return $list;
     }
 
+    public function linkUrl(Request $request){
+      $num = $request->num;
+      $url = "https://www.homerus.cn/";
+      if($num == 1){
+        $url = "https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg";
+      }else if($num == 2){
+        $url = "https://mp.weixin.qq.com/s/J_ByoCQHnG6eWYX61IupZw";
+      }else if($num == 3){
+        $url = "https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg";
+      }else if($num == 4){
+        $url = "https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg";
+      }else if($num == 5){
+        $url = "https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg";
+      }
+      $html = file_get_contents($url);  
+  
+      echo $html;
+    }
     public function wxCase(Request $request){
       $page = $request->page;
       if($page == 1){
@@ -66,11 +84,11 @@ class WxAboutController extends Controller
           "error"=>false,
           "totalPage"=>10,
           "results"=>array(
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.com/linkUrl/1",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.com/linkUrl/2",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.com/linkUrl/3",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.com/linkUrl/4",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.com/linkUrl/5",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
           )
         );
       }else{

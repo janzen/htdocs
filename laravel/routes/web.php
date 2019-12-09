@@ -22,6 +22,8 @@ Route::get('/hemiaoxcxbanner/','WxAboutController@wxXcxbanner');
 Route::get('/hemiaowxcase/{page}','WxAboutController@wxCase');
 Route::get('/hemiaomap','WxAboutController@wxMap');
 
+Route::get('linkUrl/{num}','WxAboutController@homerusPhoto');
+
 Route::get('homerusPhoto','WxAboutController@homerusPhoto');
 
 Route::get('/hemiao', function () {
