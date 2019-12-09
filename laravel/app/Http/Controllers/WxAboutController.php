@@ -61,7 +61,7 @@ class WxAboutController extends Controller
 
     public function linkUrl(Request $request){
       $num = $request->num;
-      $url = "https://www.homerus.cn/";
+      $url = "1";
       if($num == 1){
         $url = "https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg";
       }else if($num == 2){
