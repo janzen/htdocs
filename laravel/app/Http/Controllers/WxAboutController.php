@@ -400,12 +400,12 @@ class WxAboutController extends Controller
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'组合柜',
+                                                                        "title"=>'格子边柜',
                                                                         "img"=>'http://www.homerus.cn/img/chanpinji/shufang/gezibangui2.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
-                                                                        "title"=>'组合柜',
+                                                                        "title"=>'格子边柜',
                                                                         "img"=>'http://www.homerus.cn/img/chanpinji/shufang/gezibangui3.jpg'
                                                                       )
                                                                     )
