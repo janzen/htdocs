@@ -396,17 +396,17 @@ class WxAboutController extends Controller
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'格子边柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/gezibangui1.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/gezibiangui1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'格子边柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/gezibangui2.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/gezibiangui2.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'格子边柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/gezibangui3.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/gezibiangui3.jpg'
                                                                       )
                                                                     )
                                                       )
