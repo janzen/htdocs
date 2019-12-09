@@ -84,11 +84,11 @@ class WxAboutController extends Controller
           "error"=>false,
           "totalPage"=>10,
           "results"=>array(
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/1",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/2",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/3",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/4",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
-            array('title'=>"禾描椅",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/quanwu.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/5",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"45㎡三居室",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/1.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/1",'desc'=>"小户型设计要以实用为主，环保放第一位。再有就是售后服务，服务态度，响应及时非常重要。",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"电视？哪有黑胡桃岛台",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/2.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/2",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"黑白灰太冷淡",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/3.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/3",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"看辣妈的客厅布局",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/4.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/4",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
+            array('title'=>"客厅不以电视为中心",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/5.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/5",'desc'=>"传统榫卯工艺",'price'=>"黑胡桃：2380，白橡木1380"),
           )
         );
       }else{
