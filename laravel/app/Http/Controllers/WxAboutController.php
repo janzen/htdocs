@@ -372,22 +372,22 @@ class WxAboutController extends Controller
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'组合柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zazhigui1.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zuhegui1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'组合柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zazhigui2.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zuhegui2.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'组合柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zazhigui3.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zuhegui3.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'组合柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zazhigui4.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zuhegui4.jpg'
                                                                       )
                                                                     )
                                                       ),
