@@ -86,12 +86,12 @@ class WxAboutController extends Controller
           "results"=>array(
             array('title'=>"45㎡三居室",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/1.jpg",'linkUrl'=>"https://mp.weixin.qq.com/s/W_u87p4mWbWzHzkocOzOGg",'desc'=>"小户型设计要以实用为主，环保放第一位。再有就是售后服务，服务态度，响应及时非常重要。"),
             array('title'=>"电视？哪有黑胡桃岛台",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/2.jpg",'linkUrl'=>"https://mp.weixin.qq.com/s/dGtVs99ta51lDysYC4gizQ",'desc'=>"客厅去电视化似乎正在成为一种潮流，尤其是有宝宝的家庭，注重孩子的成长，注重一家人的交流，让客厅变得自由开放更重要。"),
-            array('title'=>"黑白灰太冷淡",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/3.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/3",'desc'=>"“森系空间”   
+            array('title'=>"黑白灰太冷淡",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/3.jpg",'linkUrl'=>"https://mp.weixin.qq.com/s/AH0SYxvlIL_MWUua78m-HQ",'desc'=>"“森系空间”   
 森系是一种拥抱大自然的，清新的感觉，也是一种追求自然的生活态度。
 它如山间清爽的风，林间温柔的光，治愈身心。"),
-            array('title'=>"看辣妈的客厅布局",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/4.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/4",'desc'=>"屋主是拥有两个萌宝的超级辣妈
+            array('title'=>"看辣妈的客厅布局",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/4.jpg",'linkUrl'=>"https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg",'desc'=>"屋主是拥有两个萌宝的超级辣妈
 除了每个妈妈都关注的环保问题，屋主也在房间布局和家具的选择上，处处体现“让孩子自己动手”的教育理念，给宝贝们创造一个舒心的成长环境。"),
-            array('title'=>"客厅越大越好？她把客厅改小了却更美",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/5.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/5",'desc'=>"很多人都喜欢大，大房子，大客厅，大卧室，大汽车，总之越大越好，而我们今天要分享的案例，屋主把大客厅改小了，反而住的更加惬意，来一探究竟吧～"),
+            array('title'=>"客厅越大越好？她把客厅改小了却更美",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/5.jpg",'linkUrl'=>"https://mp.weixin.qq.com/s/J_ByoCQHnG6eWYX61IupZw",'desc'=>"很多人都喜欢大，大房子，大客厅，大卧室，大汽车，总之越大越好，而我们今天要分享的案例，屋主把大客厅改小了，反而住的更加惬意，来一探究竟吧～"),
           )
         );
       }else{
