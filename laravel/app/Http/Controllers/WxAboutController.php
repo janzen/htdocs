@@ -63,15 +63,15 @@ class WxAboutController extends Controller
       $num = $request->num;
       $url = "1";
       if($num == 1){
-        $url = "https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg";
+        $url = "https://mp.weixin.qq.com/s/W_u87p4mWbWzHzkocOzOGg";
       }else if($num == 2){
-        $url = "https://mp.weixin.qq.com/s/J_ByoCQHnG6eWYX61IupZw";
+        $url = "https://mp.weixin.qq.com/s/dGtVs99ta51lDysYC4gizQ";
       }else if($num == 3){
-        $url = "https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg";
+        $url = "https://mp.weixin.qq.com/s/AH0SYxvlIL_MWUua78m-HQ";
       }else if($num == 4){
         $url = "https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg";
       }else if($num == 5){
-        $url = "https://mp.weixin.qq.com/s/zakjFFEFSpy8pUENGnFbRg";
+        $url = "https://mp.weixin.qq.com/s/J_ByoCQHnG6eWYX61IupZw";
       }
       $html = file_get_contents($url);  
   
@@ -91,9 +91,7 @@ class WxAboutController extends Controller
 它如山间清爽的风，林间温柔的光，治愈身心。"),
             array('title'=>"看辣妈的客厅布局",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/4.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/4",'desc'=>"屋主是拥有两个萌宝的超级辣妈
 除了每个妈妈都关注的环保问题，屋主也在房间布局和家具的选择上，处处体现“让孩子自己动手”的教育理念，给宝贝们创造一个舒心的成长环境。"),
-            array('title'=>"客厅不以电视为中心",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/5.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/5",'desc'=>"客厅不以电视为中心是一种什么样的体验？
-分享下禾描家的客厅。
-为了能让用户有更好的场景体验和空间感，我们选了常见的两室一厅作为工作室，并按照真实的家的生活场景打造。"),
+            array('title'=>"客厅越大越好？她把客厅改小了却更美",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/5.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/5",'desc'=>"很多人都喜欢大，大房子，大客厅，大卧室，大汽车，总之越大越好，而我们今天要分享的案例，屋主把大客厅改小了，反而住的更加惬意，来一探究竟吧～"),
           )
         );
       }else{
