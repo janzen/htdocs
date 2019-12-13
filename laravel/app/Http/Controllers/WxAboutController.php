@@ -84,8 +84,8 @@ class WxAboutController extends Controller
           "error"=>false,
           "totalPage"=>10,
           "results"=>array(
-            array('title'=>"45㎡三居室",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/1.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/1",'desc'=>"小户型设计要以实用为主，环保放第一位。再有就是售后服务，服务态度，响应及时非常重要。"),
-            array('title'=>"电视？哪有黑胡桃岛台",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/2.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/2",'desc'=>"客厅去电视化似乎正在成为一种潮流，尤其是有宝宝的家庭，注重孩子的成长，注重一家人的交流，让客厅变得自由开放更重要。"),
+            array('title'=>"45㎡三居室",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/1.jpg",'linkUrl'=>"https://mp.weixin.qq.com/s/W_u87p4mWbWzHzkocOzOGg",'desc'=>"小户型设计要以实用为主，环保放第一位。再有就是售后服务，服务态度，响应及时非常重要。"),
+            array('title'=>"电视？哪有黑胡桃岛台",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/2.jpg",'linkUrl'=>"https://mp.weixin.qq.com/s/dGtVs99ta51lDysYC4gizQ",'desc'=>"客厅去电视化似乎正在成为一种潮流，尤其是有宝宝的家庭，注重孩子的成长，注重一家人的交流，让客厅变得自由开放更重要。"),
             array('title'=>"黑白灰太冷淡",'imgUrl'=>"https://www.homerus.cn/img/wxxcx/quanwu/3.jpg",'linkUrl'=>"https://www.homerus.cn/linkUrl/3",'desc'=>"“森系空间”   
 森系是一种拥抱大自然的，清新的感觉，也是一种追求自然的生活态度。
 它如山间清爽的风，林间温柔的光，治愈身心。"),
