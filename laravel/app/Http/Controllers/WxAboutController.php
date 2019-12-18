@@ -52,8 +52,7 @@ class WxAboutController extends Controller
         $list = array('error'=>false,
                       'bannerList'=>array(
                         array('type'=>'h5','desc'=>'https://www.homerus.cn/img/wxxcx/7501.jpg','url'=>'https://www.homerus.cn'),
-                        array('type'=>'','desc'=>'https://www.homerus.cn/img/wxxcx/7502.jpg','url'=>''),
-                        array('type'=>'','desc'=>'https://www.homerus.cn/img/wxxcx/7503.jpg','url'=>''),
+                        array('type'=>'h5','desc'=>'https://www.homerus.cn/img/wxxcx/7502.jpg','url'=>'https://mp.weixin.qq.com/s/AH0SYxvlIL_MWUua78m-HQ'),
                       )
                     );
       return $list;
