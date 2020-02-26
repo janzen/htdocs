@@ -427,6 +427,7 @@
 </section>
 <div class="footer">
     <p>商务合作：homerus@homerus.cn</p>
+    <p>ICP证：<a href="http://www.beian.miit.gov.cn">京ICP备17018104号-1</a></p>
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1273712786'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1273712786%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>  
 </div>
 <script src="js/vendor/fastclick.js"></script>
