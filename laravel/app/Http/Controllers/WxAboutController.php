@@ -469,22 +469,17 @@ class WxAboutController extends Controller
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'组合柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zuhegui1.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zazhibiangui1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'组合柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zuhegui2.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zazhibiangui2.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'组合柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zuhegui3.jpg'
-                                                                      ),
-                                                                      array(
-                                                                        "type"=>2,
-                                                                        "title"=>'组合柜',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zuhegui4.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/shufang/zazhibiangui3.jpg'
                                                                       )
                                                                     )
                                                       ),
@@ -510,7 +505,7 @@ class WxAboutController extends Controller
                                                     )
                                  )
                           ),
-                  "imgMap"=>array('http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui1.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui2.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui3.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui4.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui5.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui6.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui7.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui8.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui9.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui10.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo1.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo2.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo3.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo4.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo5.jpg','http://www.homerus.cn/img/chanpinji/shufang/yizi1.jpg','http://www.homerus.cn/img/chanpinji/shufang/yizi2.jpg','http://www.homerus.cn/img/chanpinji/shufang/zuhegui1.jpg','http://www.homerus.cn/img/chanpinji/shufang/zuhegui2.jpg','http://www.homerus.cn/img/chanpinji/shufang/zuhegui3.jpg','http://www.homerus.cn/img/chanpinji/shufang/zuhegui4.jpg','http://www.homerus.cn/img/chanpinji/shufang/gezibiangui1.jpg','http://www.homerus.cn/img/chanpinji/shufang/gezibiangui2.jpg','http://www.homerus.cn/img/chanpinji/shufang/gezibiangui3.jpg')
+                  "imgMap"=>array('http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui1.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui2.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui3.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui4.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui5.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui6.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui7.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui8.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui9.jpg','http://www.homerus.cn/img/chanpinji/manqiangshugui/manqiangshugui10.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo1.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo2.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo3.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo4.jpg','http://www.homerus.cn/img/chanpinji/shufang/shuzhuo5.jpg','http://www.homerus.cn/img/chanpinji/shufang/yizi1.jpg','http://www.homerus.cn/img/chanpinji/shufang/yizi2.jpg','http://www.homerus.cn/img/chanpinji/shufang/zazhibiangui1.jpg','http://www.homerus.cn/img/chanpinji/shufang/zazhibiangui2.jpg','http://www.homerus.cn/img/chanpinji/shufang/zazhibiangui3.jpg','http://www.homerus.cn/img/chanpinji/shufang/gezibiangui1.jpg','http://www.homerus.cn/img/chanpinji/shufang/gezibiangui2.jpg','http://www.homerus.cn/img/chanpinji/shufang/gezibiangui3.jpg')
                 );
 
           return $list;
