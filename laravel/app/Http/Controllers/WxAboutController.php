@@ -265,7 +265,8 @@ class WxAboutController extends Controller
                                                                                   )
                                                                     )
                                                                   )
-                                               ),
+                                               )
+                                    ),
                             "imgMap"=>array('http://www.homerus.cn/img/chanpinji/keting/dianshigui1.jpg','http://www.homerus.cn/img/chanpinji/keting/dianshigui2.jpg','http://www.homerus.cn/img/chanpinji/keting/dianshigui3.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa1.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa2.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa3.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa4.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa5.jpg')
                 );
 
