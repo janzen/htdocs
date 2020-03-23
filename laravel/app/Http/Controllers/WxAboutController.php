@@ -207,7 +207,7 @@ class WxAboutController extends Controller
                                                                       )
                                                                     )
                                                       )
-                                                    ),
+                                                    )
                                   ),
                             array("toptitle"=>'客厅',
                                    "listcontent"=>array(
