@@ -151,10 +151,8 @@ class WxAboutController extends Controller
                                                                         "img"=>'http://www.homerus.cn/img/chanpinji/canting/canzhuo7.jpg'
                                                                       )
                                                                     )
-                                                      )
-                                 ),
-                            array("toptitle"=>'餐厅',
-                                  "listcontent"=>array("title"=>'餐椅',
+                                                      ),
+                                                      array("title"=>'餐椅',
                                                         "listdesc"=>array(
                                                                       array(
                                                                         "type"=>2,
@@ -208,7 +206,7 @@ class WxAboutController extends Controller
                                                                     )
                                                       )
                                                     )
-                                  ),
+                                 ),
                             array("toptitle"=>'客厅',
                                    "listcontent"=>array(
                                                       array("title"=>'电视柜',
