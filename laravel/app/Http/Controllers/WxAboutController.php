@@ -149,6 +149,16 @@ class WxAboutController extends Controller
                                                                         "type"=>2,
                                                                         "title"=>'餐桌',
                                                                         "img"=>'http://www.homerus.cn/img/chanpinji/canting/canzhuo7.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/canzhuo8.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐桌',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/canzhuo9.jpg'
                                                                       )
                                                                     )
                                                       ),
@@ -157,37 +167,62 @@ class WxAboutController extends Controller
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐椅',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng1.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yizi1.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐椅',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng2.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yizi2.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐椅',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng3.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yizi3.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐椅',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng4.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yizi4.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐椅',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng5.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yizi5.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐椅',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng6.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yizi6.jpg'
                                                                       ),
                                                                       array(
                                                                         "type"=>2,
                                                                         "title"=>'餐椅',
-                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yideng7.jpg'
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yizi7.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐椅',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yizi8.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐椅',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yizi9.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐椅',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yizi10.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐椅',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yizi11.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐椅',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/yizi12.jpg'
                                                                       )
                                                                     )
                                                       ),
@@ -202,13 +237,48 @@ class WxAboutController extends Controller
                                                                         "type"=>2,
                                                                         "title"=>'餐边柜',
                                                                         "img"=>'http://www.homerus.cn/img/chanpinji/canting/biangui2.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐边柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/biangui3.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐边柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/biangui4.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐边柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/biangui5.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐边柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/biangui6.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐边柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/biangui7.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐边柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/biangui8.jpg'
+                                                                      ),
+                                                                      array(
+                                                                        "type"=>2,
+                                                                        "title"=>'餐边柜',
+                                                                        "img"=>'http://www.homerus.cn/img/chanpinji/canting/biangui9.jpg'
                                                                       )
                                                                     )
                                                       )
                                                     )
                                  )
                           ),
-                  "imgMap"=>array('http://www.homerus.cn/img/chanpinji/canting/canzhuo1.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo2.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo2.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo4.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo5.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo6.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo7.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng1.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng2.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng3.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng4.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng5.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng6.jpg','http://www.homerus.cn/img/chanpinji/canting/yideng7.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui1.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui2.jpg')
+                  "imgMap"=>array('http://www.homerus.cn/img/chanpinji/canting/canzhuo1.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo2.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo2.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo4.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo5.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo6.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo7.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo8.jpg','http://www.homerus.cn/img/chanpinji/canting/canzhuo9.jpg','http://www.homerus.cn/img/chanpinji/canting/yizi1.jpg','http://www.homerus.cn/img/chanpinji/canting/yizi2.jpg','http://www.homerus.cn/img/chanpinji/canting/yizi3.jpg','http://www.homerus.cn/img/chanpinji/canting/yizi4.jpg','http://www.homerus.cn/img/chanpinji/canting/yizi5.jpg','http://www.homerus.cn/img/chanpinji/canting/yizi6.jpg','http://www.homerus.cn/img/chanpinji/canting/yizi7.jpg','http://www.homerus.cn/img/chanpinji/canting/yizi8.jpg','http://www.homerus.cn/img/chanpinji/canting/yizi9.jpg','http://www.homerus.cn/img/chanpinji/canting/yizi10.jpg','http://www.homerus.cn/img/chanpinji/canting/yizi11.jpg','http://www.homerus.cn/img/chanpinji/canting/yizi12.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui1.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui2.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui3.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui4.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui5.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui6.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui7.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui8.jpg','http://www.homerus.cn/img/chanpinji/canting/biangui9.jpg')
                 );
 
           return $list;
@@ -235,6 +305,21 @@ class WxAboutController extends Controller
                                                                                       "type"=>2,
                                                                                       "title"=>'电视柜',
                                                                                       "img"=>'http://www.homerus.cn/img/chanpinji/keting/dianshigui3.jpg'
+                                                                                    ),
+                                                                                    array(
+                                                                                      "type"=>2,
+                                                                                      "title"=>'电视柜',
+                                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/keting/dianshigui4.jpg'
+                                                                                    ),
+                                                                                    array(
+                                                                                      "type"=>2,
+                                                                                      "title"=>'电视柜',
+                                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/keting/dianshigui5.jpg'
+                                                                                    ),
+                                                                                    array(
+                                                                                      "type"=>2,
+                                                                                      "title"=>'电视柜',
+                                                                                      "img"=>'http://www.homerus.cn/img/chanpinji/keting/dianshigui6.jpg'
                                                                                     )
                                                                                   )
                                                                     ),
@@ -267,7 +352,7 @@ class WxAboutController extends Controller
                                                                   )
                                                )
                                     ),
-                            "imgMap"=>array('http://www.homerus.cn/img/chanpinji/keting/dianshigui1.jpg','http://www.homerus.cn/img/chanpinji/keting/dianshigui2.jpg','http://www.homerus.cn/img/chanpinji/keting/dianshigui3.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa1.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa2.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa3.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa4.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa5.jpg')
+                            "imgMap"=>array('http://www.homerus.cn/img/chanpinji/keting/dianshigui1.jpg','http://www.homerus.cn/img/chanpinji/keting/dianshigui2.jpg','http://www.homerus.cn/img/chanpinji/keting/dianshigui3.jpg','http://www.homerus.cn/img/chanpinji/keting/dianshigui4.jpg','http://www.homerus.cn/img/chanpinji/keting/dianshigui5.jpg','http://www.homerus.cn/img/chanpinji/keting/dianshigui6.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa1.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa2.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa3.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa4.jpg','http://www.homerus.cn/img/chanpinji/keting/shafa5.jpg')
                 );
 
           return $list;
