@@ -153,7 +153,7 @@ class WxAboutController extends Controller
                                                                     )
                                                       )
                                  ),
-                            array("toptitle"=>'',
+                            array("toptitle"=>'餐厅',
                                   "listcontent"=>array("title"=>'餐椅',
                                                         "listdesc"=>array(
                                                                       array(
